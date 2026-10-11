@@ -3,6 +3,7 @@ node_modules/
 .env.*
 !.env.example
 .vercel/
+supabase/.temp/
 dist/qa.html
 dist/qa.js
 *.log

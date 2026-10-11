@@ -28,6 +28,22 @@ O navegador usa apenas a chave publicável do Supabase. Não é necessário colo
 
 Tabelas: `dnd_tables`, `dnd_players`, `dnd_sheets`. Todas possuem RLS e integram a publicação `supabase_realtime`.
 
+### Glossário e level-up
+
+Subclasses: a migração `20261011022314_subclass_progression.sql` cria `dnd_subclasses`, `dnd_subclass_levels` e `dnd_subclass_level_grants`. Cada classe do personagem e pedido de level-up guarda `subclass_id`, com chave estrangeira composta que impede combinar classes incompatíveis. A escolha é obrigatória a partir de `dnd_classes.subclass_level` (3 no catálogo atual), persiste na aprovação e não pode ser trocada pelo fluxo de level-up. Pedidos antigos sem a escolha obrigatória precisam ser rejeitados e refeitos. O campo textual da ficha passa a ser somente leitura; fichas legadas confirmam a subclasse no próximo level-up.
+
+O catálogo da planilha D&D 2024 foi importado com 12 classes, 48 subclasses, 240 progressões de classe e 184 características de subclasses. O seed reproduzível e sua documentação estão em `supabase/seeds/`. A estrutura agrega características vinculadas em `dnd_subclass_level_grants` ao histórico. Os textos são referências da planilha, não regras completas; o fluxo não automatiza efeitos mecânicos individuais dessas características.
+
+A migração em `supabase/migrations/20261011004229_level_up_glossary.sql` adiciona o catálogo de regras, classes estruturadas, histórico de progressão e as funções transacionais de solicitação e aprovação. Aplique essa migração no projeto Supabase antes de publicar esta versão da interface.
+
+Cada mesa começa no modo **solicitação com aprovação do mestre**. O mestre pode trocar a política na tela **Progressão** entre:
+
+- aplicação livre pelo jogador;
+- solicitação do jogador com aprovação do mestre;
+- progressão iniciada exclusivamente pelo mestre.
+
+O primeiro catálogo contém a estrutura e as regras fundamentais de progressão do SRD 5.2.1. Características adicionais devem ser importadas somente com fonte, versão e licença registradas em `dnd_rule_entries`, ligadas ao nível por `dnd_level_grants`.
+
 Verificações realizadas: sintaxe JavaScript; abertura da interface e campos no navegador; teste transacional no banco para permissões de mestre/jogador, sigilo, limite de jogadores, atualização e versão de ficha; nenhum alerta no verificador de segurança do Supabase. Os dados e usuários temporários do teste foram revertidos.
 
 A inspeção das telas internas usou uma ficha de demonstração local, não incluída nesta entrega. O fluxo completo com dois usuários reais, confirmação de e-mail e troca de eventos ao vivo ainda precisa de validação após a publicação.
