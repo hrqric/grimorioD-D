@@ -1,5 +1,5 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.57.4';
-import { findClass, classReviewState, characterProgression, levelFeatures } from './progression.js';
+import { findClass, classReviewState, characterProgression, levelFeatures, existingSubclass, classLevelLabel } from './progression.js';
 const db=createClient('https://psvugkyzlhzemptavpdh.supabase.co','sb_publishable_r6nBnvXMVpVx2HshzFXxSQ_8vr0Mnck');
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const state={user:null,tables:[],players:[],sheets:[],subclasses:[],settings:[],rulesets:[],rules:[],classes:[],classLevels:[],characterClasses:[],levelUps:[],table:null,view:'fichas',filter:'all',search:'',sheet:null,tab:'principal',dirty:false,saving:false,conflict:false,channel:null,connected:false};
@@ -85,7 +85,7 @@ function featureRows(classId,subclassId,level){
  return entries.length?entries.map(e=>`<div class="progress-feature"><p><b>${e.subclass?'Subclasse: ':''}${esc(e.names)}</b></p>${e.resources?`<p class="note">Recursos: ${esc(e.resources)}</p>`:''}</div>`).join(''):'<p class="note">Nenhum ganho cadastrado para este nível.</p>';
 }
 function characteristicsView(){
- const s=state.sheet,progress=characterProgression(s,state.classes,state.characterClasses),review=classReviewState(s,state.classes);
+ const s=state.sheet,progress=characterProgression(s,state.classes,state.characterClasses,state.subclasses),review=classReviewState(s,state.classes);
  if(review!=='known')return `<section class="panel"><h3>Características</h3><p>${review==='approved'?'Classe personalizada aprovada, ainda sem características cadastradas.':review==='pending'?'A classe precisa de avaliação do mestre antes de exibir a progressão.':'Selecione uma classe na aba Personagem.'}</p>${review!=='empty'?classSelect():''}</section>`;
  const pending=state.levelUps.filter(l=>l.sheet_id===s.id&&l.status==='pending');
  return `<section class="panel"><h3>Características</h3><p>Níveis, nomes e recursos da sua classe. Explicações detalhadas virão no futuro Oráculo.</p><p class="note">Recursos são os valores de referência de cada nível, não valores para somar. A prévia não aplica alterações na ficha.</p></section>${pending.map(l=>`<section class="panel pending-preview"><h3>Aguardando aprovação do mestre</h3><p>${esc(state.classes.find(c=>c.id===l.class_id)?.name)} · nível ${l.to_class_level}. Estes ganhos ainda não foram adquiridos.</p>${featureRows(l.class_id,l.subclass_id,l.to_class_level)}</section>`).join('')}${progress.map(c=>{
@@ -112,6 +112,7 @@ async function openLevelUp(){
  const linked=state.characterClasses.filter(x=>x.sheet_id===sheet.id);
  const matching=findClass(sheet,state.classes);
  const review=classReviewState(sheet,state.classes);
+ if(Number(sheet.data.level||1)>=20){toast('O personagem já está no nível máximo.');return;}
  if(review!=='known'){toast(review==='approved'?'Classe personalizada aprovada, mas ainda sem progressão cadastrada.':'Defina uma classe cadastrada ou aguarde a avaliação do mestre.');return;}
  // Persist the canonical name before the legacy RPC fallback compares names.
  if(sheet.data.class!==matching.name){sheet.data.class=matching.name;state.dirty=true;await save();if(state.dirty)return;}
@@ -119,14 +120,17 @@ async function openLevelUp(){
  const key=crypto.randomUUID();
  const level=c=>linked.find(x=>x.class_id===c.id)?.class_level??(c.id===matching?.id?Number(sheet.data.level||1):0);
  modal('Subir de nível',`<p>Nível total ${Number(sheet.data.level||1)} → ${Number(sheet.data.level||1)+1}</p>
- <label>Classe<select name="class_id" required>${available.map(c=>`<option value="${c.id}" ${c.id===matching?.id?'selected':''}>${esc(c.name)} · nível ${level(c)}</option>`).join('')}</select></label>
+ <label>Classe — nível atual → próximo<select name="class_id" required>${available.map(c=>`<option value="${c.id}" ${c.id===matching?.id?'selected':''}>${esc(classLevelLabel(c.name,level(c)))}</option>`).join('')}</select></label>
  <label id="subclass-label">Subclasse<select name="subclass_id"></select></label>
  <p id="subclass-note" class="note"></p>
  <label>Ganho de PV, incluindo Constituição<input name="hp_gain" type="number" min="1" max="100" required></label>
  <p class="note">${gm()||setting?.level_up_policy==='player_free'?'A confirmação aplica a progressão.':'A escolha será enviada para aprovação do mestre.'}</p>`,
  async f=>{
+  const selectedClass=state.classes.find(c=>c.id===f.get('class_id'));
+  const retained=existingSubclass(sheet,selectedClass,linked.find(c=>c.class_id===selectedClass.id),state.subclasses,level(selectedClass));
+  if(retained.unresolved)throw Error('A subclasse existente precisa de revisão do mestre.');
   const response=await result(db.rpc('dnd_request_level_up',{
-   p_sheet_id:sheet.id,p_class_id:f.get('class_id'),p_subclass_id:f.get('subclass_id')||null,
+   p_sheet_id:sheet.id,p_class_id:selectedClass.id,p_subclass_id:retained.id||f.get('subclass_id')||null,
    p_hp_gain:Number(f.get('hp_gain')),p_expected_version:sheet.version,p_idempotency_key:key
   }));
   await load();state.sheet=structuredClone(state.sheets.find(x=>x.id===sheet.id));
@@ -135,17 +139,20 @@ async function openLevelUp(){
  const form=$('#dialog form'),cls=form.querySelector('[name=class_id]'),sub=form.querySelector('[name=subclass_id]');
  const refresh=()=>{
   const c=state.classes.find(x=>x.id===cls.value),current=linked.find(x=>x.class_id===c.id);
+  const existing=existingSubclass(sheet,c,current,state.subclasses,level(c));
   const eligible=level(c)+1>=c.subclass_level;
-  const choices=state.subclasses.filter(x=>x.class_id===c.id&&(!current?.subclass_id||x.id===current.subclass_id));
-  sub.innerHTML='<option value="">Selecione uma subclasse</option>'+choices.map(x=>`<option value="${x.id}" ${current?.subclass_id===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
-  sub.required=eligible;sub.disabled=!eligible;
+  const choices=state.subclasses.filter(x=>x.class_id===c.id&&(!existing.id||x.id===existing.id));
+  sub.innerHTML='<option value="">Selecione uma subclasse</option>'+choices.map(x=>`<option value="${x.id}" ${existing.id===x.id?'selected':''}>${esc(x.name)}</option>`).join('');
+  sub.required=eligible&&!existing.id;sub.disabled=!eligible||Boolean(existing.id)||existing.unresolved;
+  form.querySelector('.primary').disabled=existing.unresolved;
+  form.querySelector('.primary').textContent=gm()||setting?.level_up_policy==='player_free'?'Confirmar level-up':'Solicitar level-up';
   $('#subclass-label').hidden=!eligible;
-  $('#subclass-note').textContent=eligible?(current?.subclass_id?'Sua subclasse será mantida.':'Escolha obrigatória. Subclasses ainda não cadastradas precisam ser incluídas no catálogo.'):`Subclasse disponível no nível ${c.subclass_level} desta classe.`;
+  $('#subclass-note').textContent=existing.unresolved?'A subclasse preenchida não pôde ser vinculada com segurança. Peça ao mestre para revisar o cadastro.':eligible?(existing.id?'Sua subclasse será mantida.':'Escolha obrigatória. Subclasses ainda não cadastradas precisam ser incluídas no catálogo.'):`Subclasse disponível no nível ${c.subclass_level} desta classe.`;
   form.querySelector('[name=hp_gain]').value=Math.max(1,Math.floor(c.hit_die/2)+1+mod(sheet.data.con));
  };
  cls.onchange=refresh;refresh();
 }
-function fields(){const d=state.sheet.data;switch(state.tab){case 'caracteristicas':return characteristicsView();case 'principal':return `<section class="panel"><h3>Identidade</h3><div class="grid"><label class="field-wide">Nome do personagem<input data-field="name" value="${esc(state.sheet.name)}" maxlength="150" required></label>${field('background','Antecedente')}${classSelect()}${field('subclass','Subclasse','text','','readonly')}${field('species','Espécie')}${field('level','Nível','number',1,'min="1" max="20"')}${field('xp','Experiência (XP)','number',0,'min="0"')}</div></section><section class="panel"><h3>Atributos</h3><div class="grid six">${abilities.map(([k,l])=>`<div class="ability">${field(k,l,'number',10,'min="1" max="30"')}<output>${signed(mod(d[k]))}</output><small class="subtle">modificador</small></div>`).join('')}</div></section><section class="panel"><h3>Essenciais</h3><div class="grid">${field('proficiency','Bônus de proficiência','number',2,'min="0"')}${field('speed','Deslocamento','text','9 m')}${field('size','Tamanho','text','Médio')}${field('passive','Percepção passiva','number',10,'min="0"')}${field('initiative','Iniciativa','number',0)}${check('inspiration','Inspiração heroica')}</div></section><section class="panel"><h3>Características e talentos</h3><div class="grid">${area('features','Características de classe')}${area('species_traits','Traços de espécie')}${area('feats','Talentos')}</div></section>`;
+function fields(){const d=state.sheet.data;switch(state.tab){case 'caracteristicas':return characteristicsView();case 'principal':return `<section class="panel"><h3>Identidade</h3><div class="grid"><label class="field-wide">Nome do personagem<input data-field="name" value="${esc(state.sheet.name)}" maxlength="150" required></label>${field('background','Antecedente')}${classSelect()}${field('subclass','Subclasse','text','','readonly')}${field('species','Espécie')}${field('level','Nível (automático pelo level-up)','number',1,'min="1" max="20" readonly')}${field('xp','Experiência (XP)','number',0,'min="0"')}</div></section><section class="panel"><h3>Atributos</h3><div class="grid six">${abilities.map(([k,l])=>`<div class="ability">${field(k,l,'number',10,'min="1" max="30"')}<output>${signed(mod(d[k]))}</output><small class="subtle">modificador</small></div>`).join('')}</div></section><section class="panel"><h3>Essenciais</h3><div class="grid">${field('proficiency','Bônus de proficiência','number',2,'min="0"')}${field('speed','Deslocamento','text','9 m')}${field('size','Tamanho','text','Médio')}${field('passive','Percepção passiva','number',10,'min="0"')}${field('initiative','Iniciativa','number',0)}${check('inspiration','Inspiração heroica')}</div></section><section class="panel"><h3>Características e talentos</h3><div class="grid">${area('features','Características de classe')}${area('species_traits','Traços de espécie')}${area('feats','Talentos')}</div></section>`;
  case 'pericias':return `<section class="panel"><h3>Salvaguardas</h3><p class="note">Bônus calculados a partir dos atributos e da proficiência informada na ficha.</p><div class="grid two">${abilities.map(([k,l])=>proficiency('save_'+k,l,k)).join('')}</div></section><section class="panel"><h3>Perícias</h3><div class="grid two">${skills.map(([l,k],i)=>proficiency('skill_'+i,l,k)).join('')}</div></section><section class="panel"><h3>Treinamento e proficiências</h3><div class="grid">${check('armor_light','Armadura leve')}${check('armor_medium','Armadura média')}${check('armor_heavy','Armadura pesada')}${check('shields','Escudos')}${area('weapons_training','Armas')}${area('tools','Ferramentas')}</div></section>`;
  case 'combate':return `<section class="panel"><h3>Defesa e vitalidade</h3><div class="grid">${field('ac','Classe de armadura','number',10,'min="0"')}${field('hp','PV atuais','number',0,'min="0"')}${field('hp_max','PV máximos','number',0,'min="0"')}${field('hp_temp','PV temporários','number',0,'min="0"')}${field('hit_dice','Dado de vida','text','1d8')}${field('hit_dice_used','Dados de vida gastos','number',0,'min="0"')}${field('hit_dice_max','Dados de vida máximos','number',1,'min="0"')}${check('shield','Escudo equipado')}</div></section><section class="panel"><h3>Salvaguardas contra morte</h3><div class="grid two">${field('death_success','Sucessos','number',0,'min="0" max="3"')}${field('death_failure','Falhas','number',0,'min="0" max="3"')}</div></section><section class="panel"><h3>Armas e truques de dano</h3><p class="note">Registre nome, bônus de ataque ou CD, dano, tipo e notas.</p>${area('attacks','Ataques')}</section><section class="panel"><h3>Condições e recursos</h3>${area('conditions','Condições, resistências, ações e recursos limitados')}</section>`;
  case 'magias':return `<section class="panel"><h3>Conjuração</h3><div class="grid">${field('casting_ability','Atributo de conjuração')}${field('casting_mod','Modificador de conjuração','number',0)}${field('spell_dc','CD para evitar magia','number',10,'min="0"')}${field('spell_attack','Bônus de ataque mágico','number',0)}</div></section><section class="panel"><h3>Espaços de magia</h3><div class="grid">${Array.from({length:9},(_,i)=>`<div class="panel" style="margin:0;padding:14px"><span class="badge">${i+1}º círculo</span><div class="grid two" style="margin-top:12px">${field('slots_'+i,'Total','number',0,'min="0"')}${field('spent_'+i,'Gastos','number',0,'min="0"')}</div></div>`).join('')}</div></section><section class="panel"><h3>Truques e magias preparadas</h3><p class="note">Registre círculo, nome, tempo de conjuração, alcance, concentração, ritual, materiais e notas.</p>${area('spells','Lista de magias')}</section>`;

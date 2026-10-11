@@ -30,6 +30,15 @@ Tabelas: `dnd_tables`, `dnd_players`, `dnd_sheets`. Todas possuem RLS e integram
 
 ### Glossário e level-up
 
+O nível é somente leitura e novas fichas começam em 1. O modal informa
+explicitamente o nível atual e o próximo (por exemplo, 4 → 5). A migração
+`20261011052921_preserve_legacy_subclass_and_lock_level.sql` preserva subclasses
+legadas reconhecidas, bloqueia alterações diretas de nível no banco e valida
+consistência entre nível total e vínculos de classe. Nenhuma ficha existente
+é promovida ou reescrita pela migração. A normalização da subclasse é persistida
+apenas quando o level-up é aplicado. Testes adicionais com rollback estão em
+`tests/legacy-level-up.sql`.
+
 A aba **Características** na ficha mostra níveis, nomes e recursos: adquiridos,
 prévia do próximo nível e progressão futura. Pedidos aguardando aprovação ficam
 separados dos ganhos adquiridos. As descrições completas ficam para o futuro
@@ -50,7 +59,7 @@ Testes: `npm test`, `npm run check` e `tests/class-review.sql` (com rollback).
 Os testes de interface verificam o HTML gerado; não substituem validação visual
 no navegador com duas contas reais.
 
-Subclasses: a migração `20261011022314_subclass_progression.sql` cria `dnd_subclasses`, `dnd_subclass_levels` e `dnd_subclass_level_grants`. Cada classe do personagem e pedido de level-up guarda `subclass_id`, com chave estrangeira composta que impede combinar classes incompatíveis. A escolha é obrigatória a partir de `dnd_classes.subclass_level` (3 no catálogo atual), persiste na aprovação e não pode ser trocada pelo fluxo de level-up. Pedidos antigos sem a escolha obrigatória precisam ser rejeitados e refeitos. O campo textual da ficha passa a ser somente leitura; fichas legadas confirmam a subclasse no próximo level-up.
+Subclasses: a migração `20261011022314_subclass_progression.sql` cria `dnd_subclasses`, `dnd_subclass_levels` e `dnd_subclass_level_grants`. Cada classe do personagem e pedido de level-up guarda `subclass_id`, com chave estrangeira composta que impede combinar classes incompatíveis. A escolha é obrigatória a partir de `dnd_classes.subclass_level` (3 no catálogo atual), persiste na aprovação e não pode ser trocada pelo fluxo de level-up. Pedidos antigos sem a escolha obrigatória precisam ser rejeitados e refeitos. O campo textual da ficha passa a ser somente leitura; fichas legadas com nome de subclasse reconhecido preservam a escolha automaticamente no próximo level-up (ignorando caixa e espaços externos). Nomes desconhecidos ou incompatíveis bloqueiam a progressão para revisão, sem substituição silenciosa.
 
 O catálogo da planilha D&D 2024 foi importado com 12 classes, 48 subclasses, 240 progressões de classe e 184 características de subclasses. O seed reproduzível e sua documentação estão em `supabase/seeds/`. A estrutura agrega características vinculadas em `dnd_subclass_level_grants` ao histórico. Os textos são referências da planilha, não regras completas; o fluxo não automatiza efeitos mecânicos individuais dessas características.
 

@@ -1,8 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {findClass,classReviewState,characterProgression,levelFeatures} from '../dist/progression.js';
+import {findClass,classReviewState,characterProgression,levelFeatures,existingSubclass,classLevelLabel} from '../dist/progression.js';
 const classes=[{id:'wizard',name:'Mago'},{id:'fighter',name:'Guerreiro'}];
 const sheet={id:'sheet',data:{class:'  MAGO ',level:2}};
+test('nível atual e próximo ficam explícitos: sistema começa em 1',()=>{
+ assert.equal(classLevelLabel('Druida',1),'Druida · nível atual 1 → próximo 2');
+ assert.equal(classLevelLabel('Guerreiro',4),'Guerreiro · nível atual 4 → próximo 5');
+});
+test('subclasse legada reconhece caixa e espaços, mantendo classe e nível',()=>{
+ const c={id:'fighter',name:'Guerreiro',subclass_level:3};
+ const s={id:'s',data:{class:'Guerreiro',subclass:'Cavaleiro místico ',level:4}};
+ const subs=[{id:'ek',class_id:'fighter',name:'Cavaleiro Místico'}];
+ assert.equal(existingSubclass(s,c,null,subs,4).id,'ek');
+ const p=characterProgression(s,[c],[],subs)[0];
+ assert.equal(p.class_level,4);assert.equal(p.subclass_id,'ek');
+ assert.equal(existingSubclass(s,c,null,subs,2).unresolved,true);
+ assert.equal(existingSubclass(s,c,null,[{...subs[0],class_id:'wizard'}],4).unresolved,true);
+ assert.equal(existingSubclass(s,c,{subclass_id:'fixed'},subs,4).id,'fixed');
+});
 test('reconhece apenas nomes de catálogo, ignorando caixa e espaços',()=>{
  assert.equal(findClass(sheet,classes).id,'wizard');
  assert.equal(classReviewState({...sheet,data:{class:'Mage'}},classes),'pending');

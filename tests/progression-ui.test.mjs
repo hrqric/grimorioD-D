@@ -6,11 +6,17 @@ import * as projection from '../dist/progression.js';
 function fixture(){
  const source=readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split('window.addEventListener')[0].replace(/^import .*;\r?\n/gm,'');
  const context=vm.createContext({...projection,createClient:()=>({}),console});
- vm.runInContext(source+'\nglobalThis.api={state,classSelect,characteristicsView,classReviewQueue};',context);
+ vm.runInContext(source+'\nglobalThis.api={state,classSelect,characteristicsView,classReviewQueue,fields};',context);
  const api=context.api;
  Object.assign(api.state,{table:'t',tables:[{id:'t'}],classes:[{id:'w',name:'Mago',subclass_level:3},{id:'f',name:'Guerreiro'}],classLevels:[1,2,3,4,5].map(level=>({class_id:'w',level})),subclasses:[{id:'e',class_id:'w',name:'Evocador'}],sheet:{id:'s',table_id:'t',data:{class:'Mago',level:2}},rules:[{id:'r',name:'Segredo longo',summary:'Não mostrar',content:'Não mostrar',metadata:{class_id:'w',grant:'class',level:3,features_text:'Subclasse de Mago',resources_text:'Truques: 3'}},{id:'e',name:'Evocação',metadata:{class_id:'w',subclass_id:'e',grant:'subclass',level:3}}]});
  return api;
 }
+test('nível e subclasse são somente leitura na ficha',()=>{
+ const a=fixture();a.state.tab='principal';
+ const html=a.fields();
+ assert.match(html,/data-field="level"[^>]*readonly/);
+ assert.match(html,/data-field="subclass"[^>]*readonly/);
+});
 test('dropdown contém catálogo e fica protegido com histórico',()=>{
  const a=fixture();assert.match(a.classSelect(),/<select data-field="class"/);
  assert.match(a.classSelect(),/value="Mago" selected/);
