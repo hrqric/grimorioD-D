@@ -1,0 +1,5130 @@
+[
+  {
+    "kind": "spell",
+    "slug": "spell-acudir-os-moribundos",
+    "name": "Acudir os Moribundos",
+    "summary": "Estabiliza uma criatura com 0 Pontos de Vida.",
+    "content": "Círculo: Truque (0º)\nEscola: Necromancia\nClasses: Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: 4,5 metros\nComponentes: V, S\nEspecial: —\n\nEstabiliza uma criatura com 0 Pontos de Vida.",
+    "source_page": "Lista de Magias e Truques!A9:I9",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Necromancia",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "4,5 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-amigos",
+    "name": "Amigos",
+    "summary": "Vantagem em testes de Carisma contra uma criatura não hostil.",
+    "content": "Círculo: Truque (0º)\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: S, M\nEspecial: Concentração\n\nVantagem em testes de Carisma contra uma criatura não hostil.",
+    "source_page": "Lista de Magias e Truques!A10:I10",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "S, M",
+      "special": "Concentração",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-arte-druidica",
+    "name": "Arte Druídica",
+    "summary": "Cria efeitos sensoriais inofensivos da natureza ou prevê o tempo.",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Druida\nTempo de conjuração: 1 ação\nAlcance: 3 metros\nComponentes: V, S\nEspecial: —\n\nCria efeitos sensoriais inofensivos da natureza ou prevê o tempo.",
+    "source_page": "Lista de Magias e Truques!A11:I11",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "3 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-badalar-funebre",
+    "name": "Badalar Fúnebre",
+    "summary": "Soa um sino lúgubre causando dano Necrótico (salvaguarda de Sabedoria).",
+    "content": "Círculo: Truque (0º)\nEscola: Necromancia\nClasses: Bruxo, Clérigo, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nSoa um sino lúgubre causando dano Necrótico (salvaguarda de Sabedoria).",
+    "source_page": "Lista de Magias e Truques!A12:I12",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Necromancia",
+      "classes": [
+        "Bruxo",
+        "Clérigo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bruxo",
+        "Clérigo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bolha-acida",
+    "name": "Bolha Ácida",
+    "summary": "Arremessa uma bolha de ácido causando dano de Ácido em área.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nArremessa uma bolha de ácido causando dano de Ácido em área.",
+    "source_page": "Lista de Magias e Truques!A13:I13",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bordao-mistico",
+    "name": "Bordão Místico",
+    "summary": "Imbui um cajado/porrete com magia natural, permitindo usar Sabedoria nos ataques.",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Druida\nTempo de conjuração: 1 ação bônus\nAlcance: Toque\nComponentes: V, S, M\nEspecial: —\n\nImbui um cajado/porrete com magia natural, permitindo usar Sabedoria nos ataques.",
+    "source_page": "Lista de Magias e Truques!A14:I14",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-chama-sagrada",
+    "name": "Chama Sagrada",
+    "summary": "Radiação divina desce sobre o alvo causando dano Radiante sem benefício de cobertura.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nRadiação divina desce sobre o alvo causando dano Radiante sem benefício de cobertura.",
+    "source_page": "Lista de Magias e Truques!A15:I15",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-chicote-de-espinhos",
+    "name": "Chicote de Espinhos",
+    "summary": "Cria um chicote de espinhos que puxa o alvo em 3 metros e causa dano Perfurante.",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Druida\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: —\n\nCria um chicote de espinhos que puxa o alvo em 3 metros e causa dano Perfurante.",
+    "source_page": "Lista de Magias e Truques!A16:I16",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-criar-chamas",
+    "name": "Criar Chamas",
+    "summary": "Produz uma chama na mão que ilumina e pode ser arremessada causando dano Ígneo.",
+    "content": "Círculo: Truque (0º)\nEscola: Invocação\nClasses: Druida\nTempo de conjuração: 1 ação\nAlcance: Pessoal (9m)\nComponentes: V, S\nEspecial: —\n\nProduz uma chama na mão que ilumina e pode ser arremessada causando dano Ígneo.",
+    "source_page": "Lista de Magias e Truques!A17:I17",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Invocação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (9m)",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-elementalismo",
+    "name": "Elementalismo",
+    "summary": "Efeitos elementais menores (brisa, poeira, faíscas, névoa).",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S\nEspecial: —\n\nEfeitos elementais menores (brisa, poeira, faíscas, névoa).",
+    "source_page": "Lista de Magias e Truques!A18:I18",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-explosao-elemental",
+    "name": "Explosão Elemental",
+    "summary": "Dispara uma rajada elemental (Ácido, Fogo, Gelo, Elétrico ou Trovão).",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Feiticeiro\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nDispara uma rajada elemental (Ácido, Fogo, Gelo, Elétrico ou Trovão).",
+    "source_page": "Lista de Magias e Truques!A19:I19",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Feiticeiro"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-fagulha-estelar",
+    "name": "Fagulha Estelar",
+    "summary": "Luz estelar reluzente causa dano Radiante e impede que o alvo fique Invisível.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Bardo, Druida\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nLuz estelar reluzente causa dano Radiante e impede que o alvo fique Invisível.",
+    "source_page": "Lista de Magias e Truques!A20:I20",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-golpe-certeiro",
+    "name": "Golpe Certeiro",
+    "summary": "Aprimora o próximo ataque com arma, usando o atributo de conjuração.",
+    "content": "Círculo: Truque (0º)\nEscola: Adivinhação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: S, M\nEspecial: —\n\nAprimora o próximo ataque com arma, usando o atributo de conjuração.",
+    "source_page": "Lista de Magias e Truques!A21:I21",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Adivinhação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-ilusao-menor",
+    "name": "Ilusão Menor",
+    "summary": "Cria um som ou imagem ilusória de um objeto estático por 1 minuto.",
+    "content": "Círculo: Truque (0º)\nEscola: Ilusão\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: S, M\nEspecial: —\n\nCria um som ou imagem ilusória de um objeto estático por 1 minuto.",
+    "source_page": "Lista de Magias e Truques!A22:I22",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-luz",
+    "name": "Luz",
+    "summary": "Faz um objeto emitir luz clara em 6 metros e meia-luz por mais 6 metros.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Bardo, Clérigo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, M\nEspecial: —\n\nFaz um objeto emitir luz clara em 6 metros e meia-luz por mais 6 metros.",
+    "source_page": "Lista de Magias e Truques!A23:I23",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-luzes-dancantes",
+    "name": "Luzes Dançantes",
+    "summary": "Cria até quatro luzes flutuantes em formato humanoide ou de tocha.",
+    "content": "Círculo: Truque (0º)\nEscola: Ilusão\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCria até quatro luzes flutuantes em formato humanoide ou de tocha.",
+    "source_page": "Lista de Magias e Truques!A24:I24",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-maos-magicas",
+    "name": "Mãos Mágicas",
+    "summary": "Cria uma mão espectral invisível/visível que manipula objetos a até 9m.",
+    "content": "Círculo: Truque (0º)\nEscola: Invocação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S\nEspecial: —\n\nCria uma mão espectral invisível/visível que manipula objetos a até 9m.",
+    "source_page": "Lista de Magias e Truques!A25:I25",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Invocação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-mensagem",
+    "name": "Mensagem",
+    "summary": "Sussurra uma mensagem privada a uma criatura que pode responder mentalmente.",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Bardo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: —\n\nSussurra uma mensagem privada a uma criatura que pode responder mentalmente.",
+    "source_page": "Lista de Magias e Truques!A26:I26",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-orientacao",
+    "name": "Orientação",
+    "summary": "Adiciona +1d4 a um teste de perícia à escolha do alvo.",
+    "content": "Círculo: Truque (0º)\nEscola: Adivinhação\nClasses: Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: Concentração\n\nAdiciona +1d4 a um teste de perícia à escolha do alvo.",
+    "source_page": "Lista de Magias e Truques!A27:I27",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Adivinhação",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Truques",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-palavra-de-radiancia",
+    "name": "Palavra de Radiância",
+    "summary": "Emite um clarão divino causando dano Radiante em inimigos adjacentes.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: 1,5 metro\nComponentes: V, M\nEspecial: —\n\nEmite um clarão divino causando dano Radiante em inimigos adjacentes.",
+    "source_page": "Lista de Magias e Truques!A28:I28",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "1,5 metro",
+      "components": "V, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-prestidigitacao-arcana",
+    "name": "Prestidigitação Arcana",
+    "summary": "Realiza truques mágicos simples (limpar, aquecer, acender velas, criar símbolos).",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 3 metros\nComponentes: V, S\nEspecial: —\n\nRealiza truques mágicos simples (limpar, aquecer, acender velas, criar símbolos).",
+    "source_page": "Lista de Magias e Truques!A29:I29",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "3 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-protecao-contra-laminas",
+    "name": "Proteção Contra Lâminas",
+    "summary": "Subtrai 1d4 dos ataques com armas desferidos contra o conjurador.",
+    "content": "Círculo: Truque (0º)\nEscola: Abjuração\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V, S\nEspecial: Concentração\n\nSubtrai 1d4 dos ataques com armas desferidos contra o conjurador.",
+    "source_page": "Lista de Magias e Truques!A30:I30",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-de-fogo",
+    "name": "Raio de Fogo",
+    "summary": "Arremessa um raio de fogo causando 1d10 de dano Ígneo.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nArremessa um raio de fogo causando 1d10 de dano Ígneo.",
+    "source_page": "Lista de Magias e Truques!A31:I31",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-de-gelo",
+    "name": "Raio de Gelo",
+    "summary": "Dispara um raio gélido causando dano Gélido e reduzindo o deslocamento em 3m.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nDispara um raio gélido causando dano Gélido e reduzindo o deslocamento em 3m.",
+    "source_page": "Lista de Magias e Truques!A32:I32",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-mistico",
+    "name": "Raio Místico",
+    "summary": "Dispara feixes de energia arcana causando 1d10 de dano Energético por feixe.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Bruxo\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nDispara feixes de energia arcana causando 1d10 de dano Energético por feixe.",
+    "source_page": "Lista de Magias e Truques!A33:I33",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Bruxo"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bruxo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-rajada-de-veneno",
+    "name": "Rajada de Veneno",
+    "summary": "Projeta uma baforada de gás tóxico causando 1d12 de dano Venenoso.",
+    "content": "Círculo: Truque (0º)\nEscola: Necromancia\nClasses: Bruxo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S\nEspecial: —\n\nProjeta uma baforada de gás tóxico causando 1d12 de dano Venenoso.",
+    "source_page": "Lista de Magias e Truques!A34:I34",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Necromancia",
+      "classes": [
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-reparar",
+    "name": "Reparar",
+    "summary": "Conserta uma quebra ou rachadura em um objeto danificado.",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Bardo, Clérigo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 minuto\nAlcance: Toque\nComponentes: V, S, M\nEspecial: —\n\nConserta uma quebra ou rachadura em um objeto danificado.",
+    "source_page": "Lista de Magias e Truques!A35:I35",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 minuto",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-resistencia",
+    "name": "Resistência",
+    "summary": "O alvo adiciona +1d4 a uma salvaguarda à sua escolha.",
+    "content": "Círculo: Truque (0º)\nEscola: Abjuração\nClasses: Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: Concentração\n\nO alvo adiciona +1d4 a uma salvaguarda à sua escolha.",
+    "source_page": "Lista de Magias e Truques!A36:I36",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Truques",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-talho-mental",
+    "name": "Talho Mental",
+    "summary": "Causa dano Psíquico e subtrai 1d4 da próxima salvaguarda do alvo.",
+    "content": "Círculo: Truque (0º)\nEscola: Encantamento\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nCausa dano Psíquico e subtrai 1d4 da próxima salvaguarda do alvo.",
+    "source_page": "Lista de Magias e Truques!A37:I37",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Encantamento",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-taumaturgia",
+    "name": "Taumaturgia",
+    "summary": "Manifesta pequenos milagres (voz amplificada, tremores, luzes piscando).",
+    "content": "Círculo: Truque (0º)\nEscola: Transmutação\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V\nEspecial: —\n\nManifesta pequenos milagres (voz amplificada, tremores, luzes piscando).",
+    "source_page": "Lista de Magias e Truques!A38:I38",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Transmutação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-toque-chocante",
+    "name": "Toque Chocante",
+    "summary": "Ataque elétrico que causa dano Elétrico e impede reações do alvo.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: —\n\nAtaque elétrico que causa dano Elétrico e impede reações do alvo.",
+    "source_page": "Lista de Magias e Truques!A39:I39",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-toque-necrotico",
+    "name": "Toque Necrótico",
+    "summary": "Toque esquelético causa dano Necrótico e impede cura por 1 rodada.",
+    "content": "Círculo: Truque (0º)\nEscola: Necromancia\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: —\n\nToque esquelético causa dano Necrótico e impede cura por 1 rodada.",
+    "source_page": "Lista de Magias e Truques!A40:I40",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Necromancia",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-trovao",
+    "name": "Trovão",
+    "summary": "Onda sonora causa dano Trovejante e empurra criaturas adjacentes em 3m.",
+    "content": "Círculo: Truque (0º)\nEscola: Evocação\nClasses: Bardo, Bruxo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 1,5 metro\nComponentes: V, S\nEspecial: —\n\nOnda sonora causa dano Trovejante e empurra criaturas adjacentes em 3m.",
+    "source_page": "Lista de Magias e Truques!A41:I41",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "1,5 metro",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo",
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-zombaria-perversa",
+    "name": "Zombaria Perversa",
+    "summary": "Insultos mágicos causam dano Psíquico e Desvantagem no próximo ataque do alvo.",
+    "content": "Círculo: Truque (0º)\nEscola: Encantamento\nClasses: Bardo\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nInsultos mágicos causam dano Psíquico e Desvantagem no próximo ataque do alvo.",
+    "source_page": "Lista de Magias e Truques!A42:I42",
+    "metadata": {
+      "spell_level": 0,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Truques",
+        "Bardo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-alarme",
+    "name": "Alarme",
+    "summary": "Alerta mental ou sonoro quando uma criatura toca a área protegida.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Guardião, Mago\nTempo de conjuração: 1 min / Ritual\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Ritual\n\nAlerta mental ou sonoro quando uma criatura toca a área protegida.",
+    "source_page": "Lista de Magias e Truques!A43:I43",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Guardião",
+        "Mago"
+      ],
+      "casting_time": "1 min / Ritual",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Ritual",
+      "tags": [
+        "Magias",
+        "Guardião",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-amizade-animal",
+    "name": "Amizade Animal",
+    "summary": "Convence uma Fera de que você não representa ameaça.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Druida, Guardião\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: —\n\nConvence uma Fera de que você não representa ameaça.",
+    "source_page": "Lista de Magias e Truques!A44:I44",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Guardião"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-armadura-arcana",
+    "name": "Armadura Arcana",
+    "summary": "Concede Classe de Armadura base 13 + Modificador de Destreza a um alvo sem armadura.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: —\n\nConcede Classe de Armadura base 13 + Modificador de Destreza a um alvo sem armadura.",
+    "source_page": "Lista de Magias e Truques!A45:I45",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-armadura-de-agathys",
+    "name": "Armadura de Agathys",
+    "summary": "Ganha 5 PV temporários e causa 5 de dano Gélido a quem atacar em combate corpo a corpo.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Bruxo\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V, S, M\nEspecial: —\n\nGanha 5 PV temporários e causa 5 de dano Gélido a quem atacar em combate corpo a corpo.",
+    "source_page": "Lista de Magias e Truques!A46:I46",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Bruxo"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bruxo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bencao",
+    "name": "Bênção",
+    "summary": "Concede +1d4 em jogadas de ataque e salvaguardas para até 3 alvos.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Clérigo, Paladino\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nConcede +1d4 em jogadas de ataque e salvaguardas para até 3 alvos.",
+    "source_page": "Lista de Magias e Truques!A47:I47",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Clérigo",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bom-fruto",
+    "name": "Bom Fruto",
+    "summary": "Cria 10 frutos mágicos; cada fruto restaura 1 PV e nutre por 1 dia.",
+    "content": "Círculo: 1º Círculo\nEscola: Invocação\nClasses: Druida, Guardião\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: —\n\nCria 10 frutos mágicos; cada fruto restaura 1 PV e nutre por 1 dia.",
+    "source_page": "Lista de Magias e Truques!A48:I48",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Invocação",
+      "classes": [
+        "Druida",
+        "Guardião"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-comando",
+    "name": "Comando",
+    "summary": "Dá uma ordem de uma palavra (Fugir, Parar, Largar) que o alvo deve obedecer.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Clérigo, Paladino\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nDá uma ordem de uma palavra (Fugir, Parar, Largar) que o alvo deve obedecer.",
+    "source_page": "Lista de Magias e Truques!A49:I49",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-compreender-idiomas",
+    "name": "Compreender Idiomas",
+    "summary": "Compreende o significado de qualquer idioma falado ou escrito por 1 hora.",
+    "content": "Círculo: 1º Círculo\nEscola: Adivinhação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação / Ritual\nAlcance: Pessoal\nComponentes: V, S, M\nEspecial: Ritual\n\nCompreende o significado de qualquer idioma falado ou escrito por 1 hora.",
+    "source_page": "Lista de Magias e Truques!A50:I50",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Adivinhação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação / Ritual",
+      "range": "Pessoal",
+      "components": "V, S, M",
+      "special": "Ritual",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-curar-ferimentos",
+    "name": "Curar Ferimentos",
+    "summary": "Restaura 2d8 + Mod. de Conjuração em Pontos de Vida.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida, Guardião, Paladino\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: —\n\nRestaura 2d8 + Mod. de Conjuração em Pontos de Vida.",
+    "source_page": "Lista de Magias e Truques!A51:I51",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-detectar-magia",
+    "name": "Detectar Magia",
+    "summary": "Sente a presença e aura de magia a até 9 metros.",
+    "content": "Círculo: 1º Círculo\nEscola: Adivinhação\nClasses: Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Guardião, Mago, Paladino\nTempo de conjuração: 1 ação / Ritual\nAlcance: Pessoal\nComponentes: V, S\nEspecial: Concentração, Ritual\n\nSente a presença e aura de magia a até 9 metros.",
+    "source_page": "Lista de Magias e Truques!A52:I52",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Adivinhação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião",
+        "Mago",
+        "Paladino"
+      ],
+      "casting_time": "1 ação / Ritual",
+      "range": "Pessoal",
+      "components": "V, S",
+      "special": "Concentração, Ritual",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião",
+        "Mago",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-disfarcar-se",
+    "name": "Disfarçar-se",
+    "summary": "Altera a aparência física, roupas e equipamentos por 1 hora.",
+    "content": "Círculo: 1º Círculo\nEscola: Ilusão\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V, S\nEspecial: —\n\nAltera a aparência física, roupas e equipamentos por 1 hora.",
+    "source_page": "Lista de Magias e Truques!A53:I53",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-emaranhar",
+    "name": "Emaranhar",
+    "summary": "Vetas e ervas daninhas imobilizam criaturas em um quadrado de 6 metros.",
+    "content": "Círculo: 1º Círculo\nEscola: Invocação\nClasses: Druida, Guardião\nTempo de conjuração: 1 ação\nAlcance: 27 metros\nComponentes: V, S\nEspecial: Concentração\n\nVetas e ervas daninhas imobilizam criaturas em um quadrado de 6 metros.",
+    "source_page": "Lista de Magias e Truques!A54:I54",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Invocação",
+      "classes": [
+        "Druida",
+        "Guardião"
+      ],
+      "casting_time": "1 ação",
+      "range": "27 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-enfeiticar-pessoa",
+    "name": "Enfeitiçar Pessoa",
+    "summary": "Deixa uma criatura humanoide com a condição Enfeitiçado por 1 hora.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S\nEspecial: —\n\nDeixa uma criatura humanoide com a condição Enfeitiçado por 1 hora.",
+    "source_page": "Lista de Magias e Truques!A55:I55",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-escudo-arcano",
+    "name": "Escudo Arcano",
+    "summary": "Concede +5 na CA e imunidade a Mísseis Mágicos até o início do próximo turno.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 reação\nAlcance: Pessoal\nComponentes: V, S\nEspecial: —\n\nConcede +5 na CA e imunidade a Mísseis Mágicos até o início do próximo turno.",
+    "source_page": "Lista de Magias e Truques!A56:I56",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 reação",
+      "range": "Pessoal",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-escudo-da-fe",
+    "name": "Escudo da Fé",
+    "summary": "Campo cintilante concede +2 de bônus na Classe de Armadura.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Clérigo, Paladino\nTempo de conjuração: 1 ação bônus\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCampo cintilante concede +2 de bônus na Classe de Armadura.",
+    "source_page": "Lista de Magias e Truques!A57:I57",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo",
+        "Paladino"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-fogo-das-fadas",
+    "name": "Fogo das Fadas",
+    "summary": "Contorna objetos/criaturas em luz; concede Vantagem nos ataques contra alvos atingidos.",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Bardo, Druida\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: Concentração\n\nContorna objetos/criaturas em luz; concede Vantagem nos ataques contra alvos atingidos.",
+    "source_page": "Lista de Magias e Truques!A58:I58",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-gargalhada-nefasta-de-tasha",
+    "name": "Gargalhada Nefasta de Tasha",
+    "summary": "Alvo entra em gargalhadas incontroláveis e fica Caído e Incapacitado.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nAlvo entra em gargalhadas incontroláveis e fica Caído e Incapacitado.",
+    "source_page": "Lista de Magias e Truques!A59:I59",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-maos-flamejantes",
+    "name": "Mãos Flamejantes",
+    "summary": "Cone de fogo causa 3d6 de dano Ígneo (salvaguarda de Destreza).",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Cone 4,5m)\nComponentes: V, S\nEspecial: —\n\nCone de fogo causa 3d6 de dano Ígneo (salvaguarda de Destreza).",
+    "source_page": "Lista de Magias e Truques!A60:I60",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Cone 4,5m)",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-misseis-magicos",
+    "name": "Mísseis Mágicos",
+    "summary": "Cria 3 dardos mágicos infalíveis; cada um causa 1d4+1 de dano Energético.",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nCria 3 dardos mágicos infalíveis; cada um causa 1d4+1 de dano Energético.",
+    "source_page": "Lista de Magias e Truques!A61:I61",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-onda-trovejante",
+    "name": "Onda Trovejante",
+    "summary": "Onda de som causa 2d8 de dano Trovejante e empurra inimigos em 3 metros.",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Bardo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Cubo 4,5m)\nComponentes: V, S\nEspecial: —\n\nOnda de som causa 2d8 de dano Trovejante e empurra inimigos em 3 metros.",
+    "source_page": "Lista de Magias e Truques!A62:I62",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Cubo 4,5m)",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-orbe-cromatico",
+    "name": "Orbe Cromático",
+    "summary": "Ataque mágico à distância causa 3d8 de dano do elemento escolhido.",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 27 metros\nComponentes: V, S, M\nEspecial: Material\n\nAtaque mágico à distância causa 3d8 de dano do elemento escolhido.",
+    "source_page": "Lista de Magias e Truques!A63:I63",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "27 metros",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-palavra-curativa",
+    "name": "Palavra Curativa",
+    "summary": "Restaura 2d4 + Mod. de Conjuração em Pontos de Vida à distância.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida\nTempo de conjuração: 1 ação bônus\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nRestaura 2d4 + Mod. de Conjuração em Pontos de Vida à distância.",
+    "source_page": "Lista de Magias e Truques!A64:I64",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-perdicao",
+    "name": "Perdição",
+    "summary": "Subtrai 1d4 de ataques e salvaguardas de até 3 alvos.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Clérigo\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nSubtrai 1d4 de ataques e salvaguardas de até 3 alvos.",
+    "source_page": "Lista de Magias e Truques!A65:I65",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-guia",
+    "name": "Raio Guia",
+    "summary": "Raio de luz causa 4d6 de dano Radiante e concede Vantagem no próximo ataque.",
+    "content": "Círculo: 1º Círculo\nEscola: Evocação\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nRaio de luz causa 4d6 de dano Radiante e concede Vantagem no próximo ataque.",
+    "source_page": "Lista de Magias e Truques!A66:I66",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-santuario",
+    "name": "Santuário",
+    "summary": "Inimigos devem fazer salvaguarda de Sabedoria antes de atacar a criatura protegida.",
+    "content": "Círculo: 1º Círculo\nEscola: Abjuração\nClasses: Clérigo\nTempo de conjuração: 1 ação bônus\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: —\n\nInimigos devem fazer salvaguarda de Sabedoria antes de atacar a criatura protegida.",
+    "source_page": "Lista de Magias e Truques!A67:I67",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-sono",
+    "name": "Sono",
+    "summary": "Coloca criaturas na área em sono mágico de acordo com salvaguardas.",
+    "content": "Círculo: 1º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 27 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nColoca criaturas na área em sono mágico de acordo com salvaguardas.",
+    "source_page": "Lista de Magias e Truques!A68:I68",
+    "metadata": {
+      "spell_level": 1,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "27 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-acalmar-emocoes",
+    "name": "Acalmar Emoções",
+    "summary": "Suprime efeitos de Amedrontado/Enfeitiçado ou neutraliza hostilidade.",
+    "content": "Círculo: 2º Círculo\nEscola: Encantamento\nClasses: Bardo, Clérigo\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: Concentração\n\nSuprime efeitos de Amedrontado/Enfeitiçado ou neutraliza hostilidade.",
+    "source_page": "Lista de Magias e Truques!A69:I69",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-aprimorar-atributo",
+    "name": "Aprimorar Atributo",
+    "summary": "Concede Vantagem em testes de um atributo escolhido e benefícios extras.",
+    "content": "Círculo: 2º Círculo\nEscola: Transmutação\nClasses: Bardo, Clérigo, Druida, Feiticeiro, Guardião\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Concentração\n\nConcede Vantagem em testes de um atributo escolhido e benefícios extras.",
+    "source_page": "Lista de Magias e Truques!A70:I70",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-arma-espiritual",
+    "name": "Arma Espiritual",
+    "summary": "Cria arma flutuante que ataca como ação bônus causando dano Espectral.",
+    "content": "Círculo: 2º Círculo\nEscola: Evocação\nClasses: Clérigo\nTempo de conjuração: 1 ação bônus\nAlcance: 18 metros\nComponentes: V, S\nEspecial: Concentração\n\nCria arma flutuante que ataca como ação bônus causando dano Espectral.",
+    "source_page": "Lista de Magias e Truques!A71:I71",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-arrombar",
+    "name": "Arrombar",
+    "summary": "Abre instantaneamente portas, trancas ou correntes emperradas ou trancadas.",
+    "content": "Círculo: 2º Círculo\nEscola: Transmutação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nAbre instantaneamente portas, trancas ou correntes emperradas ou trancadas.",
+    "source_page": "Lista de Magias e Truques!A72:I72",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-aumentar-reduzir",
+    "name": "Aumentar/Reduzir",
+    "summary": "Duplica ou reduz pela metade o tamanho e peso de uma criatura ou objeto.",
+    "content": "Círculo: 2º Círculo\nEscola: Transmutação\nClasses: Bardo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nDuplica ou reduz pela metade o tamanho e peso de uma criatura ou objeto.",
+    "source_page": "Lista de Magias e Truques!A73:I73",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-auxilio",
+    "name": "Auxílio",
+    "summary": "Aumenta os PV máximos e atuais de até 3 alvos em 5 pontos por 8 horas.",
+    "content": "Círculo: 2º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida, Guardião, Paladino\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: —\n\nAumenta os PV máximos e atuais de até 3 alvos em 5 pontos por 8 horas.",
+    "source_page": "Lista de Magias e Truques!A74:I74",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-cegueira-surdez",
+    "name": "Cegueira/Surdez",
+    "summary": "Causa a condição Cego ou Surdo em uma criatura (salvaguarda de Constituição).",
+    "content": "Círculo: 2º Círculo\nEscola: Transmutação\nClasses: Bardo, Clérigo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V\nEspecial: —\n\nCausa a condição Cego ou Surdo em uma criatura (salvaguarda de Constituição).",
+    "source_page": "Lista de Magias e Truques!A75:I75",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-despedacar",
+    "name": "Despedaçar",
+    "summary": "Som estridente causa 3d8 de dano Trovejante em esfera de 3m.",
+    "content": "Círculo: 2º Círculo\nEscola: Evocação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: —\n\nSom estridente causa 3d8 de dano Trovejante em esfera de 3m.",
+    "source_page": "Lista de Magias e Truques!A76:I76",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-esfera-flamejante",
+    "name": "Esfera Flamejante",
+    "summary": "Esfera de fogo de 1,5m causa dano Ígneo e pode ser movida como ação bônus.",
+    "content": "Círculo: 2º Círculo\nEscola: Evocação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nEsfera de fogo de 1,5m causa dano Ígneo e pode ser movida como ação bônus.",
+    "source_page": "Lista de Magias e Truques!A77:I77",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Evocação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-esquentar-metal",
+    "name": "Esquentar Metal",
+    "summary": "Aquece objeto metálico causando dano Ígneo a quem o tocar/vestir.",
+    "content": "Círculo: 2º Círculo\nEscola: Transmutação\nClasses: Bardo, Druida\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nAquece objeto metálico causando dano Ígneo a quem o tocar/vestir.",
+    "source_page": "Lista de Magias e Truques!A78:I78",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-invisibilidade",
+    "name": "Invisibilidade",
+    "summary": "Torna uma criatura Invisível até atacar ou conjurar uma magia.",
+    "content": "Círculo: 2º Círculo\nEscola: Ilusão\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Concentração, Material\n\nTorna uma criatura Invisível até atacar ou conjurar uma magia.",
+    "source_page": "Lista de Magias e Truques!A79:I79",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Concentração, Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-oracao-de-cura",
+    "name": "Oração de Cura",
+    "summary": "Restaura PV de até 5 criaturas ao final de um descanso curto rápido.",
+    "content": "Círculo: 2º Círculo\nEscola: Abjuração\nClasses: Clérigo, Paladino\nTempo de conjuração: 10 minutos\nAlcance: 9 metros\nComponentes: V\nEspecial: —\n\nRestaura PV de até 5 criaturas ao final de um descanso curto rápido.",
+    "source_page": "Lista de Magias e Truques!A80:I80",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo",
+        "Paladino"
+      ],
+      "casting_time": "10 minutos",
+      "range": "9 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-paralisar-pessoa",
+    "name": "Paralisar Pessoa",
+    "summary": "Paralisa um humanoide (salvaguarda de Sabedoria a cada turno).",
+    "content": "Círculo: 2º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nParalisa um humanoide (salvaguarda de Sabedoria a cada turno).",
+    "source_page": "Lista de Magias e Truques!A81:I81",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-passo-nebuloso",
+    "name": "Passo Nebuloso",
+    "summary": "Teleporta instantaneamente o conjurador para um espaço visível a até 15m.",
+    "content": "Círculo: 2º Círculo\nEscola: Invocação\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação bônus\nAlcance: Pessoal (15m)\nComponentes: V\nEspecial: —\n\nTeleporta instantaneamente o conjurador para um espaço visível a até 15m.",
+    "source_page": "Lista de Magias e Truques!A82:I82",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Invocação",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "Pessoal (15m)",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-passo-sem-rastro",
+    "name": "Passo Sem Rastro",
+    "summary": "Concede +10 em testes de Furtividade e impede rastreamento do grupo.",
+    "content": "Círculo: 2º Círculo\nEscola: Abjuração\nClasses: Druida, Guardião\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V, S, M\nEspecial: Concentração\n\nConcede +10 em testes de Furtividade e impede rastreamento do grupo.",
+    "source_page": "Lista de Magias e Truques!A83:I83",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Abjuração",
+      "classes": [
+        "Druida",
+        "Guardião"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-lunar",
+    "name": "Raio Lunar",
+    "summary": "Facho de luar causa 2d10 de dano Radiante e força metamorfos à forma verdadeira.",
+    "content": "Círculo: 2º Círculo\nEscola: Evocação\nClasses: Druida\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nFacho de luar causa 2d10 de dano Radiante e força metamorfos à forma verdadeira.",
+    "source_page": "Lista de Magias e Truques!A84:I84",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Evocação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-reflexos",
+    "name": "Reflexos",
+    "summary": "Cria 3 duplicatas ilusórias de si mesmo para redirecionar ataques inimigos.",
+    "content": "Círculo: 2º Círculo\nEscola: Ilusão\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V, S\nEspecial: —\n\nCria 3 duplicatas ilusórias de si mesmo para redirecionar ataques inimigos.",
+    "source_page": "Lista de Magias e Truques!A85:I85",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-restauracao-menor",
+    "name": "Restauração Menor",
+    "summary": "Remove uma condição: Cego, Envenenado, Paralisado ou Surdo.",
+    "content": "Círculo: 2º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida, Guardião, Paladino\nTempo de conjuração: 1 ação bônus\nAlcance: Toque\nComponentes: V, S\nEspecial: —\n\nRemove uma condição: Cego, Envenenado, Paralisado ou Surdo.",
+    "source_page": "Lista de Magias e Truques!A86:I86",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-sugestao",
+    "name": "Sugestão",
+    "summary": "Inspeciona sugestão razoável na mente do alvo, que deve cumpri-la.",
+    "content": "Círculo: 2º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, M\nEspecial: Concentração\n\nInspeciona sugestão razoável na mente do alvo, que deve cumpri-la.",
+    "source_page": "Lista de Magias e Truques!A87:I87",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-teia",
+    "name": "Teia",
+    "summary": "Cria teias pegajosas em um cubo de 6 metros que imobilizam criaturas.",
+    "content": "Círculo: 2º Círculo\nEscola: Invocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCria teias pegajosas em um cubo de 6 metros que imobilizam criaturas.",
+    "source_page": "Lista de Magias e Truques!A88:I88",
+    "metadata": {
+      "spell_level": 2,
+      "school": "Invocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bola-de-fogo",
+    "name": "Bola de Fogo",
+    "summary": "Explosão Ígnea em esfera de 6m causa 8d6 de dano de fogo.",
+    "content": "Círculo: 3º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 45 metros\nComponentes: V, S, M\nEspecial: —\n\nExplosão Ígnea em esfera de 6m causa 8d6 de dano de fogo.",
+    "source_page": "Lista de Magias e Truques!A89:I89",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "45 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-celeridade",
+    "name": "Celeridade",
+    "summary": "Dobra deslocamento, +2 na CA, Vantagem em Destreza e concede 1 ação extra por turno.",
+    "content": "Círculo: 3º Círculo\nEscola: Transmutação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 9 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nDobra deslocamento, +2 na CA, Vantagem em Destreza e concede 1 ação extra por turno.",
+    "source_page": "Lista de Magias e Truques!A90:I90",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Transmutação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "9 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-clarividencia",
+    "name": "Clarividência",
+    "summary": "Cria um sensor invisível para ver ou ouvir um local distante.",
+    "content": "Círculo: 3º Círculo\nEscola: Adivinhação\nClasses: Bardo, Clérigo, Feiticeiro, Mago\nTempo de conjuração: 10 minutos\nAlcance: 1,5 km\nComponentes: V, S, M\nEspecial: Concentração, Material\n\nCria um sensor invisível para ver ou ouvir um local distante.",
+    "source_page": "Lista de Magias e Truques!A91:I91",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Adivinhação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "10 minutos",
+      "range": "1,5 km",
+      "components": "V, S, M",
+      "special": "Concentração, Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-contramagia",
+    "name": "Contramagia",
+    "summary": "Interrompe a conjuração de uma magia inimiga em andamento.",
+    "content": "Círculo: 3º Círculo\nEscola: Abjuração\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 reação\nAlcance: 18 metros\nComponentes: S\nEspecial: —\n\nInterrompe a conjuração de uma magia inimiga em andamento.",
+    "source_page": "Lista de Magias e Truques!A92:I92",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Abjuração",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 reação",
+      "range": "18 metros",
+      "components": "S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-convocar-relampagos",
+    "name": "Convocar Relâmpagos",
+    "summary": "Cria nuvem de tempestade que dispara relâmpagos de 3d10 de dano por turno.",
+    "content": "Círculo: 3º Círculo\nEscola: Invocação\nClasses: Druida\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: Concentração\n\nCria nuvem de tempestade que dispara relâmpagos de 3d10 de dano por turno.",
+    "source_page": "Lista de Magias e Truques!A93:I93",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Invocação",
+      "classes": [
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-dissipar-magia",
+    "name": "Dissipar Magia",
+    "summary": "Encerra magias de 3º círculo ou inferior ativas em uma criatura/objeto.",
+    "content": "Círculo: 3º Círculo\nEscola: Abjuração\nClasses: Bardo, Bruxo, Clérigo, Druida, Feiticeiro, Guardião, Mago, Paladino\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nEncerra magias de 3º círculo ou inferior ativas em uma criatura/objeto.",
+    "source_page": "Lista de Magias e Truques!A94:I94",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião",
+        "Mago",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Guardião",
+        "Mago",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-falar-com-mortos",
+    "name": "Falar com Mortos",
+    "summary": "Concede vida temporária a um cadáver para fazer até 5 perguntas.",
+    "content": "Círculo: 3º Círculo\nEscola: Necromancia\nClasses: Bardo, Clérigo, Mago\nTempo de conjuração: 1 ação\nAlcance: 3 metros\nComponentes: V, S, M\nEspecial: —\n\nConcede vida temporária a um cadáver para fazer até 5 perguntas.",
+    "source_page": "Lista de Magias e Truques!A95:I95",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Necromancia",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "3 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-glifo-de-protecao",
+    "name": "Glifo de Proteção",
+    "summary": "Inscreve uma runa mágica explosiva ou armazenadora de magia que é ativada por gatilho.",
+    "content": "Círculo: 3º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Mago\nTempo de conjuração: 1 hora\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nInscreve uma runa mágica explosiva ou armazenadora de magia que é ativada por gatilho.",
+    "source_page": "Lista de Magias e Truques!A96:I96",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Mago"
+      ],
+      "casting_time": "1 hora",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-guardioes-espirituais",
+    "name": "Guardiões Espirituais",
+    "summary": "Espíritos celestiais/ínferos cercam o clérigo causando 3d8 de dano Radiante/Necrótico.",
+    "content": "Círculo: 3º Círculo\nEscola: Invocação\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: Pessoal (4,5m)\nComponentes: V, S, M\nEspecial: Concentração\n\nEspíritos celestiais/ínferos cercam o clérigo causando 3d8 de dano Radiante/Necrótico.",
+    "source_page": "Lista de Magias e Truques!A97:I97",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Invocação",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (4,5m)",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-imagem-maior",
+    "name": "Imagem Maior",
+    "summary": "Cria ilusão complexa com som, cheiro, temperatura e movimento.",
+    "content": "Círculo: 3º Círculo\nEscola: Ilusão\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCria ilusão complexa com som, cheiro, temperatura e movimento.",
+    "source_page": "Lista de Magias e Truques!A98:I98",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-lentidao",
+    "name": "Lentidão",
+    "summary": "Reduz deslocamento pela metade, -2 na CA e limita ações de até 6 alvos.",
+    "content": "Círculo: 3º Círculo\nEscola: Transmutação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nReduz deslocamento pela metade, -2 na CA e limita ações de até 6 alvos.",
+    "source_page": "Lista de Magias e Truques!A99:I99",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-palavra-curativa-em-massa",
+    "name": "Palavra Curativa em Massa",
+    "summary": "Restaura 2d4 + Mod. de Conjuração em PV para até 6 criaturas.",
+    "content": "Círculo: 3º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo\nTempo de conjuração: 1 ação bônus\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nRestaura 2d4 + Mod. de Conjuração em PV para até 6 criaturas.",
+    "source_page": "Lista de Magias e Truques!A100:I100",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo"
+      ],
+      "casting_time": "1 ação bônus",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-padrao-hipnotico",
+    "name": "Padrão Hipnótico",
+    "summary": "Padrão de cores flutuantes deixa criaturas Fascinadas e Incapacitadas.",
+    "content": "Círculo: 3º Círculo\nEscola: Ilusão\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: S, M\nEspecial: Concentração\n\nPadrão de cores flutuantes deixa criaturas Fascinadas e Incapacitadas.",
+    "source_page": "Lista de Magias e Truques!A101:I101",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-relampago",
+    "name": "Relâmpago",
+    "summary": "Traço de eletricidade em linha reta causa 8d6 de dano Elétrico.",
+    "content": "Círculo: 3º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Linha 30m)\nComponentes: V, S, M\nEspecial: —\n\nTraço de eletricidade em linha reta causa 8d6 de dano Elétrico.",
+    "source_page": "Lista de Magias e Truques!A102:I102",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Linha 30m)",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-revivificar",
+    "name": "Revivificar",
+    "summary": "Revive uma criatura morta no último minuto com 1 Ponto de Vida.",
+    "content": "Círculo: 3º Círculo\nEscola: Necromancia\nClasses: Clérigo, Druida, Guardião, Paladino\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nRevive uma criatura morta no último minuto com 1 Ponto de Vida.",
+    "source_page": "Lista de Magias e Truques!A103:I103",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Necromancia",
+      "classes": [
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-voo",
+    "name": "Voo",
+    "summary": "Concede deslocamento de Voo de 18 metros a uma criatura voluntária.",
+    "content": "Círculo: 3º Círculo\nEscola: Transmutação\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Concentração\n\nConcede deslocamento de Voo de 18 metros a uma criatura voluntária.",
+    "source_page": "Lista de Magias e Truques!A104:I104",
+    "metadata": {
+      "spell_level": 3,
+      "school": "Transmutação",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-assassino-fantasmagorico",
+    "name": "Assassino Fantasmagórico",
+    "summary": "Manifesta os piores medos do alvo causando Amedrontado e 4d10 de dano Psíquico.",
+    "content": "Círculo: 4º Círculo\nEscola: Ilusão\nClasses: Bardo, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: Concentração\n\nManifesta os piores medos do alvo causando Amedrontado e 4d10 de dano Psíquico.",
+    "source_page": "Lista de Magias e Truques!A105:I105",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-banimento",
+    "name": "Banimento",
+    "summary": "Bane uma criatura para um plano inofensivo ou seu plano nativo.",
+    "content": "Círculo: 4º Círculo\nEscola: Abjuração\nClasses: Bruxo, Clérigo, Feiticeiro, Mago, Paladino\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nBane uma criatura para um plano inofensivo ou seu plano nativo.",
+    "source_page": "Lista de Magias e Truques!A106:I106",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Abjuração",
+      "classes": [
+        "Bruxo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-confusao",
+    "name": "Confusão",
+    "summary": "Afeta a mente de criaturas em esfera de 3m, fazendo-as agir aleatoriamente.",
+    "content": "Círculo: 4º Círculo\nEscola: Encantamento\nClasses: Bardo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 27 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nAfeta a mente de criaturas em esfera de 3m, fazendo-as agir aleatoriamente.",
+    "source_page": "Lista de Magias e Truques!A107:I107",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "27 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-invisibilidade-maior",
+    "name": "Invisibilidade Maior",
+    "summary": "Torna o alvo Invisível por 1 minuto; a invisibilidade não acaba se ele atacar/conjurar.",
+    "content": "Círculo: 4º Círculo\nEscola: Ilusão\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S\nEspecial: Concentração\n\nTorna o alvo Invisível por 1 minuto; a invisibilidade não acaba se ele atacar/conjurar.",
+    "source_page": "Lista de Magias e Truques!A108:I108",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Ilusão",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-muralha-de-fogo",
+    "name": "Muralha de Fogo",
+    "summary": "Cria uma parede radiante de fogo de 18m que causa 5d8 de dano Ígneo.",
+    "content": "Círculo: 4º Círculo\nEscola: Evocação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCria uma parede radiante de fogo de 18m que causa 5d8 de dano Ígneo.",
+    "source_page": "Lista de Magias e Truques!A109:I109",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Evocação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-pele-rocha",
+    "name": "Pele-Rocha",
+    "summary": "Concede Resistência a dano Contundente, Cortante e Perfurante não mágico.",
+    "content": "Círculo: 4º Círculo\nEscola: Transmutação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Concentração, Material\n\nConcede Resistência a dano Contundente, Cortante e Perfurante não mágico.",
+    "source_page": "Lista de Magias e Truques!A110:I110",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Transmutação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Concentração, Material",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-polimorfia",
+    "name": "Polimorfia",
+    "summary": "Multimorfa uma criatura em uma Fera com Nível de Desafio igual ou inferior.",
+    "content": "Círculo: 4º Círculo\nEscola: Transmutação\nClasses: Bardo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nMultimorfa uma criatura em uma Fera com Nível de Desafio igual ou inferior.",
+    "source_page": "Lista de Magias e Truques!A111:I111",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-porta-dimensional",
+    "name": "Porta Dimensional",
+    "summary": "Teleporta o conjurador e até um acompanhante voluntário para qualquer local no alcance.",
+    "content": "Círculo: 4º Círculo\nEscola: Invocação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 150 metros\nComponentes: V\nEspecial: —\n\nTeleporta o conjurador e até um acompanhante voluntário para qualquer local no alcance.",
+    "source_page": "Lista de Magias e Truques!A112:I112",
+    "metadata": {
+      "spell_level": 4,
+      "school": "Invocação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "150 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-animar-objetos",
+    "name": "Animar Objetos",
+    "summary": "Concede vida temporária a até 10 objetos inanimados que obedecem a comandos.",
+    "content": "Círculo: 5º Círculo\nEscola: Transmutação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: Concentração\n\nConcede vida temporária a até 10 objetos inanimados que obedecem a comandos.",
+    "source_page": "Lista de Magias e Truques!A113:I113",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-circulo-de-teleporte",
+    "name": "Círculo de Teleporte",
+    "summary": "Abre um portal para um círculo de teleporte permanente conhecido.",
+    "content": "Círculo: 5º Círculo\nEscola: Invocação\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 minuto\nAlcance: 3 metros\nComponentes: V, M\nEspecial: Material\n\nAbre um portal para um círculo de teleporte permanente conhecido.",
+    "source_page": "Lista de Magias e Truques!A114:I114",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Invocação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 minuto",
+      "range": "3 metros",
+      "components": "V, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-cone-de-frio",
+    "name": "Cone de Frio",
+    "summary": "Ráfaga de ar gélido em cone causa 8d8 de dano Gélido.",
+    "content": "Círculo: 5º Círculo\nEscola: Evocação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Cone 18m)\nComponentes: V, S, M\nEspecial: —\n\nRáfaga de ar gélido em cone causa 8d8 de dano Gélido.",
+    "source_page": "Lista de Magias e Truques!A115:I115",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Evocação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Cone 18m)",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-curar-ferimentos-em-massa",
+    "name": "Curar Ferimentos em Massa",
+    "summary": "Restaura 5d8 + Mod. de Conjuração em PV para até 6 criaturas em esfera de 9m.",
+    "content": "Círculo: 5º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nRestaura 5d8 + Mod. de Conjuração em PV para até 6 criaturas em esfera de 9m.",
+    "source_page": "Lista de Magias e Truques!A116:I116",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-dominar-pessoa",
+    "name": "Dominar Pessoa",
+    "summary": "Controla telepaticamente as ações de um humanoide.",
+    "content": "Círculo: 5º Círculo\nEscola: Encantamento\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: Concentração\n\nControla telepaticamente as ações de um humanoide.",
+    "source_page": "Lista de Magias e Truques!A117:I117",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-estatica-sinaptica",
+    "name": "Estática Sináptica",
+    "summary": "Explosão psíquica em esfera de 6m causa 8d6 de dano Psíquico e penaliza testes.",
+    "content": "Círculo: 5º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S\nEspecial: —\n\nExplosão psíquica em esfera de 6m causa 8d6 de dano Psíquico e penaliza testes.",
+    "source_page": "Lista de Magias e Truques!A118:I118",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-mao-de-bigby",
+    "name": "Mão de Bigby",
+    "summary": "Cria mão de força Grande que pode soco, agarrar, empurrar ou proteger.",
+    "content": "Círculo: 5º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nCria mão de força Grande que pode soco, agarrar, empurrar ou proteger.",
+    "source_page": "Lista de Magias e Truques!A119:I119",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-restauracao-maior",
+    "name": "Restauração Maior",
+    "summary": "Remove petrificação, maldições, exaustão, redução de atributos ou PV máximos.",
+    "content": "Círculo: 5º Círculo\nEscola: Abjuração\nClasses: Bardo, Clérigo, Druida, Guardião, Paladino\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nRemove petrificação, maldições, exaustão, redução de atributos ou PV máximos.",
+    "source_page": "Lista de Magias e Truques!A120:I120",
+    "metadata": {
+      "spell_level": 5,
+      "school": "Abjuração",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida",
+        "Guardião",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-banquete-de-herois",
+    "name": "Banquete de Heróis",
+    "summary": "Banquete magnífico cura, concede imunidade a veneno/medo e aumenta PV máximos.",
+    "content": "Círculo: 6º Círculo\nEscola: Invocação\nClasses: Bardo, Clérigo, Druida\nTempo de conjuração: 10 minutos\nAlcance: Pessoal\nComponentes: V, S, M\nEspecial: Material\n\nBanquete magnífico cura, concede imunidade a veneno/medo e aumenta PV máximos.",
+    "source_page": "Lista de Magias e Truques!A121:I121",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Invocação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "10 minutos",
+      "range": "Pessoal",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-corrente-de-relampagos",
+    "name": "Corrente de Relâmpagos",
+    "summary": "Relâmpago primário de 10d8 ricocheteia para até 3 alvos secundários.",
+    "content": "Círculo: 6º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 45 metros\nComponentes: V, S, M\nEspecial: —\n\nRelâmpago primário de 10d8 ricocheteia para até 3 alvos secundários.",
+    "source_page": "Lista de Magias e Truques!A122:I122",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "45 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-cura-completa",
+    "name": "Cura Completa",
+    "summary": "Restaura 70 Pontos de Vida e encerra as condições Cego, Envenenado e Surdo.",
+    "content": "Círculo: 6º Círculo\nEscola: Abjuração\nClasses: Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nRestaura 70 Pontos de Vida e encerra as condições Cego, Envenenado e Surdo.",
+    "source_page": "Lista de Magias e Truques!A123:I123",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-desintegrar",
+    "name": "Desintegrar",
+    "summary": "Raio verde causa 10d6+40 de dano de Força; reduz a pó alvos reduzidos a 0 PV.",
+    "content": "Círculo: 6º Círculo\nEscola: Transmutação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: —\n\nRaio verde causa 10d6+40 de dano de Força; reduz a pó alvos reduzidos a 0 PV.",
+    "source_page": "Lista de Magias e Truques!A124:I124",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Transmutação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-globo-de-invulnerabilidade",
+    "name": "Globo de Invulnerabilidade",
+    "summary": "Esfera de força impede magias de 5º círculo ou inferior de afetar quem estiver dentro.",
+    "content": "Círculo: 6º Círculo\nEscola: Abjuração\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (3m)\nComponentes: V, S, M\nEspecial: Concentração\n\nEsfera de força impede magias de 5º círculo ou inferior de afetar quem estiver dentro.",
+    "source_page": "Lista de Magias e Truques!A125:I125",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Abjuração",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (3m)",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-raio-solar",
+    "name": "Raio Solar",
+    "summary": "Facho de luz solar causa 6d8 de dano Radiante e cega alvos a cada turno.",
+    "content": "Círculo: 6º Círculo\nEscola: Evocação\nClasses: Clérigo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Linha 18m)\nComponentes: V, S, M\nEspecial: Concentração\n\nFacho de luz solar causa 6d8 de dano Radiante e cega alvos a cada turno.",
+    "source_page": "Lista de Magias e Truques!A126:I126",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Linha 18m)",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-sugestao-em-massa",
+    "name": "Sugestão em Massa",
+    "summary": "Sugere um curso de ação razoável para até 12 criaturas por 24 horas.",
+    "content": "Círculo: 6º Círculo\nEscola: Encantamento\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, M\nEspecial: —\n\nSugere um curso de ação razoável para até 12 criaturas por 24 horas.",
+    "source_page": "Lista de Magias e Truques!A127:I127",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-visao-da-verdade",
+    "name": "Visão da Verdade",
+    "summary": "Concede Visão Verdadeira (enxerga invisível, ilusões, portas secretas e Plano Etéreo).",
+    "content": "Círculo: 6º Círculo\nEscola: Adivinhação\nClasses: Bardo, Bruxo, Clérigo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nConcede Visão Verdadeira (enxerga invisível, ilusões, portas secretas e Plano Etéreo).",
+    "source_page": "Lista de Magias e Truques!A128:I128",
+    "metadata": {
+      "spell_level": 6,
+      "school": "Adivinhação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Clérigo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-bola-de-fogo-adiavel",
+    "name": "Bola de Fogo Adiável",
+    "summary": "Esfera de fogo que acumula +1d6 por rodada antes de explodir (até 12d6+base).",
+    "content": "Círculo: 7º Círculo\nEscola: Evocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 45 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nEsfera de fogo que acumula +1d6 por rodada antes de explodir (até 12d6+base).",
+    "source_page": "Lista de Magias e Truques!A129:I129",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Evocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "45 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-carcere-de-energia",
+    "name": "Cárcere de Energia",
+    "summary": "Gaiola de força invisível aprisiona uma criatura sem permitir salvaguarda inicial.",
+    "content": "Círculo: 7º Círculo\nEscola: Evocação\nClasses: Bardo, Bruxo, Mago\nTempo de conjuração: 1 ação\nAlcance: 36 metros\nComponentes: V, S, M\nEspecial: Concentração, Material\n\nGaiola de força invisível aprisiona uma criatura sem permitir salvaguarda inicial.",
+    "source_page": "Lista de Magias e Truques!A130:I130",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Evocação",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "36 metros",
+      "components": "V, S, M",
+      "special": "Concentração, Material",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-dedo-da-morte",
+    "name": "Dedo da Morte",
+    "summary": "Emanação de energia necrótica causa 7d8+30 de dano Necrótico; alvos mortos viram zumbis.",
+    "content": "Círculo: 7º Círculo\nEscola: Necromancia\nClasses: Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nEmanação de energia necrótica causa 7d8+30 de dano Necrótico; alvos mortos viram zumbis.",
+    "source_page": "Lista de Magias e Truques!A131:I131",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Necromancia",
+      "classes": [
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-regeneracao",
+    "name": "Regeneração",
+    "summary": "Recupera 4d8+15 PV e restaura 1 PV por rodada por 1 hora, regrowing membros decepados.",
+    "content": "Círculo: 7º Círculo\nEscola: Transmutação\nClasses: Bardo, Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: —\n\nRecupera 4d8+15 PV e restaura 1 PV por rodada por 1 hora, regrowing membros decepados.",
+    "source_page": "Lista de Magias e Truques!A132:I132",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-teleporte",
+    "name": "Teleporte",
+    "summary": "Teleporta instantaneamente o conjurador e até 8 alvos para qualquer local conhecido no mesmo plano.",
+    "content": "Círculo: 7º Círculo\nEscola: Invocação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 3 metros\nComponentes: V\nEspecial: —\n\nTeleporta instantaneamente o conjurador e até 8 alvos para qualquer local conhecido no mesmo plano.",
+    "source_page": "Lista de Magias e Truques!A133:I133",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Invocação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "3 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-transicao-planar",
+    "name": "Transição Planar",
+    "summary": "Transporta até 8 criaturas para outro plano de existência.",
+    "content": "Círculo: 7º Círculo\nEscola: Invocação\nClasses: Bruxo, Clérigo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nTransporta até 8 criaturas para outro plano de existência.",
+    "source_page": "Lista de Magias e Truques!A134:I134",
+    "metadata": {
+      "spell_level": 7,
+      "school": "Invocação",
+      "classes": [
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Bruxo",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-campo-antimagia",
+    "name": "Campo Antimagia",
+    "summary": "Esfera de 3m suprime totalmente magias, itens mágicos e efeitos arcanos.",
+    "content": "Círculo: 8º Círculo\nEscola: Abjuração\nClasses: Clérigo, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal (Esfera 3m)\nComponentes: V, S, M\nEspecial: Concentração\n\nEsfera de 3m suprime totalmente magias, itens mágicos e efeitos arcanos.",
+    "source_page": "Lista de Magias e Truques!A135:I135",
+    "metadata": {
+      "spell_level": 8,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal (Esfera 3m)",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-dominar-monstro",
+    "name": "Dominar Monstro",
+    "summary": "Controla telepaticamente as ações de qualquer criatura (salvaguarda de Sabedoria).",
+    "content": "Círculo: 8º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: Concentração\n\nControla telepaticamente as ações de qualquer criatura (salvaguarda de Sabedoria).",
+    "source_page": "Lista de Magias e Truques!A136:I136",
+    "metadata": {
+      "spell_level": 8,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-explosao-solar",
+    "name": "Explosão Solar",
+    "summary": "Luz solar intensa em esfera de 18m causa 12d6 de dano Radiante e cega alvos.",
+    "content": "Círculo: 8º Círculo\nEscola: Evocação\nClasses: Clérigo, Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 45 metros\nComponentes: V, S, M\nEspecial: —\n\nLuz solar intensa em esfera de 18m causa 12d6 de dano Radiante e cega alvos.",
+    "source_page": "Lista de Magias e Truques!A137:I137",
+    "metadata": {
+      "spell_level": 8,
+      "school": "Evocação",
+      "classes": [
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "45 metros",
+      "components": "V, S, M",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-palavra-de-poder-atordoar",
+    "name": "Palavra de Poder: Atordoar",
+    "summary": "Atordoa instantaneamente uma criatura com 150 PV ou menos.",
+    "content": "Círculo: 8º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nAtordoa instantaneamente uma criatura com 150 PV ou menos.",
+    "source_page": "Lista de Magias e Truques!A138:I138",
+    "metadata": {
+      "spell_level": 8,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-terremoto",
+    "name": "Terremoto",
+    "summary": "Tremor de terra devastador derruba estruturas e criaturas em um raio de 30m.",
+    "content": "Círculo: 8º Círculo\nEscola: Transmutação\nClasses: Clérigo, Druida\nTempo de conjuração: 1 ação\nAlcance: 150 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nTremor de terra devastador derruba estruturas e criaturas em um raio de 30m.",
+    "source_page": "Lista de Magias e Truques!A139:I139",
+    "metadata": {
+      "spell_level": 8,
+      "school": "Transmutação",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 ação",
+      "range": "150 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-chuva-de-meteoros",
+    "name": "Chuva de Meteoros",
+    "summary": "4 orbes flamejantes causam 20d6 de dano Ígneo + 20d6 de dano Contundente em áreas de 12m.",
+    "content": "Círculo: 9º Círculo\nEscola: Evocação\nClasses: Mago\nTempo de conjuração: 1 ação\nAlcance: 1,5 km\nComponentes: V, S\nEspecial: —\n\n4 orbes flamejantes causam 20d6 de dano Ígneo + 20d6 de dano Contundente em áreas de 12m.",
+    "source_page": "Lista de Magias e Truques!A140:I140",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Evocação",
+      "classes": [
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "1,5 km",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-cura-completa-em-massa",
+    "name": "Cura Completa em Massa",
+    "summary": "Restaura até 700 Pontos de Vida distribuídos entre alvos e cura todas as condições.",
+    "content": "Círculo: 9º Círculo\nEscola: Abjuração\nClasses: Clérigo\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S\nEspecial: —\n\nRestaura até 700 Pontos de Vida distribuídos entre alvos e cura todas as condições.",
+    "source_page": "Lista de Magias e Truques!A141:I141",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Abjuração",
+      "classes": [
+        "Clérigo"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-desejo",
+    "name": "Desejo",
+    "summary": "A magia mortal mais poderosa: reescreve a própria realidade ou replica qualquer magia até 8º círculo.",
+    "content": "Círculo: 9º Círculo\nEscola: Invocação\nClasses: Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V\nEspecial: —\n\nA magia mortal mais poderosa: reescreve a própria realidade ou replica qualquer magia até 8º círculo.",
+    "source_page": "Lista de Magias e Truques!A142:I142",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Invocação",
+      "classes": [
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-metamorfose",
+    "name": "Metamorfose",
+    "summary": "Transforma uma criatura em qualquer outra criatura do multiverso por 1 hora.",
+    "content": "Círculo: 9º Círculo\nEscola: Transmutação\nClasses: Druida, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Concentração, Material\n\nTransforma uma criatura em qualquer outra criatura do multiverso por 1 hora.",
+    "source_page": "Lista de Magias e Truques!A143:I143",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Transmutação",
+      "classes": [
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Concentração, Material",
+      "tags": [
+        "Magias",
+        "Druida",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-palavra-de-poder-matar",
+    "name": "Palavra de Poder: Matar",
+    "summary": "Mata instantaneamente uma criatura com 100 Pontos de Vida ou menos sem salvaguarda.",
+    "content": "Círculo: 9º Círculo\nEscola: Encantamento\nClasses: Bardo, Bruxo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V\nEspecial: —\n\nMata instantaneamente uma criatura com 100 Pontos de Vida ou menos sem salvaguarda.",
+    "source_page": "Lista de Magias e Truques!A144:I144",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Encantamento",
+      "classes": [
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Bruxo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-parar-o-tempo",
+    "name": "Parar o Tempo",
+    "summary": "Para o tempo brevemente para todos, exceto o conjurador, concedendo 1d4+1 turnos seguidos.",
+    "content": "Círculo: 9º Círculo\nEscola: Transmutação\nClasses: Mago\nTempo de conjuração: 1 ação\nAlcance: Pessoal\nComponentes: V\nEspecial: —\n\nPara o tempo brevemente para todos, exceto o conjurador, concedendo 1d4+1 turnos seguidos.",
+    "source_page": "Lista de Magias e Truques!A145:I145",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Transmutação",
+      "classes": [
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "Pessoal",
+      "components": "V",
+      "special": "—",
+      "tags": [
+        "Magias",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-polimorfia-total",
+    "name": "Polimorfia Total",
+    "summary": "Transforma uma criatura em outra criatura/objeto ou vice-versa; torna-se permanente se mantida.",
+    "content": "Círculo: 9º Círculo\nEscola: Transmutação\nClasses: Bardo, Feiticeiro, Mago\nTempo de conjuração: 1 ação\nAlcance: 18 metros\nComponentes: V, S, M\nEspecial: Concentração\n\nTransforma uma criatura em outra criatura/objeto ou vice-versa; torna-se permanente se mantida.",
+    "source_page": "Lista de Magias e Truques!A146:I146",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Transmutação",
+      "classes": [
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "casting_time": "1 ação",
+      "range": "18 metros",
+      "components": "V, S, M",
+      "special": "Concentração",
+      "tags": [
+        "Magias",
+        "Bardo",
+        "Feiticeiro",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "spell",
+    "slug": "spell-ressurreicao-verdadeira",
+    "name": "Ressurreição Verdadeira",
+    "summary": "Revive uma criatura morta há até 200 anos com PV cheios e cria um novo corpo se necessário.",
+    "content": "Círculo: 9º Círculo\nEscola: Necromancia\nClasses: Clérigo, Druida\nTempo de conjuração: 1 hora\nAlcance: Toque\nComponentes: V, S, M\nEspecial: Material\n\nRevive uma criatura morta há até 200 anos com PV cheios e cria um novo corpo se necessário.",
+    "source_page": "Lista de Magias e Truques!A147:I147",
+    "metadata": {
+      "spell_level": 9,
+      "school": "Necromancia",
+      "classes": [
+        "Clérigo",
+        "Druida"
+      ],
+      "casting_time": "1 hora",
+      "range": "Toque",
+      "components": "V, S, M",
+      "special": "Material",
+      "tags": [
+        "Magias",
+        "Clérigo",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-lua-nivel-3",
+    "name": "Círculo da Lua — magias do nível 3",
+    "summary": "Curar Ferimentos, Fagulha Estelar, Raio Lunar",
+    "content": "Classe: Druida\nSubclasse: Círculo da Lua\nAquisição: Nível 3\nMagias concedidas: Curar Ferimentos, Fagulha Estelar, Raio Lunar\n\nMagias de Círculo Druídico (sempre preparadas, conjuráveis em Forma Selvagem).",
+    "source_page": "Magias de Subclasses!A6:E6",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Lua",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Curar Ferimentos, Fagulha Estelar, Raio Lunar",
+      "notes": "Magias de Círculo Druídico (sempre preparadas, conjuráveis em Forma Selvagem).",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Lua"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-lua-nivel-5",
+    "name": "Círculo da Lua — magias do nível 5",
+    "summary": "Invocar Animais",
+    "content": "Classe: Druida\nSubclasse: Círculo da Lua\nAquisição: Nível 5\nMagias concedidas: Invocar Animais\n\nMagia do Círculo da Lua.",
+    "source_page": "Magias de Subclasses!A7:E7",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Lua",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Invocar Animais",
+      "notes": "Magia do Círculo da Lua.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Lua"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-lua-nivel-7",
+    "name": "Círculo da Lua — magias do nível 7",
+    "summary": "Fonte do Luar",
+    "content": "Classe: Druida\nSubclasse: Círculo da Lua\nAquisição: Nível 7\nMagias concedidas: Fonte do Luar\n\nMagia do Círculo da Lua.",
+    "source_page": "Magias de Subclasses!A8:E8",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Lua",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Fonte do Luar",
+      "notes": "Magia do Círculo da Lua.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Lua"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-lua-nivel-9",
+    "name": "Círculo da Lua — magias do nível 9",
+    "summary": "Curar Ferimentos em Massa",
+    "content": "Classe: Druida\nSubclasse: Círculo da Lua\nAquisição: Nível 9\nMagias concedidas: Curar Ferimentos em Massa\n\nMagia do Círculo da Lua.",
+    "source_page": "Magias de Subclasses!A9:E9",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Lua",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Curar Ferimentos em Massa",
+      "notes": "Magia do Círculo da Lua.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Lua"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-arido-nivel-3",
+    "name": "Círculo da Terra (Árido) — magias do nível 3",
+    "summary": "Mãos Flamejantes, Raio de Fogo, Turvar",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Árido)\nAquisição: Nível 3\nMagias concedidas: Mãos Flamejantes, Raio de Fogo, Turvar\n\nEscolha de Terreno Árido após descanso longo.",
+    "source_page": "Magias de Subclasses!A10:E10",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Árido)",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Mãos Flamejantes, Raio de Fogo, Turvar",
+      "notes": "Escolha de Terreno Árido após descanso longo.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Árido)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-arido-nivel-5",
+    "name": "Círculo da Terra (Árido) — magias do nível 5",
+    "summary": "Bola de Fogo",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Árido)\nAquisição: Nível 5\nMagias concedidas: Bola de Fogo\n\nEscolha de Terreno Árido.",
+    "source_page": "Magias de Subclasses!A11:E11",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Árido)",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Bola de Fogo",
+      "notes": "Escolha de Terreno Árido.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Árido)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-arido-nivel-7",
+    "name": "Círculo da Terra (Árido) — magias do nível 7",
+    "summary": "Malogro",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Árido)\nAquisição: Nível 7\nMagias concedidas: Malogro\n\nEscolha de Terreno Árido.",
+    "source_page": "Magias de Subclasses!A12:E12",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Árido)",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Malogro",
+      "notes": "Escolha de Terreno Árido.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Árido)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-arido-nivel-9",
+    "name": "Círculo da Terra (Árido) — magias do nível 9",
+    "summary": "Muralha de Pedra",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Árido)\nAquisição: Nível 9\nMagias concedidas: Muralha de Pedra\n\nEscolha de Terreno Árido.",
+    "source_page": "Magias de Subclasses!A13:E13",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Árido)",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Muralha de Pedra",
+      "notes": "Escolha de Terreno Árido.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Árido)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-polar-nivel-3",
+    "name": "Círculo da Terra (Polar) — magias do nível 3",
+    "summary": "Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Polar)\nAquisição: Nível 3\nMagias concedidas: Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo\n\nEscolha de Terreno Polar após descanso longo.",
+    "source_page": "Magias de Subclasses!A14:E14",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Polar)",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo",
+      "notes": "Escolha de Terreno Polar após descanso longo.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Polar)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-polar-nivel-5",
+    "name": "Círculo da Terra (Polar) — magias do nível 5",
+    "summary": "Nevasca",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Polar)\nAquisição: Nível 5\nMagias concedidas: Nevasca\n\nEscolha de Terreno Polar.",
+    "source_page": "Magias de Subclasses!A15:E15",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Polar)",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Nevasca",
+      "notes": "Escolha de Terreno Polar.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Polar)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-polar-nivel-7",
+    "name": "Círculo da Terra (Polar) — magias do nível 7",
+    "summary": "Tempestade Glacial",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Polar)\nAquisição: Nível 7\nMagias concedidas: Tempestade Glacial\n\nEscolha de Terreno Polar.",
+    "source_page": "Magias de Subclasses!A16:E16",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Polar)",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Tempestade Glacial",
+      "notes": "Escolha de Terreno Polar.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Polar)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-polar-nivel-9",
+    "name": "Círculo da Terra (Polar) — magias do nível 9",
+    "summary": "Cone de Frio",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Polar)\nAquisição: Nível 9\nMagias concedidas: Cone de Frio\n\nEscolha de Terreno Polar.",
+    "source_page": "Magias de Subclasses!A17:E17",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Polar)",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Cone de Frio",
+      "notes": "Escolha de Terreno Polar.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Polar)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-temperado-nivel-3",
+    "name": "Círculo da Terra (Temperado) — magias do nível 3",
+    "summary": "Passo Nebuloso, Sono, Toque Chocante",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Temperado)\nAquisição: Nível 3\nMagias concedidas: Passo Nebuloso, Sono, Toque Chocante\n\nEscolha de Terreno Temperado após descanso longo.",
+    "source_page": "Magias de Subclasses!A18:E18",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Temperado)",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Passo Nebuloso, Sono, Toque Chocante",
+      "notes": "Escolha de Terreno Temperado após descanso longo.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Temperado)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-temperado-nivel-5",
+    "name": "Círculo da Terra (Temperado) — magias do nível 5",
+    "summary": "Relâmpago",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Temperado)\nAquisição: Nível 5\nMagias concedidas: Relâmpago\n\nEscolha de Terreno Temperado.",
+    "source_page": "Magias de Subclasses!A19:E19",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Temperado)",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Relâmpago",
+      "notes": "Escolha de Terreno Temperado.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Temperado)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-temperado-nivel-7",
+    "name": "Círculo da Terra (Temperado) — magias do nível 7",
+    "summary": "Movimentação Livre",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Temperado)\nAquisição: Nível 7\nMagias concedidas: Movimentação Livre\n\nEscolha de Terreno Temperado.",
+    "source_page": "Magias de Subclasses!A20:E20",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Temperado)",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Movimentação Livre",
+      "notes": "Escolha de Terreno Temperado.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Temperado)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-temperado-nivel-9",
+    "name": "Círculo da Terra (Temperado) — magias do nível 9",
+    "summary": "Passo Arbóreo",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Temperado)\nAquisição: Nível 9\nMagias concedidas: Passo Arbóreo\n\nEscolha de Terreno Temperado.",
+    "source_page": "Magias de Subclasses!A21:E21",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Temperado)",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Passo Arbóreo",
+      "notes": "Escolha de Terreno Temperado.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Temperado)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-tropical-nivel-3",
+    "name": "Círculo da Terra (Tropical) — magias do nível 3",
+    "summary": "Bolha Ácida, Raio Nauseante, Teia",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Tropical)\nAquisição: Nível 3\nMagias concedidas: Bolha Ácida, Raio Nauseante, Teia\n\nEscolha de Terreno Tropical após descanso longo.",
+    "source_page": "Magias de Subclasses!A22:E22",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Tropical)",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Bolha Ácida, Raio Nauseante, Teia",
+      "notes": "Escolha de Terreno Tropical após descanso longo.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Tropical)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-tropical-nivel-5",
+    "name": "Círculo da Terra (Tropical) — magias do nível 5",
+    "summary": "Nuvem Fétida",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Tropical)\nAquisição: Nível 5\nMagias concedidas: Nuvem Fétida\n\nEscolha de Terreno Tropical.",
+    "source_page": "Magias de Subclasses!A23:E23",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Tropical)",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Nuvem Fétida",
+      "notes": "Escolha de Terreno Tropical.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Tropical)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-tropical-nivel-7",
+    "name": "Círculo da Terra (Tropical) — magias do nível 7",
+    "summary": "Polimorfia",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Tropical)\nAquisição: Nível 7\nMagias concedidas: Polimorfia\n\nEscolha de Terreno Tropical.",
+    "source_page": "Magias de Subclasses!A24:E24",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Tropical)",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Polimorfia",
+      "notes": "Escolha de Terreno Tropical.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Tropical)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-druida-circulo-da-terra-tropical-nivel-9",
+    "name": "Círculo da Terra (Tropical) — magias do nível 9",
+    "summary": "Praga de Insetos",
+    "content": "Classe: Druida\nSubclasse: Círculo da Terra (Tropical)\nAquisição: Nível 9\nMagias concedidas: Praga de Insetos\n\nEscolha de Terreno Tropical.",
+    "source_page": "Magias de Subclasses!A25:E25",
+    "metadata": {
+      "class_name": "Druida",
+      "subclass_name": "Círculo da Terra (Tropical)",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Praga de Insetos",
+      "notes": "Escolha de Terreno Tropical.",
+      "tags": [
+        "Magias de subclasses",
+        "Druida",
+        "Círculo da Terra (Tropical)"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-clerigo-dominio-da-luz-nivel-3",
+    "name": "Domínio da Luz — magias do nível 3",
+    "summary": "Mãos Flamejantes, Raio Guia, Esfera Flamejante, Raio Ardente",
+    "content": "Classe: Clérigo\nSubclasse: Domínio da Luz\nAquisição: Nível 3\nMagias concedidas: Mãos Flamejantes, Raio Guia, Esfera Flamejante, Raio Ardente\n\nMagias de Domínio (sempre preparadas).",
+    "source_page": "Magias de Subclasses!A26:E26",
+    "metadata": {
+      "class_name": "Clérigo",
+      "subclass_name": "Domínio da Luz",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Mãos Flamejantes, Raio Guia, Esfera Flamejante, Raio Ardente",
+      "notes": "Magias de Domínio (sempre preparadas).",
+      "tags": [
+        "Magias de subclasses",
+        "Clérigo",
+        "Domínio da Luz"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-clerigo-dominio-da-luz-nivel-5",
+    "name": "Domínio da Luz — magias do nível 5",
+    "summary": "Bola de Fogo, Luz do Dia",
+    "content": "Classe: Clérigo\nSubclasse: Domínio da Luz\nAquisição: Nível 5\nMagias concedidas: Bola de Fogo, Luz do Dia\n\nMagias de Domínio.",
+    "source_page": "Magias de Subclasses!A27:E27",
+    "metadata": {
+      "class_name": "Clérigo",
+      "subclass_name": "Domínio da Luz",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Bola de Fogo, Luz do Dia",
+      "notes": "Magias de Domínio.",
+      "tags": [
+        "Magias de subclasses",
+        "Clérigo",
+        "Domínio da Luz"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-clerigo-dominio-da-luz-nivel-7",
+    "name": "Domínio da Luz — magias do nível 7",
+    "summary": "Escudo Ardente, Muralha de Fogo",
+    "content": "Classe: Clérigo\nSubclasse: Domínio da Luz\nAquisição: Nível 7\nMagias concedidas: Escudo Ardente, Muralha de Fogo\n\nMagias de Domínio.",
+    "source_page": "Magias de Subclasses!A28:E28",
+    "metadata": {
+      "class_name": "Clérigo",
+      "subclass_name": "Domínio da Luz",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Escudo Ardente, Muralha de Fogo",
+      "notes": "Magias de Domínio.",
+      "tags": [
+        "Magias de subclasses",
+        "Clérigo",
+        "Domínio da Luz"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-clerigo-dominio-da-luz-nivel-9",
+    "name": "Domínio da Luz — magias do nível 9",
+    "summary": "Coluna de Chamas, Explosão Solar",
+    "content": "Classe: Clérigo\nSubclasse: Domínio da Luz\nAquisição: Nível 9\nMagias concedidas: Coluna de Chamas, Explosão Solar\n\nMagias de Domínio.",
+    "source_page": "Magias de Subclasses!A29:E29",
+    "metadata": {
+      "class_name": "Clérigo",
+      "subclass_name": "Domínio da Luz",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Coluna de Chamas, Explosão Solar",
+      "notes": "Magias de Domínio.",
+      "tags": [
+        "Magias de subclasses",
+        "Clérigo",
+        "Domínio da Luz"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-arquifada-nivel-3",
+    "name": "Patrono Arquifada — magias do nível 3",
+    "summary": "Fogo das Fadas, Sono, Invisibilidade, Passo Nebuloso",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Arquifada\nAquisição: Nível 3\nMagias concedidas: Fogo das Fadas, Sono, Invisibilidade, Passo Nebuloso\n\nMagias da Arquifada (sempre preparadas).",
+    "source_page": "Magias de Subclasses!A30:E30",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Arquifada",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Fogo das Fadas, Sono, Invisibilidade, Passo Nebuloso",
+      "notes": "Magias da Arquifada (sempre preparadas).",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Arquifada"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-arquifada-nivel-5",
+    "name": "Patrono Arquifada — magias do nível 5",
+    "summary": "Padrão Hipnótico, Convocar Feérico",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Arquifada\nAquisição: Nível 5\nMagias concedidas: Padrão Hipnótico, Convocar Feérico\n\nMagias da Arquifada.",
+    "source_page": "Magias de Subclasses!A31:E31",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Arquifada",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Padrão Hipnótico, Convocar Feérico",
+      "notes": "Magias da Arquifada.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Arquifada"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-arquifada-nivel-7",
+    "name": "Patrono Arquifada — magias do nível 7",
+    "summary": "Dominar Fera, Invisibilidade Maior",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Arquifada\nAquisição: Nível 7\nMagias concedidas: Dominar Fera, Invisibilidade Maior\n\nMagias da Arquifada.",
+    "source_page": "Magias de Subclasses!A32:E32",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Arquifada",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Dominar Fera, Invisibilidade Maior",
+      "notes": "Magias da Arquifada.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Arquifada"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-arquifada-nivel-9",
+    "name": "Patrono Arquifada — magias do nível 9",
+    "summary": "Dominar Pessoa, Passo Arbóreo",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Arquifada\nAquisição: Nível 9\nMagias concedidas: Dominar Pessoa, Passo Arbóreo\n\nMagias da Arquifada.",
+    "source_page": "Magias de Subclasses!A33:E33",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Arquifada",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Dominar Pessoa, Passo Arbóreo",
+      "notes": "Magias da Arquifada.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Arquifada"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-infero-nivel-3",
+    "name": "Patrono Ínfero — magias do nível 3",
+    "summary": "Mãos Flamejantes, Repreensão Diabólica, Cegueira/Surdez, Esfera Flamejante",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Ínfero\nAquisição: Nível 3\nMagias concedidas: Mãos Flamejantes, Repreensão Diabólica, Cegueira/Surdez, Esfera Flamejante\n\nMagias do Ínfero (sempre preparadas).",
+    "source_page": "Magias de Subclasses!A34:E34",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Ínfero",
+      "acquisition_level": "Nível 3",
+      "granted_spells": "Mãos Flamejantes, Repreensão Diabólica, Cegueira/Surdez, Esfera Flamejante",
+      "notes": "Magias do Ínfero (sempre preparadas).",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Ínfero"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-infero-nivel-5",
+    "name": "Patrono Ínfero — magias do nível 5",
+    "summary": "Bola de Fogo, Nuvem Fétida",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Ínfero\nAquisição: Nível 5\nMagias concedidas: Bola de Fogo, Nuvem Fétida\n\nMagias do Ínfero.",
+    "source_page": "Magias de Subclasses!A35:E35",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Ínfero",
+      "acquisition_level": "Nível 5",
+      "granted_spells": "Bola de Fogo, Nuvem Fétida",
+      "notes": "Magias do Ínfero.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Ínfero"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-infero-nivel-7",
+    "name": "Patrono Ínfero — magias do nível 7",
+    "summary": "Escudo Ardente, Muralha de Fogo",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Ínfero\nAquisição: Nível 7\nMagias concedidas: Escudo Ardente, Muralha de Fogo\n\nMagias do Ínfero.",
+    "source_page": "Magias de Subclasses!A36:E36",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Ínfero",
+      "acquisition_level": "Nível 7",
+      "granted_spells": "Escudo Ardente, Muralha de Fogo",
+      "notes": "Magias do Ínfero.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Ínfero"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "subclass-spells-bruxo-patrono-infero-nivel-9",
+    "name": "Patrono Ínfero — magias do nível 9",
+    "summary": "Névoa Mortal, Praga de Insetos",
+    "content": "Classe: Bruxo\nSubclasse: Patrono Ínfero\nAquisição: Nível 9\nMagias concedidas: Névoa Mortal, Praga de Insetos\n\nMagias do Ínfero.",
+    "source_page": "Magias de Subclasses!A37:E37",
+    "metadata": {
+      "class_name": "Bruxo",
+      "subclass_name": "Patrono Ínfero",
+      "acquisition_level": "Nível 9",
+      "granted_spells": "Névoa Mortal, Praga de Insetos",
+      "notes": "Magias do Ínfero.",
+      "tags": [
+        "Magias de subclasses",
+        "Bruxo",
+        "Patrono Ínfero"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-bardo",
+    "name": "Bardo — magias por círculo na planilha",
+    "summary": "13 truques e 55 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 13\n1º círculo: 13\n2º círculo: 13\n3º círculo: 8\n4º círculo: 5\n5º círculo: 6\n6º círculo: 3\n7º círculo: 3\n8º círculo: 2\n9º círculo: 2\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!B5:B16",
+    "metadata": {
+      "class_name": "Bardo",
+      "counts_by_level": [
+        13,
+        13,
+        13,
+        8,
+        5,
+        6,
+        3,
+        3,
+        2,
+        2
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Bardo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-bruxo",
+    "name": "Bruxo — magias por círculo na planilha",
+    "summary": "12 truques e 28 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 12\n1º círculo: 7\n2º círculo: 5\n3º círculo: 5\n4º círculo: 2\n5º círculo: 2\n6º círculo: 1\n7º círculo: 3\n8º círculo: 2\n9º círculo: 1\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!C5:C16",
+    "metadata": {
+      "class_name": "Bruxo",
+      "counts_by_level": [
+        12,
+        7,
+        5,
+        5,
+        2,
+        2,
+        1,
+        3,
+        2,
+        1
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Bruxo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-clerigo",
+    "name": "Clérigo — magias por círculo na planilha",
+    "summary": "9 truques e 38 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 9\n1º círculo: 9\n2º círculo: 8\n3º círculo: 7\n4º círculo: 1\n5º círculo: 2\n6º círculo: 4\n7º círculo: 2\n8º círculo: 3\n9º círculo: 2\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!D5:D16",
+    "metadata": {
+      "class_name": "Clérigo",
+      "counts_by_level": [
+        9,
+        9,
+        8,
+        7,
+        1,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Clérigo"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-druida",
+    "name": "Druida — magias por círculo na planilha",
+    "summary": "13 truques e 37 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 13\n1º círculo: 9\n2º círculo: 9\n3º círculo: 3\n4º círculo: 4\n5º círculo: 3\n6º círculo: 3\n7º círculo: 2\n8º círculo: 2\n9º círculo: 2\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!E5:E16",
+    "metadata": {
+      "class_name": "Druida",
+      "counts_by_level": [
+        13,
+        9,
+        9,
+        3,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Druida"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-feiticeiro",
+    "name": "Feiticeiro — magias por círculo na planilha",
+    "summary": "20 truques e 63 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 20\n1º círculo: 11\n2º círculo: 12\n3º círculo: 10\n4º círculo: 7\n5º círculo: 6\n6º círculo: 6\n7º círculo: 4\n8º círculo: 3\n9º círculo: 4\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!F5:F16",
+    "metadata": {
+      "class_name": "Feiticeiro",
+      "counts_by_level": [
+        20,
+        11,
+        12,
+        10,
+        7,
+        6,
+        6,
+        4,
+        3,
+        4
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Feiticeiro"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-guardiao",
+    "name": "Guardião — magias por círculo na planilha",
+    "summary": "0 truques e 13 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 0\n1º círculo: 6\n2º círculo: 4\n3º círculo: 2\n4º círculo: 0\n5º círculo: 1\n6º círculo: 0\n7º círculo: 0\n8º círculo: 0\n9º círculo: 0\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!G5:G16",
+    "metadata": {
+      "class_name": "Guardião",
+      "counts_by_level": [
+        0,
+        6,
+        4,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Guardião"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-mago",
+    "name": "Mago — magias por círculo na planilha",
+    "summary": "20 truques e 71 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 20\n1º círculo: 13\n2º círculo: 11\n3º círculo: 12\n4º círculo: 8\n5º círculo: 6\n6º círculo: 6\n7º círculo: 5\n8º círculo: 4\n9º círculo: 6\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!H5:H16",
+    "metadata": {
+      "class_name": "Mago",
+      "counts_by_level": [
+        20,
+        13,
+        11,
+        12,
+        8,
+        6,
+        6,
+        5,
+        4,
+        6
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Mago"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "spell-access-paladino",
+    "name": "Paladino — magias por círculo na planilha",
+    "summary": "0 truques e 12 magias de 1º a 9º círculo nesta planilha.",
+    "content": "Truques: 0\n1º círculo: 5\n2º círculo: 3\n3º círculo: 2\n4º círculo: 1\n5º círculo: 1\n6º círculo: 0\n7º círculo: 0\n8º círculo: 0\n9º círculo: 0\n\nContagem calculada a partir da lista fornecida; não representa quantas magias o personagem conhece ou prepara.",
+    "source_page": "Magias por Classe!I5:I16",
+    "metadata": {
+      "class_name": "Paladino",
+      "counts_by_level": [
+        0,
+        5,
+        3,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "derived_from": "Lista de Magias e Truques!A9:I147",
+      "tags": [
+        "Catálogo de magias",
+        "Paladino"
+      ],
+      "source_file": "magias_e_truques_dnd_2024.xlsx",
+      "source_sha256": "61c5840a593909002f56d2731f2c7d4a1ae5025cd000bf0352783c252db3c822",
+      "automation": "reference_only"
+    }
+  }
+]
