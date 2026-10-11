@@ -28,6 +28,12 @@ O navegador usa apenas a chave publicável do Supabase. Não é necessário colo
 
 Tabelas: `dnd_tables`, `dnd_players`, `dnd_sheets`. Todas possuem RLS e integram a publicação `supabase_realtime`.
 
+### Retratos, mapa e cutscenes
+
+A migração `20261011070000_table_media.sql` cria os buckets privados, metadados, projeções atuais, políticas RLS e operações transacionais de mídia. Retratos aceitam até 5 MB; mapas e cutscenes, até 15 MB. Todos aceitam somente JPEG, PNG e WebP. A interface usa URLs assinadas temporárias, mantém mapa e retrato persistidos e sincroniza a cutscene ativa por Realtime.
+
+O mestre gerencia mapa e cutscenes em **Mapa e cenas**. O retrato é gerenciado dentro da ficha pelo mestre ou jogador responsável. O teste transacional `tests/media-permissions.sql` cobre mestre, jogador responsável e intruso; execute-o no SQL Editor em um ambiente de validação. A validação final de latência, reconexão e dispensa local requer duas contas reais.
+
 ### Glossário e level-up
 
 O nível é somente leitura e novas fichas começam em 1. O modal informa
