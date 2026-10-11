@@ -30,6 +30,26 @@ Tabelas: `dnd_tables`, `dnd_players`, `dnd_sheets`. Todas possuem RLS e integram
 
 ### Glossário e level-up
 
+A aba **Características** na ficha mostra níveis, nomes e recursos: adquiridos,
+prévia do próximo nível e progressão futura. Pedidos aguardando aprovação ficam
+separados dos ganhos adquiridos. As descrições completas ficam para o futuro
+Oráculo. Recursos por nível são referências, não valores cumulativos.
+
+Classe usa dropdown do catálogo e fica protegida quando há progressão ou pedido
+pendente. Nomes legados desconhecidos aparecem em **Progressão → Classes
+aguardando avaliação** para o mestre manter o nome ou mapear para uma classe
+cadastrada. A decisão e seu autor são registrados na ficha. Uma classe
+personalizada aprovada permanece sem level-up automático até ter catálogo.
+Subclasse continua somente leitura e é escolhida no level-up.
+
+As migrações `20261011045451_class_review_guards.sql` e
+`20261011045726_progression_read_access.sql` protegem a avaliação do mestre,
+validam a identidade de classe/subclasse e permitem ao jogador consultar apenas
+a progressão das fichas às quais já tem acesso. Foram aplicadas no Supabase.
+Testes: `npm test`, `npm run check` e `tests/class-review.sql` (com rollback).
+Os testes de interface verificam o HTML gerado; não substituem validação visual
+no navegador com duas contas reais.
+
 Subclasses: a migração `20261011022314_subclass_progression.sql` cria `dnd_subclasses`, `dnd_subclass_levels` e `dnd_subclass_level_grants`. Cada classe do personagem e pedido de level-up guarda `subclass_id`, com chave estrangeira composta que impede combinar classes incompatíveis. A escolha é obrigatória a partir de `dnd_classes.subclass_level` (3 no catálogo atual), persiste na aprovação e não pode ser trocada pelo fluxo de level-up. Pedidos antigos sem a escolha obrigatória precisam ser rejeitados e refeitos. O campo textual da ficha passa a ser somente leitura; fichas legadas confirmam a subclasse no próximo level-up.
 
 O catálogo da planilha D&D 2024 foi importado com 12 classes, 48 subclasses, 240 progressões de classe e 184 características de subclasses. O seed reproduzível e sua documentação estão em `supabase/seeds/`. A estrutura agrega características vinculadas em `dnd_subclass_level_grants` ao histórico. Os textos são referências da planilha, não regras completas; o fluxo não automatiza efeitos mecânicos individuais dessas características.
