@@ -34,6 +34,8 @@ A migração `20261011070000_table_media.sql` cria os buckets privados, metadado
 
 O mestre gerencia mapa e cutscenes em **Mapa e cenas**. O retrato é gerenciado dentro da ficha pelo mestre ou jogador responsável. O teste transacional `tests/media-permissions.sql` cobre mestre, jogador responsável e intruso; execute-o no SQL Editor em um ambiente de validação. A validação final de latência, reconexão e dispensa local requer duas contas reais.
 
+Cenas e mapas são sincronizados independentemente da ficha aberta, preservando campos em edição. Além do Realtime, a página visível consulta a apresentação a cada cinco segundos e ao recuperar o foco ou a conexão. A dispensa local vale somente para aquela mesa e revisão; a próxima cena aparece novamente. Os testes de regressão em `tests/scenes.test.mjs` cobrem edição pendente, encerramento remoto, recuperação de falhas e dispensa local.
+
 ### Glossário e level-up
 
 O nível é somente leitura e novas fichas começam em 1. O modal informa

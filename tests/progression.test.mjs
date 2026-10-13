@@ -1,8 +1,40 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {findClass,classReviewState,characterProgression,levelFeatures,existingSubclass,classLevelLabel} from '../dist/progression.js';
+import {findClass,classReviewState,characterProgression,levelFeatures,existingSubclass,classLevelLabel,proficiencyBonus,catalogConditions,activeConditions,updateActiveCondition,conditionVisual} from '../dist/progression.js';
 const classes=[{id:'wizard',name:'Mago'},{id:'fighter',name:'Guerreiro'}];
 const sheet={id:'sheet',data:{class:'  MAGO ',level:2}};
+test('bônus de proficiência segue as faixas do nível total de 1 a 20',()=>{
+ const expected=[2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6];
+ assert.deepEqual(expected.map((_,index)=>proficiencyBonus(index+1)),expected);
+});
+test('condições ativas usam somente opções válidas do glossário',()=>{
+ const rules=[
+  {kind:'condition',slug:'condition-cego',name:'Cego'},
+  {kind:'condition',slug:'condition-caido',name:'Caído'},
+  {kind:'spell',slug:'spell-luz',name:'Luz'}
+ ];
+ assert.deepEqual(catalogConditions(rules).map(x=>x.slug),['condition-caido','condition-cego']);
+ assert.deepEqual(activeConditions({data:{active_conditions:['condition-cego','condition-inexistente','condition-cego']}},rules).map(x=>x.slug),['condition-cego']);
+});
+test('marcar e desmarcar condição preserva as demais sem duplicar',()=>{
+ const rules=[{kind:'condition',slug:'condition-cego',name:'Cego'},{kind:'condition',slug:'condition-caido',name:'Caído'}];
+ const data={active_conditions:['condition-cego']};
+ updateActiveCondition(data,'condition-caido',true,rules);
+ updateActiveCondition(data,'condition-caido',true,rules);
+ assert.deepEqual(data.active_conditions,['condition-cego','condition-caido']);
+ updateActiveCondition(data,'condition-cego',false,rules);
+ assert.deepEqual(data.active_conditions,['condition-caido']);
+ assert.throws(()=>updateActiveCondition(data,'condition-falsa',true,rules),/Condição inválida/);
+});
+test('cada condição do glossário recebe um símbolo mnemônico e uma identidade cromática',()=>{
+ const slugs=['condition-amedrontado','condition-agarrado','condition-acorrentado-imobilizado','condition-caido','condition-cego','condition-enfeiticado','condition-envenenado','condition-incapacitado','condition-inconsciente','condition-invisivel','condition-paralisado','condition-petrificado','condition-surdo','condition-exaustao'];
+ const visuals=slugs.map(conditionVisual);
+ assert.equal(new Set(visuals.map(x=>x.icon)).size,14);
+ assert.ok(new Set(visuals.map(x=>x.tone)).size>=6);
+ assert.deepEqual(conditionVisual('condition-cego'),{icon:'◉',tone:'sight'});
+ assert.deepEqual(conditionVisual('condition-envenenado'),{icon:'☠',tone:'poison'});
+ assert.deepEqual(conditionVisual('condition-inconsciente'),{icon:'☾',tone:'sleep'});
+});
 test('nível atual e próximo ficam explícitos: sistema começa em 1',()=>{
  assert.equal(classLevelLabel('Druida',1),'Druida · nível atual 1 → próximo 2');
  assert.equal(classLevelLabel('Guerreiro',4),'Guerreiro · nível atual 4 → próximo 5');

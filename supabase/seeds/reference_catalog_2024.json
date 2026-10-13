@@ -1,0 +1,2464 @@
+[
+  {
+    "kind": "item",
+    "slug": "weapon-adaga",
+    "name": "Adaga",
+    "summary": "Arma simples de corpo a corpo: 1d4 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d4 Perfurante\nPropriedades: Acuidade, Arremesso (Alcance 6/18), Leve\nMaestria: Ágil\nPeso: 0,5 kg\nCusto: 2 PO",
+    "source_page": "Lista de Armas!A8:I8",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d4",
+      "damage_type": "Perfurante",
+      "properties": "Acuidade, Arremesso (Alcance 6/18), Leve",
+      "weapon_mastery": "Ágil",
+      "weight": "0,5 kg",
+      "cost": "2 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-azagaia",
+    "name": "Azagaia",
+    "summary": "Arma simples de corpo a corpo: 1d6 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Perfurante\nPropriedades: Arremesso (Alcance 9/36)\nMaestria: Lentidão\nPeso: 1,0 kg\nCusto: 5 PP",
+    "source_page": "Lista de Armas!A9:I9",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Perfurante",
+      "properties": "Arremesso (Alcance 9/36)",
+      "weapon_mastery": "Lentidão",
+      "weight": "1,0 kg",
+      "cost": "5 PP",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-cajado",
+    "name": "Cajado",
+    "summary": "Arma simples de corpo a corpo: 1d6 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Contundente\nPropriedades: Versátil (1d8)\nMaestria: Derrubar\nPeso: 2,0 kg\nCusto: 2 PP",
+    "source_page": "Lista de Armas!A10:I10",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Contundente",
+      "properties": "Versátil (1d8)",
+      "weapon_mastery": "Derrubar",
+      "weight": "2,0 kg",
+      "cost": "2 PP",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-clava",
+    "name": "Clava",
+    "summary": "Arma simples de corpo a corpo: 1d4 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d4 Contundente\nPropriedades: Leve\nMaestria: Lentidão\nPeso: 1,0 kg\nCusto: 1 PP",
+    "source_page": "Lista de Armas!A11:I11",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d4",
+      "damage_type": "Contundente",
+      "properties": "Leve",
+      "weapon_mastery": "Lentidão",
+      "weight": "1,0 kg",
+      "cost": "1 PP",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-clava-grande",
+    "name": "Clava Grande",
+    "summary": "Arma simples de corpo a corpo: 1d8 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Contundente\nPropriedades: Duas Mãos\nMaestria: Empurrar\nPeso: 5,0 kg\nCusto: 2 PP",
+    "source_page": "Lista de Armas!A12:I12",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Contundente",
+      "properties": "Duas Mãos",
+      "weapon_mastery": "Empurrar",
+      "weight": "5,0 kg",
+      "cost": "2 PP",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-foice",
+    "name": "Foice",
+    "summary": "Arma simples de corpo a corpo: 1d4 de dano cortante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d4 Cortante\nPropriedades: Leve\nMaestria: Ágil\nPeso: 1,0 kg\nCusto: 1 PO",
+    "source_page": "Lista de Armas!A13:I13",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d4",
+      "damage_type": "Cortante",
+      "properties": "Leve",
+      "weapon_mastery": "Ágil",
+      "weight": "1,0 kg",
+      "cost": "1 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-lanca",
+    "name": "Lança",
+    "summary": "Arma simples de corpo a corpo: 1d6 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Perfurante\nPropriedades: Arremesso (Alcance 6/18), Versátil (1d8)\nMaestria: Drenar\nPeso: 1,5 kg\nCusto: 1 PO",
+    "source_page": "Lista de Armas!A14:I14",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Perfurante",
+      "properties": "Arremesso (Alcance 6/18), Versátil (1d8)",
+      "weapon_mastery": "Drenar",
+      "weight": "1,5 kg",
+      "cost": "1 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-maca",
+    "name": "Maça",
+    "summary": "Arma simples de corpo a corpo: 1d6 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Contundente\nPropriedades: —\nMaestria: Drenar\nPeso: 2,0 kg\nCusto: 5 PO",
+    "source_page": "Lista de Armas!A15:I15",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Contundente",
+      "properties": "—",
+      "weapon_mastery": "Drenar",
+      "weight": "2,0 kg",
+      "cost": "5 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-machadinha",
+    "name": "Machadinha",
+    "summary": "Arma simples de corpo a corpo: 1d6 de dano cortante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Cortante\nPropriedades: Arremesso (Alcance 6/18), Leve\nMaestria: Afligir\nPeso: 1,0 kg\nCusto: 5 PO",
+    "source_page": "Lista de Armas!A16:I16",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Cortante",
+      "properties": "Arremesso (Alcance 6/18), Leve",
+      "weapon_mastery": "Afligir",
+      "weight": "1,0 kg",
+      "cost": "5 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-martelo-leve",
+    "name": "Martelo Leve",
+    "summary": "Arma simples de corpo a corpo: 1d4 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: Corpo a Corpo\nDano: 1d4 Contundente\nPropriedades: Arremesso (Alcance 6/18), Leve\nMaestria: Ágil\nPeso: 1,0 kg\nCusto: 2 PO",
+    "source_page": "Lista de Armas!A17:I17",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d4",
+      "damage_type": "Contundente",
+      "properties": "Arremesso (Alcance 6/18), Leve",
+      "weapon_mastery": "Ágil",
+      "weight": "1,0 kg",
+      "cost": "2 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-arco-curto",
+    "name": "Arco Curto",
+    "summary": "Arma simples de à distância: 1d6 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: À Distância\nDano: 1d6 Perfurante\nPropriedades: Duas Mãos, Munição (Alcance 24/96; Flecha)\nMaestria: Afligir\nPeso: 1,0 kg\nCusto: 25 PO",
+    "source_page": "Lista de Armas!A18:I18",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "À Distância",
+      "damage": "1d6",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Munição (Alcance 24/96; Flecha)",
+      "weapon_mastery": "Afligir",
+      "weight": "1,0 kg",
+      "cost": "25 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-besta-leve",
+    "name": "Besta Leve",
+    "summary": "Arma simples de à distância: 1d8 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: À Distância\nDano: 1d8 Perfurante\nPropriedades: Duas Mãos, Munição (Alcance 24/96; Virote), Recarga\nMaestria: Lentidão\nPeso: 2,5 kg\nCusto: 25 PO",
+    "source_page": "Lista de Armas!A19:I19",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "À Distância",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Munição (Alcance 24/96; Virote), Recarga",
+      "weapon_mastery": "Lentidão",
+      "weight": "2,5 kg",
+      "cost": "25 PO",
+      "tags": [
+        "Arma",
+        "Simples",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-dardo",
+    "name": "Dardo",
+    "summary": "Arma simples de à distância: 1d4 de dano perfurante.",
+    "content": "Categoria: Simples\nAlcance/Tipo: À Distância\nDano: 1d4 Perfurante\nPropriedades: Acuidade, Arremesso (Alcance 6/18)\nMaestria: Afligir\nPeso: 0,15 kg\nCusto: 5 PC",
+    "source_page": "Lista de Armas!A20:I20",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "À Distância",
+      "damage": "1d4",
+      "damage_type": "Perfurante",
+      "properties": "Acuidade, Arremesso (Alcance 6/18)",
+      "weapon_mastery": "Afligir",
+      "weight": "0,15 kg",
+      "cost": "5 PC",
+      "tags": [
+        "Arma",
+        "Simples",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-funda",
+    "name": "Funda",
+    "summary": "Arma simples de à distância: 1d4 de dano contundente.",
+    "content": "Categoria: Simples\nAlcance/Tipo: À Distância\nDano: 1d4 Contundente\nPropriedades: Munição (Alcance 9/36; Bala)\nMaestria: Lentidão\nPeso: —\nCusto: 1 PP",
+    "source_page": "Lista de Armas!A21:I21",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Simples",
+      "attack_type": "À Distância",
+      "damage": "1d4",
+      "damage_type": "Contundente",
+      "properties": "Munição (Alcance 9/36; Bala)",
+      "weapon_mastery": "Lentidão",
+      "weight": "—",
+      "cost": "1 PP",
+      "tags": [
+        "Arma",
+        "Simples",
+        "À Distância",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-alabarda",
+    "name": "Alabarda",
+    "summary": "Arma marcial de corpo a corpo: 1d10 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d10 Cortante\nPropriedades: Duas Mãos, Extensão, Pesada\nMaestria: Trespassar\nPeso: 3,0 kg\nCusto: 20 PO",
+    "source_page": "Lista de Armas!A22:I22",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d10",
+      "damage_type": "Cortante",
+      "properties": "Duas Mãos, Extensão, Pesada",
+      "weapon_mastery": "Trespassar",
+      "weight": "3,0 kg",
+      "cost": "20 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-chicote",
+    "name": "Chicote",
+    "summary": "Arma marcial de corpo a corpo: 1d4 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d4 Cortante\nPropriedades: Acuidade, Extensão\nMaestria: Lentidão\nPeso: 1,5 kg\nCusto: 2 PO",
+    "source_page": "Lista de Armas!A23:I23",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d4",
+      "damage_type": "Cortante",
+      "properties": "Acuidade, Extensão",
+      "weapon_mastery": "Lentidão",
+      "weight": "1,5 kg",
+      "cost": "2 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-cimitarra",
+    "name": "Cimitarra",
+    "summary": "Arma marcial de corpo a corpo: 1d6 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Cortante\nPropriedades: Acuidade, Leve\nMaestria: Ágil\nPeso: 1,5 kg\nCusto: 25 PO",
+    "source_page": "Lista de Armas!A24:I24",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Cortante",
+      "properties": "Acuidade, Leve",
+      "weapon_mastery": "Ágil",
+      "weight": "1,5 kg",
+      "cost": "25 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-espada-curta",
+    "name": "Espada Curta",
+    "summary": "Arma marcial de corpo a corpo: 1d6 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d6 Perfurante\nPropriedades: Acuidade, Leve\nMaestria: Afligir\nPeso: 1,0 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A25:I25",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d6",
+      "damage_type": "Perfurante",
+      "properties": "Acuidade, Leve",
+      "weapon_mastery": "Afligir",
+      "weight": "1,0 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-espada-grande",
+    "name": "Espada Grande",
+    "summary": "Arma marcial de corpo a corpo: 2d6 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 2d6 Cortante\nPropriedades: Duas Mãos, Pesada\nMaestria: Garantido\nPeso: 3,0 kg\nCusto: 50 PO",
+    "source_page": "Lista de Armas!A26:I26",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "2d6",
+      "damage_type": "Cortante",
+      "properties": "Duas Mãos, Pesada",
+      "weapon_mastery": "Garantido",
+      "weight": "3,0 kg",
+      "cost": "50 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-espada-longa",
+    "name": "Espada Longa",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Cortante\nPropriedades: Versátil (1d10)\nMaestria: Drenar\nPeso: 1,5 kg\nCusto: 15 PO",
+    "source_page": "Lista de Armas!A27:I27",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Cortante",
+      "properties": "Versátil (1d10)",
+      "weapon_mastery": "Drenar",
+      "weight": "1,5 kg",
+      "cost": "15 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-glaive",
+    "name": "Glaive",
+    "summary": "Arma marcial de corpo a corpo: 1d10 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d10 Cortante\nPropriedades: Duas Mãos, Extensão, Pesada\nMaestria: Garantido\nPeso: 3,0 kg\nCusto: 20 PO",
+    "source_page": "Lista de Armas!A28:I28",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d10",
+      "damage_type": "Cortante",
+      "properties": "Duas Mãos, Extensão, Pesada",
+      "weapon_mastery": "Garantido",
+      "weight": "3,0 kg",
+      "cost": "20 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-lanca-de-montaria",
+    "name": "Lança de Montaria",
+    "summary": "Arma marcial de corpo a corpo: 1d10 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d10 Perfurante\nPropriedades: Duas Mãos (a menos que montado), Extensão, Pesada\nMaestria: Derrubar\nPeso: 3,0 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A29:I29",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d10",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos (a menos que montado), Extensão, Pesada",
+      "weapon_mastery": "Derrubar",
+      "weight": "3,0 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-lanca-longa",
+    "name": "Lança Longa",
+    "summary": "Arma marcial de corpo a corpo: 1d10 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d10 Perfurante\nPropriedades: Duas Mãos, Extensão, Pesada\nMaestria: Empurrar\nPeso: 9,0 kg\nCusto: 5 PO",
+    "source_page": "Lista de Armas!A30:I30",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d10",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Extensão, Pesada",
+      "weapon_mastery": "Empurrar",
+      "weight": "9,0 kg",
+      "cost": "5 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-maca-estrela",
+    "name": "Maça Estrela",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Perfurante\nPropriedades: —\nMaestria: Drenar\nPeso: 2,0 kg\nCusto: 15 PO",
+    "source_page": "Lista de Armas!A31:I31",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "—",
+      "weapon_mastery": "Drenar",
+      "weight": "2,0 kg",
+      "cost": "15 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-machado-de-batalha",
+    "name": "Machado de Batalha",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Cortante\nPropriedades: Versátil (1d10)\nMaestria: Derrubar\nPeso: 2,5 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A32:I32",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Cortante",
+      "properties": "Versátil (1d10)",
+      "weapon_mastery": "Derrubar",
+      "weight": "2,5 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-machado-grande",
+    "name": "Machado Grande",
+    "summary": "Arma marcial de corpo a corpo: 1d12 de dano cortante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d12 Cortante\nPropriedades: Duas Mãos, Pesada\nMaestria: Trespassar\nPeso: 3,5 kg\nCusto: 30 PO",
+    "source_page": "Lista de Armas!A33:I33",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d12",
+      "damage_type": "Cortante",
+      "properties": "Duas Mãos, Pesada",
+      "weapon_mastery": "Trespassar",
+      "weight": "3,5 kg",
+      "cost": "30 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Cortante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-malho",
+    "name": "Malho",
+    "summary": "Arma marcial de corpo a corpo: 2d6 de dano contundente.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 2d6 Contundente\nPropriedades: Duas Mãos, Pesada\nMaestria: Derrubar\nPeso: 5,0 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A34:I34",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "2d6",
+      "damage_type": "Contundente",
+      "properties": "Duas Mãos, Pesada",
+      "weapon_mastery": "Derrubar",
+      "weight": "5,0 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-mangual",
+    "name": "Mangual",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano contundente.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Contundente\nPropriedades: —\nMaestria: Drenar\nPeso: 1,0 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A35:I35",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Contundente",
+      "properties": "—",
+      "weapon_mastery": "Drenar",
+      "weight": "1,0 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-martelo-de-guerra",
+    "name": "Martelo de Guerra",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano contundente.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Contundente\nPropriedades: Versátil (1d10)\nMaestria: Empurrar\nPeso: 1,0 kg\nCusto: 15 PO",
+    "source_page": "Lista de Armas!A36:I36",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Contundente",
+      "properties": "Versátil (1d10)",
+      "weapon_mastery": "Empurrar",
+      "weight": "1,0 kg",
+      "cost": "15 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Contundente"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-picareta-de-guerra",
+    "name": "Picareta de Guerra",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Perfurante\nPropriedades: Versátil (1d10)\nMaestria: Drenar\nPeso: 1,0 kg\nCusto: 5 PO",
+    "source_page": "Lista de Armas!A37:I37",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "Versátil (1d10)",
+      "weapon_mastery": "Drenar",
+      "weight": "1,0 kg",
+      "cost": "5 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-rapieira",
+    "name": "Rapieira",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Perfurante\nPropriedades: Acuidade\nMaestria: Afligir\nPeso: 1,0 kg\nCusto: 25 PO",
+    "source_page": "Lista de Armas!A38:I38",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "Acuidade",
+      "weapon_mastery": "Afligir",
+      "weight": "1,0 kg",
+      "cost": "25 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-tridente",
+    "name": "Tridente",
+    "summary": "Arma marcial de corpo a corpo: 1d8 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: Corpo a Corpo\nDano: 1d8 Perfurante\nPropriedades: Arremesso (Alcance 6/18), Versátil (1d10)\nMaestria: Derrubar\nPeso: 2,0 kg\nCusto: 5 PO",
+    "source_page": "Lista de Armas!A39:I39",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "Corpo a Corpo",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "Arremesso (Alcance 6/18), Versátil (1d10)",
+      "weapon_mastery": "Derrubar",
+      "weight": "2,0 kg",
+      "cost": "5 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "Corpo a Corpo",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-arco-longo",
+    "name": "Arco Longo",
+    "summary": "Arma marcial de à distância: 1d8 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1d8 Perfurante\nPropriedades: Duas Mãos, Munição (Alcance 45/180; Flecha), Pesada\nMaestria: Lentidão\nPeso: 1,0 kg\nCusto: 50 PO",
+    "source_page": "Lista de Armas!A40:I40",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1d8",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Munição (Alcance 45/180; Flecha), Pesada",
+      "weapon_mastery": "Lentidão",
+      "weight": "1,0 kg",
+      "cost": "50 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-besta-de-mao",
+    "name": "Besta de Mão",
+    "summary": "Arma marcial de à distância: 1d6 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1d6 Perfurante\nPropriedades: Leve, Munição (Alcance 9/36; Virote), Recarga\nMaestria: Afligir\nPeso: 1,5 kg\nCusto: 75 PO",
+    "source_page": "Lista de Armas!A41:I41",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1d6",
+      "damage_type": "Perfurante",
+      "properties": "Leve, Munição (Alcance 9/36; Virote), Recarga",
+      "weapon_mastery": "Afligir",
+      "weight": "1,5 kg",
+      "cost": "75 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-besta-pesada",
+    "name": "Besta Pesada",
+    "summary": "Arma marcial de à distância: 1d10 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1d10 Perfurante\nPropriedades: Duas Mãos, Munição (Alcance 30/120; Virote), Pesada, Recarga\nMaestria: Empurrar\nPeso: 9,0 kg\nCusto: 50 PO",
+    "source_page": "Lista de Armas!A42:I42",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1d10",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Munição (Alcance 30/120; Virote), Pesada, Recarga",
+      "weapon_mastery": "Empurrar",
+      "weight": "9,0 kg",
+      "cost": "50 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-mosquete",
+    "name": "Mosquete",
+    "summary": "Arma marcial de à distância: 1d12 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1d12 Perfurante\nPropriedades: Duas Mãos, Munição (Alcance 12/36; Bala), Recarga\nMaestria: Lentidão\nPeso: 5,0 kg\nCusto: 500 PO",
+    "source_page": "Lista de Armas!A43:I43",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1d12",
+      "damage_type": "Perfurante",
+      "properties": "Duas Mãos, Munição (Alcance 12/36; Bala), Recarga",
+      "weapon_mastery": "Lentidão",
+      "weight": "5,0 kg",
+      "cost": "500 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-pistola",
+    "name": "Pistola",
+    "summary": "Arma marcial de à distância: 1d10 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1d10 Perfurante\nPropriedades: Munição (Alcance 9/27; Bala), Recarga\nMaestria: Afligir\nPeso: 1,5 kg\nCusto: 250 PO",
+    "source_page": "Lista de Armas!A44:I44",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1d10",
+      "damage_type": "Perfurante",
+      "properties": "Munição (Alcance 9/27; Bala), Recarga",
+      "weapon_mastery": "Afligir",
+      "weight": "1,5 kg",
+      "cost": "250 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "item",
+    "slug": "weapon-zarabatana",
+    "name": "Zarabatana",
+    "summary": "Arma marcial de à distância: 1 de dano perfurante.",
+    "content": "Categoria: Marcial\nAlcance/Tipo: À Distância\nDano: 1 Perfurante\nPropriedades: Munição (Alcance 7,5/30; Agulha), Recarga\nMaestria: Afligir\nPeso: 0,5 kg\nCusto: 10 PO",
+    "source_page": "Lista de Armas!A45:I45",
+    "metadata": {
+      "item_type": "weapon",
+      "category": "Marcial",
+      "attack_type": "À Distância",
+      "damage": "1",
+      "damage_type": "Perfurante",
+      "properties": "Munição (Alcance 7,5/30; Agulha), Recarga",
+      "weapon_mastery": "Afligir",
+      "weight": "0,5 kg",
+      "cost": "10 PO",
+      "tags": [
+        "Arma",
+        "Marcial",
+        "À Distância",
+        "Perfurante"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-afligir",
+    "name": "Maestria: Afligir (Vex)",
+    "summary": "Se atingir uma criatura e causar dano, você ganha Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.",
+    "content": "Efeito: Se atingir uma criatura e causar dano, você ganha Vantagem na sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno.\nExemplos de armas: Machadinha, Arco Curto, Dardo, Espada Curta, Rapieira, Besta de Mão, Pistola, Zarabatana",
+    "source_page": "Propriedades de Maestria!A5:C5",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Machadinha, Arco Curto, Dardo, Espada Curta, Rapieira, Besta de Mão, Pistola, Zarabatana",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-agil",
+    "name": "Maestria: Ágil (Nick)",
+    "summary": "Ao realizar o ataque adicional concedido pela propriedade Leve, você pode fazê-lo como parte da ação Atacar em vez de gastar uma Ação Bônus (uma vez por turno).",
+    "content": "Efeito: Ao realizar o ataque adicional concedido pela propriedade Leve, você pode fazê-lo como parte da ação Atacar em vez de gastar uma Ação Bônus (uma vez por turno).\nExemplos de armas: Adaga, Foice, Martelo Leve, Cimitarra",
+    "source_page": "Propriedades de Maestria!A6:C6",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Adaga, Foice, Martelo Leve, Cimitarra",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-derrubar",
+    "name": "Maestria: Derrubar (Topple)",
+    "summary": "Se atingir uma criatura, pode forçá-la a realizar uma salvaguarda de Constituição (CD 8 + mod. atributo de ataque + Bônus Proficiência). Se falhar, ela fica Caída.",
+    "content": "Efeito: Se atingir uma criatura, pode forçá-la a realizar uma salvaguarda de Constituição (CD 8 + mod. atributo de ataque + Bônus Proficiência). Se falhar, ela fica Caída.\nExemplos de armas: Cajado, Lança de Montaria, Machado de Batalha, Malho, Tridente",
+    "source_page": "Propriedades de Maestria!A7:C7",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Cajado, Lança de Montaria, Machado de Batalha, Malho, Tridente",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-drenar",
+    "name": "Maestria: Drenar (Sap)",
+    "summary": "Se atingir uma criatura, ela sofre Desvantagem na próxima jogada de ataque que realizar antes do início do seu próximo turno.",
+    "content": "Efeito: Se atingir uma criatura, ela sofre Desvantagem na próxima jogada de ataque que realizar antes do início do seu próximo turno.\nExemplos de armas: Lança, Maça, Espada Longa, Maça Estrela, Mangual, Picareta de Guerra",
+    "source_page": "Propriedades de Maestria!A8:C8",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Lança, Maça, Espada Longa, Maça Estrela, Mangual, Picareta de Guerra",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-empurrar",
+    "name": "Maestria: Empurrar (Push)",
+    "summary": "Se atingir uma criatura Grande ou menor, pode empurrá-la até 3 metros para longe de você sem teste de salvaguarda.",
+    "content": "Efeito: Se atingir uma criatura Grande ou menor, pode empurrá-la até 3 metros para longe de você sem teste de salvaguarda.\nExemplos de armas: Clava Grande, Lança Longa, Martelo de Guerra, Besta Pesada",
+    "source_page": "Propriedades de Maestria!A9:C9",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Clava Grande, Lança Longa, Martelo de Guerra, Besta Pesada",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-garantido",
+    "name": "Maestria: Garantido (Graze)",
+    "summary": "Se a sua jogada de ataque errar uma criatura, você ainda causa dano a ela igual ao modificador do atributo usado no ataque.",
+    "content": "Efeito: Se a sua jogada de ataque errar uma criatura, você ainda causa dano a ela igual ao modificador do atributo usado no ataque.\nExemplos de armas: Espada Grande, Glaive",
+    "source_page": "Propriedades de Maestria!A10:C10",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Espada Grande, Glaive",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-lentidao",
+    "name": "Maestria: Lentidão (Slow)",
+    "summary": "Se atingir uma criatura e causar dano, reduz o Deslocamento dela em 3 metros até o início do seu próximo turno (não cumulativo).",
+    "content": "Efeito: Se atingir uma criatura e causar dano, reduz o Deslocamento dela em 3 metros até o início do seu próximo turno (não cumulativo).\nExemplos de armas: Azagaia, Clava, Besta Leve, Funda, Chicote, Arco Longo, Mosquete",
+    "source_page": "Propriedades de Maestria!A11:C11",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Azagaia, Clava, Besta Leve, Funda, Chicote, Arco Longo, Mosquete",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-mastery-trespassar",
+    "name": "Maestria: Trespassar (Cleave)",
+    "summary": "Se atingir uma criatura com ataque corpo a corpo, pode realizar um ataque adicional com a mesma arma contra uma segunda criatura a até 1,5m da primeira e ao seu alcance.",
+    "content": "Efeito: Se atingir uma criatura com ataque corpo a corpo, pode realizar um ataque adicional com a mesma arma contra uma segunda criatura a até 1,5m da primeira e ao seu alcance.\nExemplos de armas: Alabarda, Machado Grande",
+    "source_page": "Propriedades de Maestria!A12:C12",
+    "metadata": {
+      "rule_type": "weapon_mastery",
+      "examples": "Alabarda, Machado Grande",
+      "tags": [
+        "Arma",
+        "Maestria em Arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-acuidade",
+    "name": "Propriedade de arma: Acuidade (Finesse)",
+    "summary": "Permite escolher usar modificador de Força ou Destreza nas jogadas de ataque e dano (deve usar o mesmo para ambos).",
+    "content": "Permite escolher usar modificador de Força ou Destreza nas jogadas de ataque e dano (deve usar o mesmo para ambos).",
+    "source_page": "Propriedades Gerais!A5:B5",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-alcance",
+    "name": "Propriedade de arma: Alcance (Range)",
+    "summary": "Indica o alcance normal e máximo em metros entre parênteses. Ataques além do alcance normal têm Desvantagem; além do máximo não são possíveis.",
+    "content": "Indica o alcance normal e máximo em metros entre parênteses. Ataques além do alcance normal têm Desvantagem; além do máximo não são possíveis.",
+    "source_page": "Propriedades Gerais!A6:B6",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-arremesso",
+    "name": "Propriedade de arma: Arremesso (Thrown)",
+    "summary": "Permite arremessar a arma para realizar um ataque à distância (pode sacar como parte do ataque). Usa o mesmo atributo do ataque corpo a corpo.",
+    "content": "Permite arremessar a arma para realizar um ataque à distância (pode sacar como parte do ataque). Usa o mesmo atributo do ataque corpo a corpo.",
+    "source_page": "Propriedades Gerais!A7:B7",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-duas-maos",
+    "name": "Propriedade de arma: Duas Mãos (Two-Handed)",
+    "summary": "Exige o uso de ambas as mãos para realizar um ataque com a arma.",
+    "content": "Exige o uso de ambas as mãos para realizar um ataque com a arma.",
+    "source_page": "Propriedades Gerais!A8:B8",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-extensao",
+    "name": "Propriedade de arma: Extensão (Reach)",
+    "summary": "Adiciona 1,5 metro ao seu alcance ao atacar com a arma ou ao determinar o alcance de Ataques de Oportunidade.",
+    "content": "Adiciona 1,5 metro ao seu alcance ao atacar com a arma ou ao determinar o alcance de Ataques de Oportunidade.",
+    "source_page": "Propriedades Gerais!A9:B9",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-leve",
+    "name": "Propriedade de arma: Leve (Light)",
+    "summary": "Permite realizar um ataque adicional com uma arma Leve diferente como Ação Bônus ao executar a ação Atacar (sem somar mod. de atributo ao dano bônus, exceto se negativo).",
+    "content": "Permite realizar um ataque adicional com uma arma Leve diferente como Ação Bônus ao executar a ação Atacar (sem somar mod. de atributo ao dano bônus, exceto se negativo).",
+    "source_page": "Propriedades Gerais!A10:B10",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-municao",
+    "name": "Propriedade de arma: Munição (Ammunition)",
+    "summary": "Exige munição específica para atacar. Sacar munição é parte do ataque. Recupera metade das peças usadas após o combate.",
+    "content": "Exige munição específica para atacar. Sacar munição é parte do ataque. Recupera metade das peças usadas após o combate.",
+    "source_page": "Propriedades Gerais!A11:B11",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-pesada",
+    "name": "Propriedade de arma: Pesada (Heavy)",
+    "summary": "Impõe Desvantagem nas jogadas de ataque se a Força for menor que 13 (arma corpo a corpo) ou se a Destreza for menor que 13 (arma à distância).",
+    "content": "Impõe Desvantagem nas jogadas de ataque se a Força for menor que 13 (arma corpo a corpo) ou se a Destreza for menor que 13 (arma à distância).",
+    "source_page": "Propriedades Gerais!A12:B12",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-recarga",
+    "name": "Propriedade de arma: Recarga (Loading)",
+    "summary": "Permite disparar apenas uma única peça de munição por ação, Ação Bônus ou Reação, independentemente de quantos ataques você possua.",
+    "content": "Permite disparar apenas uma única peça de munição por ação, Ação Bônus ou Reação, independentemente de quantos ataques você possua.",
+    "source_page": "Propriedades Gerais!A13:B13",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "rule",
+    "slug": "weapon-property-versatil",
+    "name": "Propriedade de arma: Versátil (Versatile)",
+    "summary": "Pode ser usada com uma ou duas mãos. O valor entre parênteses é o dano causado ao usar duas mãos em ataque corpo a corpo.",
+    "content": "Pode ser usada com uma ou duas mãos. O valor entre parênteses é o dano causado ao usar duas mãos em ataque corpo a corpo.",
+    "source_page": "Propriedades Gerais!A14:B14",
+    "metadata": {
+      "rule_type": "weapon_property",
+      "tags": [
+        "Arma",
+        "Propriedade de arma"
+      ],
+      "source_file": "armas_dnd_2024.xlsx",
+      "source_sha256": "c42d24e272e30de46c27a381ec3079bc2c4378050a61d41b13142645d06bc4bd",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-amedrontado",
+    "name": "Amedrontado (Frightened)",
+    "summary": "Incapaz de se aproximar da fonte do medo e com desvantagem em testes.",
+    "content": "Efeitos mecânicos:\n• Desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do medo estiver na linha de visão.\n• Não pode se aproximar voluntariamente da fonte do medo.\n\nMovimento e ações:\nDeslocamento normal, mas restrição de aproximação à fonte.\n\nComo encerrar ou suprimir:\nTerminar a duração do efeito, magia Restauração Menor ou afastar-se da linha de visão/fonte.",
+    "source_page": "Condições!A8:E8",
+    "metadata": {
+      "mechanical_effects": "• Desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte do medo estiver na linha de visão.\n• Não pode se aproximar voluntariamente da fonte do medo.",
+      "movement_impact": "Deslocamento normal, mas restrição de aproximação à fonte.",
+      "ending": "Terminar a duração do efeito, magia Restauração Menor ou afastar-se da linha de visão/fonte.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-agarrado",
+    "name": "Agarrado (Grappled)",
+    "summary": "Velocidade reduzida a zero por outra criatura.",
+    "content": "Efeitos mecânicos:\n• O deslocamento da criatura torna-se 0 e ela não pode se beneficiar de nenhum bônus de velocidade.\n• Desvantagem em jogadas de ataque contra qualquer alvo que não seja quem a agarrou.\n\nMovimento e ações:\nDeslocamento 0.\n\nComo encerrar ou suprimir:\nGastar uma ação para realizar um teste de Escape (Atletismo ou Acrobacia) ou incapacitar/afastar o agarrador.",
+    "source_page": "Condições!A9:E9",
+    "metadata": {
+      "mechanical_effects": "• O deslocamento da criatura torna-se 0 e ela não pode se beneficiar de nenhum bônus de velocidade.\n• Desvantagem em jogadas de ataque contra qualquer alvo que não seja quem a agarrou.",
+      "movement_impact": "Deslocamento 0.",
+      "ending": "Gastar uma ação para realizar um teste de Escape (Atletismo ou Acrobacia) ou incapacitar/afastar o agarrador.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-acorrentado-imobilizado",
+    "name": "Acorrentado / Imobilizado (Restrained)",
+    "summary": "Restrito fisicamente de se mover ou esquivar.",
+    "content": "Efeitos mecânicos:\n• Deslocamento torna-se 0.\n• Jogadas de ataque contra a criatura têm Vantagem.\n• Jogadas de ataque da criatura têm Desvantagem.\n• Desvantagem em salvaguardas de Destreza.\n\nMovimento e ações:\nDeslocamento 0.\n\nComo encerrar ou suprimir:\nEncerrar a habilidade, teia, corda ou efeito mágico que aprisionou o alvo.",
+    "source_page": "Condições!A10:E10",
+    "metadata": {
+      "mechanical_effects": "• Deslocamento torna-se 0.\n• Jogadas de ataque contra a criatura têm Vantagem.\n• Jogadas de ataque da criatura têm Desvantagem.\n• Desvantagem em salvaguardas de Destreza.",
+      "movement_impact": "Deslocamento 0.",
+      "ending": "Encerrar a habilidade, teia, corda ou efeito mágico que aprisionou o alvo.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-caido",
+    "name": "Caído (Prone)",
+    "summary": "Prostrado no chão.",
+    "content": "Efeitos mecânicos:\n• A única opção de movimento é rastejar (ou gastar metade do deslocamento para se levantar).\n• A criatura tem Desvantagem nas próprias jogadas de ataque.\n• Jogadas de ataque contra ela têm Vantagem se o atacante estiver a até 1,5m; caso contrário, o ataque tem Desvantagem.\n\nMovimento e ações:\nMovimento custa o dobro (rastejar) ou gasta metade do deslocamento para levantar.\n\nComo encerrar ou suprimir:\nGastar metade do deslocamento no próprio turno para se levantar (se o deslocamento não for 0).",
+    "source_page": "Condições!A11:E11",
+    "metadata": {
+      "mechanical_effects": "• A única opção de movimento é rastejar (ou gastar metade do deslocamento para se levantar).\n• A criatura tem Desvantagem nas próprias jogadas de ataque.\n• Jogadas de ataque contra ela têm Vantagem se o atacante estiver a até 1,5m; caso contrário, o ataque tem Desvantagem.",
+      "movement_impact": "Movimento custa o dobro (rastejar) ou gasta metade do deslocamento para levantar.",
+      "ending": "Gastar metade do deslocamento no próprio turno para se levantar (se o deslocamento não for 0).",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-cego",
+    "name": "Cego (Blinded)",
+    "summary": "Incapaz de enxergar.",
+    "content": "Efeitos mecânicos:\n• A criatura não enxerga nada e falha automaticamente em qualquer teste de habilidade que exija visão.\n• Jogadas de ataque contra a criatura têm Vantagem.\n• Jogadas de ataque da criatura têm Desvantagem.\n\nMovimento e ações:\nSem alteração direta na velocidade, mas terreno difícil para navegação visual.\n\nComo encerrar ou suprimir:\nMagia Restauração Menor, cura de efeito de luz ou fim do efeito mágico/físico.",
+    "source_page": "Condições!A12:E12",
+    "metadata": {
+      "mechanical_effects": "• A criatura não enxerga nada e falha automaticamente em qualquer teste de habilidade que exija visão.\n• Jogadas de ataque contra a criatura têm Vantagem.\n• Jogadas de ataque da criatura têm Desvantagem.",
+      "movement_impact": "Sem alteração direta na velocidade, mas terreno difícil para navegação visual.",
+      "ending": "Magia Restauração Menor, cura de efeito de luz ou fim do efeito mágico/físico.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-enfeiticado",
+    "name": "Enfeitiçado (Charmed)",
+    "summary": "Sob influência empática de um encantador.",
+    "content": "Efeitos mecânicos:\n• O enfeitiçador não pode ser atacado pelo alvo nem selecionado como alvo de habilidades nocivas/mágicas.\n• O enfeitiçador tem Vantagem em testes de habilidade social (Persuasão, Enganação, Intimidação) contra a criatura.\n\nMovimento e ações:\nSem restrição direta de movimento.\n\nComo encerrar ou suprimir:\nSofrer dano do enfeitiçador (na maioria das magias) ou magia Calmar Emoções / Restauração.",
+    "source_page": "Condições!A13:E13",
+    "metadata": {
+      "mechanical_effects": "• O enfeitiçador não pode ser atacado pelo alvo nem selecionado como alvo de habilidades nocivas/mágicas.\n• O enfeitiçador tem Vantagem em testes de habilidade social (Persuasão, Enganação, Intimidação) contra a criatura.",
+      "movement_impact": "Sem restrição direta de movimento.",
+      "ending": "Sofrer dano do enfeitiçador (na maioria das magias) ou magia Calmar Emoções / Restauração.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-envenenado",
+    "name": "Envenenado (Poisoned)",
+    "summary": "Sob ação de toxinas ou peçonha.",
+    "content": "Efeitos mecânicos:\n• Desvantagem em jogadas de ataque.\n• Desvantagem em testes de habilidade.\n\nMovimento e ações:\nSem alteração direta na velocidade.\n\nComo encerrar ou suprimir:\nMagia Restauração Menor, Neutralizar Veneno ou fim da duração do veneno.",
+    "source_page": "Condições!A14:E14",
+    "metadata": {
+      "mechanical_effects": "• Desvantagem em jogadas de ataque.\n• Desvantagem em testes de habilidade.",
+      "movement_impact": "Sem alteração direta na velocidade.",
+      "ending": "Magia Restauração Menor, Neutralizar Veneno ou fim da duração do veneno.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-incapacitado",
+    "name": "Incapacitado (Incapacitated)",
+    "summary": "Incapaz de agir ou reagir.",
+    "content": "Efeitos mecânicos:\n• A criatura não pode realizar Ações nem Reações.\n• Concentração em magias é quebrada automaticamente.\n• Não consegue falar.\n\nMovimento e ações:\nNão pode usar ações de movimento ativas.\n\nComo encerrar ou suprimir:\nTratar a condição subjacente que causou a incapacitação (ex: Paralisia, Inconsciência, Atordoamento).",
+    "source_page": "Condições!A15:E15",
+    "metadata": {
+      "mechanical_effects": "• A criatura não pode realizar Ações nem Reações.\n• Concentração em magias é quebrada automaticamente.\n• Não consegue falar.",
+      "movement_impact": "Não pode usar ações de movimento ativas.",
+      "ending": "Tratar a condição subjacente que causou a incapacitação (ex: Paralisia, Inconsciência, Atordoamento).",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-inconsciente",
+    "name": "Inconsciente (Unconscious)",
+    "summary": "Desmaiado, desacordado ou em coma.",
+    "content": "Efeitos mecânicos:\n• A criatura fica Incapacitada, Caída e não enxerga nem ouve.\n• Larga o que estiver segurando.\n• Falha automaticamente em salvaguardas de Força e Destreza.\n• Ataques contra ela têm Vantagem e qualquer ataque a até 1,5m que atingir é Acerto Crítico automático.\n\nMovimento e ações:\nIncapaz de se mover.\n\nComo encerrar ou suprimir:\nReceber cura (recuperar Pts de Vida), estabilização por Medicina (CD 10) ou recuperar de dano não-letal.",
+    "source_page": "Condições!A16:E16",
+    "metadata": {
+      "mechanical_effects": "• A criatura fica Incapacitada, Caída e não enxerga nem ouve.\n• Larga o que estiver segurando.\n• Falha automaticamente em salvaguardas de Força e Destreza.\n• Ataques contra ela têm Vantagem e qualquer ataque a até 1,5m que atingir é Acerto Crítico automático.",
+      "movement_impact": "Incapaz de se mover.",
+      "ending": "Receber cura (recuperar Pts de Vida), estabilização por Medicina (CD 10) ou recuperar de dano não-letal.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-invisivel",
+    "name": "Invisível (Invisible)",
+    "summary": "Impossível de ser visto por meios visuais normais.",
+    "content": "Efeitos mecânicos:\n• Impossível de ver sem magia/visão especial. A criatura é considerada sob Cobertura Total em termos de visão para esconder-se.\n• Jogadas de ataque contra a criatura têm Desvantagem.\n• Jogadas de ataque da criatura têm Vantagem.\n\nMovimento e ações:\nSem alteração de velocidade; excelente para Furtividade.\n\nComo encerrar ou suprimir:\nFim da magia, realizar um ataque ou conjurar magia (dependendo da fonte) ou Ver o Invisível.",
+    "source_page": "Condições!A17:E17",
+    "metadata": {
+      "mechanical_effects": "• Impossível de ver sem magia/visão especial. A criatura é considerada sob Cobertura Total em termos de visão para esconder-se.\n• Jogadas de ataque contra a criatura têm Desvantagem.\n• Jogadas de ataque da criatura têm Vantagem.",
+      "movement_impact": "Sem alteração de velocidade; excelente para Furtividade.",
+      "ending": "Fim da magia, realizar um ataque ou conjurar magia (dependendo da fonte) ou Ver o Invisível.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-paralisado",
+    "name": "Paralisado (Paralyzed)",
+    "summary": "Corpo totalmente rígido e imóvel.",
+    "content": "Efeitos mecânicos:\n• A criatura fica Incapacitada e não pode se mover nem falar.\n• Falha automaticamente em salvaguardas de Força e Destreza.\n• Jogadas de ataque contra ela têm Vantagem.\n• Qualquer ataque a até 1,5m que atingir é Acerto Crítico automático.\n\nMovimento e ações:\nDeslocamento 0.\n\nComo encerrar ou suprimir:\nMagia Restauração Menor ou passar na salvaguarda de resistência ao fim do turno.",
+    "source_page": "Condições!A18:E18",
+    "metadata": {
+      "mechanical_effects": "• A criatura fica Incapacitada e não pode se mover nem falar.\n• Falha automaticamente em salvaguardas de Força e Destreza.\n• Jogadas de ataque contra ela têm Vantagem.\n• Qualquer ataque a até 1,5m que atingir é Acerto Crítico automático.",
+      "movement_impact": "Deslocamento 0.",
+      "ending": "Magia Restauração Menor ou passar na salvaguarda de resistência ao fim do turno.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-petrificado",
+    "name": "Petrificado (Petrified)",
+    "summary": "Transformado em pedra ou substância inerte.",
+    "content": "Efeitos mecânicos:\n• Transformado em substância sólida inerte (junto com equipamentos não-mágicos).\n• Incapacitado, não pode se mover/falar e não nota os arredores.\n• Ataques contra a criatura têm Vantagem.\n• Falha em salvaguardas de Força e Destreza.\n• Resistência a todo tipo de dano; Imune a veneno e doença.\n\nMovimento e ações:\nDeslocamento 0.\n\nComo encerrar ou suprimir:\nMagia Restauração Maior ou Pedra em Carne.",
+    "source_page": "Condições!A19:E19",
+    "metadata": {
+      "mechanical_effects": "• Transformado em substância sólida inerte (junto com equipamentos não-mágicos).\n• Incapacitado, não pode se mover/falar e não nota os arredores.\n• Ataques contra a criatura têm Vantagem.\n• Falha em salvaguardas de Força e Destreza.\n• Resistência a todo tipo de dano; Imune a veneno e doença.",
+      "movement_impact": "Deslocamento 0.",
+      "ending": "Magia Restauração Maior ou Pedra em Carne.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-surdo",
+    "name": "Surdo (Deafened)",
+    "summary": "Incapaz de ouvir som.",
+    "content": "Efeitos mecânicos:\n• A criatura não ouve nada e falha automaticamente em qualquer teste de habilidade que exija audição.\n\nMovimento e ações:\nSem alteração de velocidade.\n\nComo encerrar ou suprimir:\nMagia Restauração Menor ou término da duração do efeito.",
+    "source_page": "Condições!A20:E20",
+    "metadata": {
+      "mechanical_effects": "• A criatura não ouve nada e falha automaticamente em qualquer teste de habilidade que exija audição.",
+      "movement_impact": "Sem alteração de velocidade.",
+      "ending": "Magia Restauração Menor ou término da duração do efeito.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "condition",
+    "slug": "condition-exaustao",
+    "name": "Exaustão (Exhaustion)",
+    "summary": "Debilitação severa acumulada por cansaço ou privação.",
+    "content": "Efeitos mecânicos:\n• Acumula níveis de 1 a 6.\n• Cada nível aplica penalidade de -1 em todas as d20 rolls (ataques, salvaguardas, testes) e na CD de suas magias.\n• Cada nível reduz a velocidade em 1,5m.\n• No Nível 6, a criatura morre.\n\nMovimento e ações:\nRedução de 1,5m no deslocamento por nível de exaustão.\n\nComo encerrar ou suprimir:\nRealizar um Descanso Longo com comida/água reduz 1 nível. Magia Restauração Maior reduz 1 nível.",
+    "source_page": "Condições!A21:E21",
+    "metadata": {
+      "mechanical_effects": "• Acumula níveis de 1 a 6.\n• Cada nível aplica penalidade de -1 em todas as d20 rolls (ataques, salvaguardas, testes) e na CD de suas magias.\n• Cada nível reduz a velocidade em 1,5m.\n• No Nível 6, a criatura morre.",
+      "movement_impact": "Redução de 1,5m no deslocamento por nível de exaustão.",
+      "ending": "Realizar um Descanso Longo com comida/água reduz 1 nível. Magia Restauração Maior reduz 1 nível.",
+      "tags": [
+        "Condição"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-alerta",
+    "name": "Alerta (Alert)",
+    "summary": "Adiciona Bônus de Proficiência à Iniciativa.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Adiciona Bônus de Proficiência à Iniciativa.\n• Pode trocar a iniciativa roll com um aliado voluntário no início do combate.",
+    "source_page": "Talentos!A8:E8",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-atleta",
+    "name": "Atleta (Athlete)",
+    "summary": "Levantar de Caído gasta apenas 1,5m de deslocamento.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Levantar de Caído gasta apenas 1,5m de deslocamento.\n• Ganha velocidade de Escalada igual ao deslocamento terrestre.\n• Vantagem em testes de Atletismo para saltar.",
+    "source_page": "Talentos!A9:E9",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-combatente-de-duas-armas",
+    "name": "Combatente de Duas Armas (Dual Wielder)",
+    "summary": "Pode usar Combate com Duas Armas mesmo se as armas não forem Leves (desde que não sejam Duas Mãos).",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Pode usar Combate com Duas Armas mesmo se as armas não forem Leves (desde que não sejam Duas Mãos).\n• Sacar/guardar duas armas no mesmo turno.",
+    "source_page": "Talentos!A10:E10",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-curandeiro",
+    "name": "Curandeiro (Healer)",
+    "summary": "Estabilizar criatura com Kit de Curandeiro recupera 1 PV.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Estabilizar criatura com Kit de Curandeiro recupera 1 PV.\n• Gastar uso do Kit para curar 1d6 + 4 + Dado de Vida adicional do alvo (1x por descanso curto/longo por alvo).",
+    "source_page": "Talentos!A11:E11",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-invocador-arcano",
+    "name": "Invocador Arcano (Magic Initiate)",
+    "summary": "Aprende 2 Truques e 1 Magia de 1º Círculo de uma lista à escolha (Mago, Clérigo ou Druida).",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Aprende 2 Truques e 1 Magia de 1º Círculo de uma lista à escolha (Mago, Clérigo ou Druida).\n• Pode conjurar a magia de 1º nível 1x sem gastar espaço por Descanso Longo.",
+    "source_page": "Talentos!A12:E12",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-musico",
+    "name": "Músico (Musician)",
+    "summary": "Proficiência com 3 Instrumentos Musicais.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Proficiência com 3 Instrumentos Musicais.\n• Concede Inspiração Heroica para número de aliados igual ao Bônus de Proficiência após um Descanso Curto/Longo.",
+    "source_page": "Talentos!A13:E13",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-sortudo",
+    "name": "Sortudo (Lucky)",
+    "summary": "Possui Pontos de Sorte iguais ao Bônus de Proficiência por Descanso Longo.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Possui Pontos de Sorte iguais ao Bônus de Proficiência por Descanso Longo.\n• Gasta 1 Ponto de Sorte para ter Vantagem em ataque/teste/salvaguarda ou impor Desvantagem em ataque contra você.",
+    "source_page": "Talentos!A14:E14",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-resistente",
+    "name": "Resistente (Tough)",
+    "summary": "Os Pontos de Vida máximos aumentam em um valor igual ao dobro do seu nível quando obtém o talento.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Os Pontos de Vida máximos aumentam em um valor igual ao dobro do seu nível quando obtém o talento.\n• A cada nível subsequente, ganha +2 PV máximos.",
+    "source_page": "Talentos!A15:E15",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-das-armaduras-leves",
+    "name": "Mestre das Armaduras Leves (Lightly Armored)",
+    "summary": "Proficiência com Armaduras Leves e Escudos.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Proficiência com Armaduras Leves e Escudos.",
+    "source_page": "Talentos!A16:E16",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-de-armas",
+    "name": "Mestre de Armas (Weapon Master)",
+    "summary": "Proficiência com 4 Armas à sua escolha.",
+    "content": "Categoria: Talento de Origem\n\nPré-requisito: Nenhum\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Proficiência com 4 Armas à sua escolha.\n• Ganha acesso à propriedade de Maestria em Armas de uma arma proficiente.",
+    "source_page": "Talentos!A17:E17",
+    "metadata": {
+      "category": "Talento de Origem",
+      "prerequisite": "Nenhum",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Talento de Origem"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-arqueria",
+    "name": "Arqueria (Archery)",
+    "summary": "Ganha +2 de bônus nas jogadas de ataque realizadas com armas à distância.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+ (Classe Guerreiro/Guardião/Paladino)\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Ganha +2 de bônus nas jogadas de ataque realizadas com armas à distância.",
+    "source_page": "Talentos!A18:E18",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+ (Classe Guerreiro/Guardião/Paladino)",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-combate-com-armas-grandes",
+    "name": "Combate com Armas Grandes (Great Weapon Fighting)",
+    "summary": "Ao rolar 1 ou 2 no dado de dano de um ataque com arma de duas mãos/versátil, pode rolar novamente o dado (mínimo 3 de dano garantido no dado).",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Ao rolar 1 ou 2 no dado de dano de um ataque com arma de duas mãos/versátil, pode rolar novamente o dado (mínimo 3 de dano garantido no dado).",
+    "source_page": "Talentos!A19:E19",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-defesa",
+    "name": "Defesa (Defense)",
+    "summary": "Ganha +1 de bônus na Classe de Armadura (CA) enquanto estiver usando qualquer armadura.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Ganha +1 de bônus na Classe de Armadura (CA) enquanto estiver usando qualquer armadura.",
+    "source_page": "Talentos!A20:E20",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-duelismo",
+    "name": "Duelismo (Dueling)",
+    "summary": "Quando empunhar uma arma de ataque corpo a corpo em uma mão e nenhuma outra arma, ganha +2 nas jogadas de dano.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Quando empunhar uma arma de ataque corpo a corpo em uma mão e nenhuma outra arma, ganha +2 nas jogadas de dano.",
+    "source_page": "Talentos!A21:E21",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-intercepcao",
+    "name": "Intercepção (Interception)",
+    "summary": "Usa Reação para reduzir o dano de um ataque contra um aliado a até 1,5m em 1d10 + Bônus de Proficiência.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Usa Reação para reduzir o dano de um ataque contra um aliado a até 1,5m em 1d10 + Bônus de Proficiência.",
+    "source_page": "Talentos!A22:E22",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-luta-as-cegas",
+    "name": "Luta às Cegas (Blind Fighting)",
+    "summary": "Ganha Visão às Cegas com alcance de 3m.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Ganha Visão às Cegas com alcance de 3m.",
+    "source_page": "Talentos!A23:E23",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-protecao",
+    "name": "Proteção (Protection)",
+    "summary": "Usa Reação empunhando escudo para impor Desvantagem em ataque contra aliado a até 1,5m.",
+    "content": "Categoria: Estilo de Luta\n\nPré-requisito: Nível 2+\n\nAumento de atributo: Nenhum\n\nBenefícios e efeitos:\n• Usa Reação empunhando escudo para impor Desvantagem em ataque contra aliado a até 1,5m.",
+    "source_page": "Talentos!A24:E24",
+    "metadata": {
+      "category": "Estilo de Luta",
+      "prerequisite": "Nível 2+",
+      "ability_score_increase": "Nenhum",
+      "tags": [
+        "Talento",
+        "Estilo de Luta"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-conjurador-de-guerra",
+    "name": "Conjurador de Guerra (War Caster)",
+    "summary": "Vantagem em salvaguardas de Constituição para manter Concentração.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, Conjuração de Magias\n\nAumento de atributo: +1 em INT, SAB ou CAR\n\nBenefícios e efeitos:\n• Vantagem em salvaguardas de Constituição para manter Concentração.\n• Pode realizar componentes somáticos com armas/escudo em mãos.\n• Oportunidade: conjurar magia de ação única como Reação no lugar de ataque de oportunidade.",
+    "source_page": "Talentos!A25:E25",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, Conjuração de Magias",
+      "ability_score_increase": "+1 em INT, SAB ou CAR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-de-armas-grandes",
+    "name": "Mestre de Armas Grandes (Great Weapon Master)",
+    "summary": "Ao acertar criticamente ou reduzir criatura a 0 PV, faz 1 ataque corpo a corpo como ação bônus.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, FOR 13+\n\nAumento de atributo: +1 em FOR\n\nBenefícios e efeitos:\n• Ao acertar criticamente ou reduzir criatura a 0 PV, faz 1 ataque corpo a corpo como ação bônus.\n• Adiciona Bônus de Proficiência ao dano de ataques com armas pesadas 1x por turno.",
+    "source_page": "Talentos!A26:E26",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, FOR 13+",
+      "ability_score_increase": "+1 em FOR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-franco-atirador",
+    "name": "Franco-Atirador (Sharpshooter)",
+    "summary": "Atacar à distância em alcance longo não impõe Desvantagem.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, DES 13+\n\nAumento de atributo: +1 em DES\n\nBenefícios e efeitos:\n• Atacar à distância em alcance longo não impõe Desvantagem.\n• Ataques à distância ignoram Meia Cobertura e Três Quatros de Cobertura.\n• Engajar em combate corpo a corpo a até 1,5m não impõe desvantagem em ataques à distância.",
+    "source_page": "Talentos!A27:E27",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, DES 13+",
+      "ability_score_increase": "+1 em DES",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-das-armaduras-pesadas",
+    "name": "Mestre das Armaduras Pesadas (Heavy Armor Master)",
+    "summary": "Reduz dano de Concussão, Perfuração e Corte sofrido em valor igual ao Bônus de Proficiência enquanto usa armadura pesada.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, Proficiência com Armadura Pesada\n\nAumento de atributo: +1 em FOR ou CON\n\nBenefícios e efeitos:\n• Reduz dano de Concussão, Perfuração e Corte sofrido em valor igual ao Bônus de Proficiência enquanto usa armadura pesada.",
+    "source_page": "Talentos!A28:E28",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, Proficiência com Armadura Pesada",
+      "ability_score_increase": "+1 em FOR ou CON",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-de-escudos",
+    "name": "Mestre de Escudos (Shield Master)",
+    "summary": "Empurrão de Escudo: ao atacar corpo a corpo, usa Ação Bônus para derrubar ou empurrar o alvo a 1,5m.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, Proficiência com Escudo\n\nAumento de atributo: +1 em FOR\n\nBenefícios e efeitos:\n• Empurrão de Escudo: ao atacar corpo a corpo, usa Ação Bônus para derrubar ou empurrar o alvo a 1,5m.\n• Adiciona bônus de CA do escudo em salvaguardas de Destreza de alvos individuais.\n• Reação para zerar dano de área de Destreza em caso de sucesso.",
+    "source_page": "Talentos!A29:E29",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, Proficiência com Escudo",
+      "ability_score_increase": "+1 em FOR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mestre-de-armas-de-haste",
+    "name": "Mestre de Armas de Haste (Polearm Master)",
+    "summary": "Ao atacar com Alabarda, Bastão, Lança ou Pique, pode usar ação bônus para atacar com a outra ponta (1d4 concussão).",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, FOR ou DES 13+\n\nAumento de atributo: +1 em FOR ou DES\n\nBenefícios e efeitos:\n• Ao atacar com Alabarda, Bastão, Lança ou Pique, pode usar ação bônus para atacar com a outra ponta (1d4 concussão).\n• Provoca ataque de oportunidade quando criaturas entram no seu alcance.",
+    "source_page": "Talentos!A30:E30",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, FOR ou DES 13+",
+      "ability_score_increase": "+1 em FOR ou DES",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-sentinela",
+    "name": "Sentinela (Sentinel)",
+    "summary": "Acertar ataque de oportunidade reduz deslocamento do alvo a 0.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, FOR ou DES 13+\n\nAumento de atributo: +1 em FOR ou DES\n\nBenefícios e efeitos:\n• Acertar ataque de oportunidade reduz deslocamento do alvo a 0.\n• Provoca ataque de oportunidade mesmo se o alvo usar a ação Desengajar.\n• Usa Reação para atacar inimigo a 1,5m que atacar um aliado.",
+    "source_page": "Talentos!A31:E31",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, FOR ou DES 13+",
+      "ability_score_increase": "+1 em FOR ou DES",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-especialista-em-pericia",
+    "name": "Especialista em Perícia (Skill Expert)",
+    "summary": "Ganha proficiência em 1 perícia à sua escolha.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em Qualquer Atributo\n\nBenefícios e efeitos:\n• Ganha proficiência em 1 perícia à sua escolha.\n• Ganha Especialização (dobro do Bônus de Proficiência) em 1 perícia proficiente.",
+    "source_page": "Talentos!A32:E32",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em Qualquer Atributo",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-resiliente",
+    "name": "Resiliente (Resilient)",
+    "summary": "Ganha proficiência em Salvaguardas (Saving Throws) do atributo escolhido.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em Qualquer Atributo escolhido\n\nBenefícios e efeitos:\n• Ganha proficiência em Salvaguardas (Saving Throws) do atributo escolhido.",
+    "source_page": "Talentos!A33:E33",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em Qualquer Atributo escolhido",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-combatente-montado",
+    "name": "Combatente Montado (Mounted Combatant)",
+    "summary": "Vantagem em ataques corpo a corpo contra alvos desmontados menores que a montaria.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em FOR, DES ou SAB\n\nBenefícios e efeitos:\n• Vantagem em ataques corpo a corpo contra alvos desmontados menores que a montaria.\n• Redireciona ataques destinados à montaria para si.\n• Concede Evasão para a montaria contra efeitos de Destreza.",
+    "source_page": "Talentos!A34:E34",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em FOR, DES ou SAB",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-iniciador-tatico",
+    "name": "Iniciador Tático (Tactical Mind / Master)",
+    "summary": "Aumenta flexibilidade tática em salvaguardas e testes de iniciativa.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, INT ou SAB 13+\n\nAumento de atributo: +1 em INT ou SAB\n\nBenefícios e efeitos:\n• Aumenta flexibilidade tática em salvaguardas e testes de iniciativa.",
+    "source_page": "Talentos!A35:E35",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, INT ou SAB 13+",
+      "ability_score_increase": "+1 em INT ou SAB",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-mente-afiada",
+    "name": "Mente Afiada (Keen Mind)",
+    "summary": "Proficiência ou Especialização em Investigação, História, Arcanismo ou Natureza.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em INT\n\nBenefícios e efeitos:\n• Proficiência ou Especialização em Investigação, História, Arcanismo ou Natureza.\n• Estudar criatura/objeto como Ação Bônus.",
+    "source_page": "Talentos!A36:E36",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em INT",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-observador",
+    "name": "Observador (Observant)",
+    "summary": "Proficiência ou Especialização em Percepção, Intuição ou Investigação.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em INT, SAB ou CAR\n\nBenefícios e efeitos:\n• Proficiência ou Especialização em Percepção, Intuição ou Investigação.\n• Procura rápida por pistas e armadilhas como Ação Bônus.",
+    "source_page": "Talentos!A37:E37",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em INT, SAB ou CAR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-sorrateiro",
+    "name": "Sorrateiro (Skulker)",
+    "summary": "Ganha Visão no Escuro (18m) ou amplia em 18m.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+, DES 13+\n\nAumento de atributo: +1 em DES\n\nBenefícios e efeitos:\n• Ganha Visão no Escuro (18m) ou amplia em 18m.\n• Errar ataque à distância sob Furtividade não revela sua posição.\n• Vantagem em testes de Furtividade para Esconder-se em combate.",
+    "source_page": "Talentos!A38:E38",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+, DES 13+",
+      "ability_score_increase": "+1 em DES",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-telecinetico",
+    "name": "Telecinético (Telekinetic)",
+    "summary": "Aprende o truque *Mão Mágica* sem componentes (invisível, alcance +9m).",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em INT, SAB ou CAR\n\nBenefícios e efeitos:\n• Aprende o truque *Mão Mágica* sem componentes (invisível, alcance +9m).\n• Como Ação Bônus, empurra/puxa criatura a até 9m por 1,5m (salvaguarda FOR nega).",
+    "source_page": "Talentos!A39:E39",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em INT, SAB ou CAR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-telepata",
+    "name": "Telepata (Telepathic)",
+    "summary": "Comunicação telepática a até 18m com criaturas que compreendam ao menos um idioma.",
+    "content": "Categoria: Talento Geral\n\nPré-requisito: Nível 4+\n\nAumento de atributo: +1 em INT, SAB ou CAR\n\nBenefícios e efeitos:\n• Comunicação telepática a até 18m com criaturas que compreendam ao menos um idioma.\n• Conjura a magia *Detectar Pensamentos* 1x por descanso longo sem gasta de espaço.",
+    "source_page": "Talentos!A40:E40",
+    "metadata": {
+      "category": "Talento Geral",
+      "prerequisite": "Nível 4+",
+      "ability_score_increase": "+1 em INT, SAB ou CAR",
+      "tags": [
+        "Talento",
+        "Talento Geral"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-do-destino",
+    "name": "Dádiva do Destino (Boon of Fate)",
+    "summary": "Adiciona ou subtrai 2d4 na jogada de d20 de outra criatura a até 18m (1x por combate ou descanso curto).",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em Qualquer Atributo (até máx 30)\n\nBenefícios e efeitos:\n• Adiciona ou subtrai 2d4 na jogada de d20 de outra criatura a até 18m (1x por combate ou descanso curto).",
+    "source_page": "Talentos!A41:E41",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em Qualquer Atributo (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-dimensao",
+    "name": "Dádiva da Dimensão (Boon of Dimensional Travel)",
+    "summary": "Imediatamente após realizar a Ação Atacar ou Conjurar Magia, teletransporta-se a até 9m para um espaço não ocupado.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em Qualquer Atributo (até máx 30)\n\nBenefícios e efeitos:\n• Imediatamente após realizar a Ação Atacar ou Conjurar Magia, teletransporta-se a até 9m para um espaço não ocupado.",
+    "source_page": "Talentos!A42:E42",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em Qualquer Atributo (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-fortitude",
+    "name": "Dádiva da Fortitude (Boon of Fortitude)",
+    "summary": "PV máximos aumentam em 40.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em Qualquer Atributo (até máx 30)\n\nBenefícios e efeitos:\n• PV máximos aumentam em 40.\n• Ao receber cura, recupera adicionais PV iguais ao seu modificador de Constituição 1x por turno.",
+    "source_page": "Talentos!A43:E43",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em Qualquer Atributo (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-invocacao",
+    "name": "Dádiva da Invocação (Boon of Spell Recall)",
+    "summary": "Ao conjurar magia de 1º a 4º Círculo, rola 1d4; se rolar 4, o espaço de magia não é gasto.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+, Conjuração de Magia\n\nAumento de atributo: +1 em INT, SAB ou CAR (até máx 30)\n\nBenefícios e efeitos:\n• Ao conjurar magia de 1º a 4º Círculo, rola 1d4; se rolar 4, o espaço de magia não é gasto.",
+    "source_page": "Talentos!A44:E44",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+, Conjuração de Magia",
+      "ability_score_increase": "+1 em INT, SAB ou CAR (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-recuperacao",
+    "name": "Dádiva da Recuperação (Boon of Recovery)",
+    "summary": "Possui um reservatório de cura própria de metade dos seus PV máximos como Ação Bônus 1x por Descanso Longo.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em Qualquer Atributo (até máx 30)\n\nBenefícios e efeitos:\n• Possui um reservatório de cura própria de metade dos seus PV máximos como Ação Bônus 1x por Descanso Longo.\n• Ao cair a 0 PV, é imediatamente revivido com 1 PV (1x por Descanso Longo).",
+    "source_page": "Talentos!A45:E45",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em Qualquer Atributo (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-velocidade",
+    "name": "Dádiva da Velocidade (Boon of Speed)",
+    "summary": "Deslocamento aumenta em +9m.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em Qualquer Atributo (até máx 30)\n\nBenefícios e efeitos:\n• Deslocamento aumenta em +9m.\n• Pode usar Ação Bônus para usar a Ação Desengajar.",
+    "source_page": "Talentos!A46:E46",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em Qualquer Atributo (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  },
+  {
+    "kind": "feat",
+    "slug": "feat-dadiva-da-energia-irresistivel",
+    "name": "Dádiva da Energia Irresistível (Boon of Irresistible Offense)",
+    "summary": "Ataques ignoram Resistência a dano de Concussão, Perfuração e Corte.",
+    "content": "Categoria: Dádiva Épica\n\nPré-requisito: Nível 19+\n\nAumento de atributo: +1 em FOR ou DES (até máx 30)\n\nBenefícios e efeitos:\n• Ataques ignoram Resistência a dano de Concussão, Perfuração e Corte.\n• Rolar um 20 natural no ataque causa dano extra igual ao seu valor de atributo primário.",
+    "source_page": "Talentos!A47:E47",
+    "metadata": {
+      "category": "Dádiva Épica",
+      "prerequisite": "Nível 19+",
+      "ability_score_increase": "+1 em FOR ou DES (até máx 30)",
+      "tags": [
+        "Talento",
+        "Dádiva Épica"
+      ],
+      "source_file": "condicoes_e_talentos_dnd_2024.xlsx",
+      "source_sha256": "1dd18a5ebc52dd1eaa60eef3d531484a70889ed0a84d88c1cc5dca0241bf3078",
+      "automation": "reference_only"
+    }
+  }
+]

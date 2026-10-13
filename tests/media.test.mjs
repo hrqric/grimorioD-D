@@ -1,4 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {validateMedia,mediaPath} from '../dist/media.js';
+import {validateMedia,mediaPath,mediaExtension} from '../dist/media.js';
 test('validates media MIME and limits',()=>{assert.equal(validateMedia({type:'image/jpeg',size:100},'portrait'),'jpg');assert.throws(()=>validateMedia({type:'image/svg+xml',size:100},'portrait'),/JPEG/);assert.throws(()=>validateMedia({type:'image/png',size:6*1024*1024},'portrait'),/5 MB/)});
+test('accepts GIF maps and cutscenes through the 30 MB boundary',()=>{const boundary=30*1024*1024;assert.equal(mediaExtension('image/gif'),'gif');assert.equal(validateMedia({type:'image/gif',size:boundary},'map'),'gif');assert.equal(validateMedia({type:'image/gif',size:boundary},'cutscene'),'gif');assert.throws(()=>validateMedia({type:'image/gif',size:boundary+1},'map'),/30 MB/);assert.throws(()=>validateMedia({type:'image/gif',size:boundary+1},'cutscene'),/30 MB/)});
+test('keeps portrait GIF rejection and 5 MB limit unchanged',()=>{assert.throws(()=>validateMedia({type:'image/gif',size:100},'portrait'),/JPEG/);assert.throws(()=>validateMedia({type:'image/png',size:5*1024*1024+1},'portrait'),/5 MB/)});
 test('uses scoped opaque paths',()=>{assert.equal(mediaPath('portrait','t','s','a','webp'),'t/s/a.webp');assert.equal(mediaPath('map','t',null,'a','png'),'t/a.png')});

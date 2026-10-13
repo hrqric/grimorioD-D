@@ -1,5 +1,37 @@
 // Pure catalog projections: pending requests never change acquired levels.
 export const normalizeClassName = value => String(value || '').trim().toLocaleLowerCase('pt-BR');
+export const proficiencyBonus = level => 2 + Math.floor((Math.min(20,Math.max(1,Number(level)||1))-1)/4);
+const conditionVisuals={
+  'condition-amedrontado':{icon:'!',tone:'fear'},
+  'condition-agarrado':{icon:'≋',tone:'restraint'},
+  'condition-acorrentado-imobilizado':{icon:'⊠',tone:'restraint'},
+  'condition-caido':{icon:'↘',tone:'impact'},
+  'condition-cego':{icon:'◉',tone:'sight'},
+  'condition-enfeiticado':{icon:'♥',tone:'charm'},
+  'condition-envenenado':{icon:'☠',tone:'poison'},
+  'condition-incapacitado':{icon:'×',tone:'disabled'},
+  'condition-inconsciente':{icon:'☾',tone:'sleep'},
+  'condition-invisivel':{icon:'◇',tone:'arcane'},
+  'condition-paralisado':{icon:'║',tone:'disabled'},
+  'condition-petrificado':{icon:'◆',tone:'stone'},
+  'condition-surdo':{icon:'∿',tone:'sound'},
+  'condition-exaustao':{icon:'−',tone:'fatigue'}
+};
+export const conditionVisual = slug => conditionVisuals[slug] || {icon:'?',tone:'neutral'};
+export function catalogConditions(rules) {
+  return rules.filter(r => r.kind === 'condition' && r.slug && r.name).sort((a,b) => a.name.localeCompare(b.name,'pt-BR'));
+}
+export function activeConditions(sheet, rules) {
+  const active = new Set(Array.isArray(sheet?.data?.active_conditions) ? sheet.data.active_conditions : []);
+  return catalogConditions(rules).filter(condition => active.has(condition.slug));
+}
+export function updateActiveCondition(data, slug, checked, rules) {
+  const allowed = new Set(catalogConditions(rules).map(condition => condition.slug));
+  if (!allowed.has(slug)) throw Error('Condição inválida.');
+  const active = [...new Set(Array.isArray(data.active_conditions) ? data.active_conditions.filter(item => allowed.has(item)) : [])];
+  data.active_conditions = checked ? [...active.filter(item => item !== slug),slug] : active.filter(item => item !== slug);
+  return data.active_conditions;
+}
 export function findClass(sheet, classes) {
   return classes.find(c => normalizeClassName(c.name) === normalizeClassName(sheet.data.class));
 }
