@@ -18,6 +18,8 @@ const conditionVisuals={
   'condition-exaustao':{icon:'−',tone:'fatigue'}
 };
 export const conditionVisual = slug => conditionVisuals[slug] || {icon:'?',tone:'neutral'};
+const conditionTonePriority={disabled:100,sleep:95,stone:90,restraint:80,poison:70,fatigue:65,fear:60,charm:55,sight:50,sound:45,impact:40,arcane:30,neutral:0};
+export const dominantCondition = conditions => (conditions||[]).reduce((dominant,condition)=>conditionTonePriority[conditionVisual(condition.slug).tone]>conditionTonePriority[conditionVisual(dominant?.slug).tone]?condition:dominant,null);
 export function catalogConditions(rules) {
   return rules.filter(r => r.kind === 'condition' && r.slug && r.name).sort((a,b) => a.name.localeCompare(b.name,'pt-BR'));
 }

@@ -9,7 +9,7 @@ const historyOrPrevious=async(promise,previous)=>{try{return{entries:await promi
 function fixture(){
  const source=readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split('window.addEventListener')[0].replace(/^import .*;\r?\n/gm,'');
  let overlay=null,remote={table_id:'t',cutscene_active:true,cutscene_revision:1,cutscene_asset_id:'a'},reads=0,fail=false;
- const buttons={'#close-local':{},'#close-global':{}};
+ const buttons={'#close-local':{},'#close-global':{},'#save-overlay-history':{}};
  const document={activeElement:{matches:()=>true},querySelector:s=>s==='.cutscene'?overlay:buttons[s]||null,
   createElement:()=>({dataset:{},querySelectorAll:()=>[],remove(){if(overlay===this)overlay=null;}}),
   body:{append:el=>{overlay=el;}}};
@@ -29,6 +29,22 @@ test('remote scene appears and ends while a sheet has unsaved edits',async()=>{
  assert.equal(a.overlay.dataset.scene,'t:1');assert.equal(a.state.sheet,sheet);assert.equal(a.state.dirty,true);assert.equal(a.context.renders,0);
  a.remote={table_id:'t',cutscene_active:false,cutscene_revision:2};
  await a.refreshPresentation();assert.equal(a.overlay,null);assert.equal(a.state.sheet,sheet);
+});
+
+test('master can save from live cutscene controls without dismissing the scene',async()=>{
+ const a=fixture();a.state.tables=[{id:'t'}];
+ vm.runInContext('globalThis.savedScenes=[];saveCurrentCutscene=async()=>savedScenes.push(currentPresentation().cutscene_asset_id);',a.context);
+ await a.refreshPresentation();const overlay=a.overlay;
+ assert.match(overlay.innerHTML,/id="save-overlay-history">Salvar no histórico/);
+ await a.buttons['#save-overlay-history'].onclick();
+ assert.deepEqual([...a.context.savedScenes],['a']);assert.equal(a.overlay,overlay);
+ assert.equal(a.state.dirty,true);
+});
+
+test('player does not see save to history in live cutscene controls',async()=>{
+ const a=fixture();await a.refreshPresentation();
+ assert.doesNotMatch(a.overlay.innerHTML,/save-overlay-history/);
+ assert.match(a.overlay.innerHTML,/Fechar para mim/);
 });
 test('unchanged polling preserves overlay and local dismissal; a new revision reopens',async()=>{
  const a=fixture();await a.refreshPresentation();const overlay=a.overlay;
