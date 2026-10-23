@@ -1,5 +1,24 @@
 // Pure catalog projections: pending requests never change acquired levels.
 export const normalizeClassName = value => String(value || '').trim().toLocaleLowerCase('pt-BR');
+export const classesForTable = (classes, tableId) => classes.filter(c => c.table_id == null || (tableId && c.table_id === tableId));
+export function validateHomebrewClass(input, classes=[], tableId=null) {
+  const text=(value,label,max)=>{if(typeof value!=='string'||value.trim().length>max)throw Error(`${label}: máximo de ${max} caracteres.`);return value.trim();};
+  const name=text(input.name,'Nome',100),description=text(input.description??'','Descrição',5000);
+  if(!name)throw Error('Informe o nome da classe.');
+  if(classesForTable(classes,tableId).some(c=>normalizeClassName(c.name)===normalizeClassName(name)))throw Error('Já existe uma classe com este nome nesta mesa.');
+  const hit_die=Number(input.hit_die),subclass_level=Number(input.subclass_level);
+  if(![6,8,10,12].includes(hit_die))throw Error('Selecione um dado de vida: d6, d8, d10 ou d12.');
+  if(!Number.isInteger(subclass_level)||subclass_level<1||subclass_level>20)throw Error('O nível de subclasse deve estar entre 1 e 20.');
+  if(!Array.isArray(input.subclasses)||input.subclasses.length<1||input.subclasses.length>100)throw Error('Cadastre de 1 a 100 subclasses.');
+  const seen=new Set();
+  const subclasses=input.subclasses.map(s=>{
+    const name=text(s?.name,'Nome da subclasse',100),description=text(s?.description??'','Descrição da subclasse',5000),key=normalizeClassName(name);
+    if(!name)throw Error('Informe o nome de cada subclasse.');
+    if(seen.has(key))throw Error('Não repita nomes de subclasses.');
+    seen.add(key);return {name,description};
+  });
+  return {name,description,hit_die,subclass_level,subclasses};
+}
 export const proficiencyBonus = level => 2 + Math.floor((Math.min(20,Math.max(1,Number(level)||1))-1)/4);
 const conditionVisuals={
   'condition-amedrontado':{icon:'!',tone:'fear'},
@@ -35,7 +54,7 @@ export function updateActiveCondition(data, slug, checked, rules) {
   return data.active_conditions;
 }
 export function findClass(sheet, classes) {
-  return classes.find(c => normalizeClassName(c.name) === normalizeClassName(sheet.data.class));
+  return classesForTable(classes,sheet.table_id).find(c => normalizeClassName(c.name) === normalizeClassName(sheet.data.class));
 }
 export function classReviewState(sheet, classes) {
   if (!normalizeClassName(sheet.data.class)) return 'empty';
@@ -53,6 +72,7 @@ export function existingSubclass(sheet, catalog, link, subclasses, level) {
 }
 export function classLevelLabel(name, level) {return `${name} · nível atual ${level} → próximo ${level+1}`;}
 export function characterProgression(sheet, classes, links, subclasses=[]) {
+  classes=classesForTable(classes,sheet.table_id);
   const linked = links.filter(c => c.sheet_id === sheet.id);
   if (linked.length) return linked.map(link => ({ ...link, catalog: classes.find(c => c.id === link.class_id) })).filter(c => c.catalog).map(c=>({...c,subclass_id:existingSubclass(sheet,c.catalog,c,subclasses,c.class_level).id}));
   const catalog = findClass(sheet, classes);
