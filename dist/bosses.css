@@ -1,11 +1,15 @@
-.boss-hud{margin:-5px 0 30px;padding:12px 24px 22px;border-bottom:1px solid var(--line);display:grid;gap:20px;background:var(--bg)}
-.boss-bar{width:min(100%,840px);margin:0 auto;padding:0 10px}.boss-bar h2{font:600 27px/1.2 'Cormorant Garamond',Georgia,serif;text-align:center;color:var(--ink);margin:0 0 10px;overflow-wrap:anywhere}
-.boss-life{position:relative;height:19px;padding:3px;border:1px solid #b99c62;background:#111310;box-shadow:0 0 0 2px #29291e}
-.boss-life:before,.boss-life:after{content:'';position:absolute;top:5px;width:7px;height:7px;border:1px solid #b99c62;background:var(--bg);transform:rotate(45deg)}.boss-life:before{left:-8px}.boss-life:after{right:-8px}
-.boss-life>div{height:100%;background:#9e3630;box-shadow:inset 0 1px 0 #d28a6e,inset 0 -2px 0 #672924;transition:width .35s ease-out;max-width:100%}
+/* Engraved metal and enamel follow the user's Souls-like references.
+   Gradients describe these materials, rather than decorating the page background. */
+.boss-hud{--boss-brass:#b69a61;--boss-edge:#5b5035;margin:-5px 0 30px;padding:14px 12px 28px;display:grid;gap:26px;background:var(--bg)}
+.boss-bar{width:min(100%,900px);margin:0 auto;padding:0 38px}.boss-bar h2{position:relative;font:600 29px/1.25 'Cormorant Garamond',Georgia,serif;text-align:center;color:#eee3c8;margin:0 0 17px;padding:0 0 15px;overflow-wrap:anywhere;text-shadow:0 2px 2px #0008}
+.boss-bar h2:after{content:'';position:absolute;bottom:2px;left:50%;width:76px;height:1px;transform:translateX(-50%);background:var(--boss-edge)}.boss-bar h2:before{content:'';position:absolute;bottom:0;left:calc(50% - 3px);width:5px;height:5px;transform:rotate(45deg);border:1px solid var(--boss-brass);background:var(--bg);z-index:1}
+.boss-life{position:relative;height:25px;padding:4px;border:1px solid var(--boss-brass);background:#171713;box-shadow:0 0 0 2px #28271c,0 0 0 3px #655638,inset 0 0 0 1px #483e29,0 5px 9px #0005}
+.boss-life:before,.boss-life:after{content:'';pointer-events:none;position:absolute;z-index:2;top:50%;width:76px;height:64px;background:url('boss-frame.svg') center/contain no-repeat;transform:translateY(-50%)}.boss-life:before{left:-42px}.boss-life:after{right:-42px;transform:translateY(-50%) scaleX(-1)}
+.boss-life>div{position:relative;height:100%;max-width:100%;background:linear-gradient(180deg,#b45849 0%,#98392f 22%,#76251f 70%,#471b18 100%);box-shadow:inset 0 1px 0 #dc9c74,inset 0 -1px 0 #331411;border-right:1px solid #e8bc8c;transition:width .4s ease-out}
+.boss-life>div:after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0,transparent calc(10% - 1px),#1e100f48 calc(10% - 1px),#1e100f48 10%);pointer-events:none}
 .boss-sync-error{color:var(--gold);font-size:12px;margin:2px auto 0;max-width:840px;line-height:1.6}
 .boss-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:13px;padding-top:13px;border-top:1px solid var(--line)}.boss-actions>span{font-size:11px;color:var(--muted)}.card .boss-actions>button{width:auto;min-height:40px;padding:9px 12px;font-size:12px;white-space:nowrap;border-color:#8b744c;color:var(--gold);background:transparent}.boss-actions>button:disabled{opacity:.5;cursor:wait}
 #boss-sheet-controls .boss-actions{margin:0 0 22px;padding:14px 17px;border:1px solid var(--line);border-radius:5px;background:var(--panel)}#boss-sheet-controls .boss-actions>button{font-size:13px;min-height:44px;color:var(--gold);border-color:#8b744c}
-@media(max-width:700px){.boss-hud{margin:0 0 24px;padding:10px 6px 20px;gap:17px}.boss-bar{padding:0 9px}.boss-bar h2{font-size:23px}.boss-life{height:17px;padding:2px}.boss-life:before,.boss-life:after{top:4px}.card .boss-actions>button{min-height:44px}.boss-actions{gap:9px}}
+@media(max-width:700px){.boss-hud{margin:0 0 24px;padding:9px 0 20px;gap:22px}.boss-bar{padding:0 22px}.boss-bar h2{font-size:24px;margin-bottom:13px;padding-bottom:13px}.boss-life{height:21px;padding:3px}.boss-life:before,.boss-life:after{width:51px;height:44px}.boss-life:before{left:-28px}.boss-life:after{right:-28px}.card .boss-actions>button{min-height:44px}.boss-actions{gap:9px}}
 @media(prefers-reduced-motion:reduce){.boss-life>div{transition:none}}
 @media print{.boss-hud,.boss-actions{display:none!important}}
