@@ -7,6 +7,7 @@
 **SEMPRE FAÇA**
 - Leia somente os arquivos necessários à tarefa; use a Quick reference.
 - Mantenha docs, regras e specs entre 30–70 linhas; nunca ultrapasse 100.
+- Em toda alteração visual ou funcional do site, prepare um mockup local navegável e apresente-o ao usuário para que ele acompanhe como o resultado está ficando.
 - Antes de concluir, rode `scripts/verify.ps1` e exija saída 0.
 - Preserve mudanças locais que não pertençam à tarefa.
 
