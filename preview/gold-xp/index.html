@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Grimório — Tesouro e progressão</title>
+  <link rel="stylesheet" href="mockup.css">
+</head>
+<body>
+  <aside>
+    <div class="brand">GRIMÓRIO<small>D&D 2024</small></div>
+    <label>Mesa<select><option>Maldição de Strahd</option></select></label>
+    <nav>
+      <button data-page="sheets">Visão da mesa</button>
+      <button class="active" data-page="progress">Progressão</button>
+    </nav>
+    <button id="role">Ver como jogador</button>
+  </aside>
+  <main>
+    <header><span>Maldição de Strahd / <b id="role-label">Visão do mestre</b></span><span>● Conectado</span></header>
+    <section id="progress-page">
+      <div class="heading"><div><small>JORNADA DOS PERSONAGENS</small><h1>Progressão</h1><p>O ouro conquistado abre caminho para o próximo nível.</p></div><button class="primary gm-only" id="open-distribution">＋ Nova distribuição</button></div>
+      <section class="treasure gm-only">
+        <div><small>TESOURO DA MESA</small><h2>Distribua moedas com controle total</h2><p>Escolha quem recebe e ajuste cada parcela antes de confirmar.</p></div>
+        <div class="coin-stack"><b>150</b><span>PO a distribuir</span></div>
+      </section>
+      <h2>Progresso do grupo</h2>
+      <div id="party" class="party"></div>
+    </section>
+    <section id="sheets-page" hidden>
+      <div class="heading"><div><small>FICHA DE PERSONAGEM</small><h1 id="sheet-name">Yuri Kenpachi</h1><p>Guerreiro · nível <span id="sheet-level">7</span></p></div><button data-page="progress">← Progressão</button></div>
+      <section class="progress-card"><div class="progress-copy"><span class="coin">PO</span><div><small>PROGRESSO POR OURO</small><h2><span id="sheet-current">35</span> / <span id="sheet-goal">55</span> PO</h2><p id="sheet-message">Faltam 20 PO para o nível 8</p></div></div><div class="bar" role="progressbar" aria-label="Ouro até o próximo nível"><i id="sheet-bar"></i></div></section>
+      <section class="wallet"><h2>Moedas</h2><p>Moedas são distribuídas pelo mestre.</p><div class="wallet-grid"><div><b id="wallet-cp">18</b><span>PC</span></div><div><b id="wallet-sp">12</b><span>PP</span></div><div><b id="wallet-gp">84</b><span>PO</span></div></div></section>
+    </section>
+  </main>
+  <dialog id="distribution">
+    <form method="dialog">
+      <div class="dialog-head"><div><small>NOVA DISTRIBUIÇÃO</small><h2>Dividir tesouro</h2><p>Informe o total e decida a parcela de cada personagem.</p></div><button value="cancel" aria-label="Fechar">×</button></div>
+      <div class="totals"><label>Total PC<input id="total-cp" type="number" min="0" step="1" value="0"></label><label>Total PP<input id="total-sp" type="number" min="0" step="1" value="0"></label><label>Total PO<input id="total-gp" type="number" min="0" step="1" value="150"></label></div>
+      <div class="distribution-head"><b>Personagem</b><span>PC</span><span>PP</span><span>PO</span></div>
+      <div id="distribution-rows"></div>
+      <div class="remaining" id="remaining"></div>
+      <p class="error" id="error" role="alert"></p>
+      <div class="dialog-actions"><button type="button" id="equal">Dividir PO igualmente</button><button class="primary" type="button" id="confirm">Confirmar distribuição</button></div>
+    </form>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="mockup.js"></script>
+</body>
+</html>
