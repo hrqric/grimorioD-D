@@ -1,0 +1,23 @@
+[
+  {
+    "file": "dist/realtime-cache.js",
+    "old": "if(index<0)next.push(row);else next[index]=row;",
+    "new": "if(index<0)next.push(row);else next.push(row);",
+    "proof": "node --test tests/realtime-cache.test.mjs",
+    "label": "UPDATE must replace rather than duplicate an existing id"
+  },
+  {
+    "file": "dist/app.js",
+    "old": "function pollSceneState(){if(!document.hidden)void refreshPresentation()}",
+    "new": "function pollSceneState(){if(!document.hidden){void refreshPresentation();void refreshBossBars()}}",
+    "proof": "node --test tests/scenes.test.mjs",
+    "label": "Recovery polling must not refresh boss bars"
+  },
+  {
+    "file": "dist/app.js",
+    "old": "if(!force&&state.bossTable===tableId&&!state.bossError)return true;",
+    "new": "if(state.bossTable===tableId&&!state.bossError)return true;",
+    "proof": "node --test tests/boss-bars.test.mjs",
+    "label": "Realtime force refresh must bypass a settled boss projection"
+  }
+]
