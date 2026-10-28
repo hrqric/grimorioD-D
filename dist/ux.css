@@ -13,3 +13,22 @@ input,select,textarea{border-color:#596353;border-radius:4px}input,select{min-he
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.skip-link,.combat-summary,.session-rail{display:none!important}.shell{display:block}.main{padding:0}.panel{border-color:#aaa}.sheet-heading.has-conditions{background:none}.heading h1{color:#000}#print-sheet input,#print-sheet textarea,#print-sheet select{min-height:0}.condition-icon{color:#222}}
 .card .card-actions{display:flex;flex-direction:column;gap:8px}.card .card-actions>[data-open]{width:100%;min-height:44px;padding:11px 14px;background:#2b3226;border-color:#566047;font-weight:600}.card .card-actions>[data-open]:hover{background:#35402e;border-color:var(--gold)}.card-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:3px;border:1px solid var(--line);border-radius:5px;background:#141c16}.card-tools:empty{display:none}.card .card-tools button{width:100%;min-width:0;min-height:54px;padding:8px 3px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;border-color:transparent;background:transparent;color:var(--muted);font-size:11px}.card-tools svg{display:block;width:18px;height:18px;flex:0 0 auto}.card .card-tools button:hover{color:var(--ink);background:#28342b;border-color:#596353}.card .card-tools button:focus-visible{outline-offset:-2px}.card .card-tools button:disabled{cursor:wait}
+/* Espaços de magia: marcas de ficha para usar durante a sessão. */
+.spell-slot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.spell-circle{border:1px solid #364139;border-radius:5px;padding:16px;background:#141d17}
+.spell-circle-heading{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.spell-circle-heading h4{margin:0;color:#e2c583;font-family:inherit;font-size:1rem}
+.spell-circle-heading span{color:#b7c0b5;font-size:.8rem}
+.spell-marks{display:flex;align-items:center;flex-wrap:wrap;gap:8px;min-height:48px;margin:12px 0}
+.spell-mark{display:inline-flex;cursor:pointer;position:relative}
+.spell-mark input{position:absolute;opacity:0;width:1px;height:1px}
+.spell-mark span{display:block;width:32px;height:32px;border:1px solid #b99a59;transform:rotate(45deg);border-radius:3px;background:#263428;transition:background .15s,box-shadow .15s}
+.spell-mark input:checked+span{background:#b99a59;box-shadow:inset 0 0 0 5px #263428}
+.spell-mark input:focus-visible+span{outline:2px solid #f5df9f;outline-offset:4px}
+.spell-empty{color:#89988b;font-size:.85rem}
+.spell-total{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#aebaae;font-size:.8rem}
+.spell-total input{width:68px;min-height:36px;padding:5px 8px}
+.spell-overflow{color:#e6be88;font-size:.8rem;margin:10px 0 0}
+@media(max-width:800px){.spell-slot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.spell-slot-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.spell-mark span{transition:none}}
