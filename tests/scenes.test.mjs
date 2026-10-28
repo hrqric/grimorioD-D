@@ -120,9 +120,9 @@ test('failed rename preserves the typed title and never replaces another view',a
  assert.equal(a.titleInput.value,'Título em edição');assert.equal(a.content.innerHTML,html);assert.equal(a.state.view,'fichas');
 });
 
-test('scene polling reconciles live presentation, history and boss bars',()=>{
+test('scene polling only reconciles presentation because realtime owns history and boss bars',()=>{
  const source=readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').split('window.addEventListener')[0].replace(/^import .*;\r?\n/gm,'');
  const context=vm.createContext({createClient:()=>({}),createLatestRequestGate,historyOrPrevious,document:{},console,clearTimeout(){},setTimeout(){},setInterval(){}});
  vm.runInContext(source+'\nlet livePolls=0,historyPolls=0,bossPolls=0;refreshPresentation=()=>{livePolls++};refreshSceneHistory=()=>{historyPolls++};refreshBossBars=()=>{bossPolls++};pollSceneState();globalThis.counts=[livePolls,historyPolls,bossPolls];',context);
- assert.deepEqual([...context.counts],[1,1,1]);
+ assert.deepEqual([...context.counts],[1,0,0]);
 });

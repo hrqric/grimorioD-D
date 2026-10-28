@@ -34,15 +34,15 @@ test('HUD shows escaped names and life proportions without exposing exact values
 });
 test('remote boss updates and hiding never reconstruct the editor or discard pending fields',async()=>{
  const f=fixture(),sheet=f.a.state.sheet;f.rows=[boss];await f.a.refreshBossBars();assert.equal(f.a.state.sheet,sheet);assert.equal(f.a.state.dirty,true);assert.match(f.hud.innerHTML,/75%/);
- f.rows=[];await f.a.refreshBossBars();assert.equal(f.hud.hidden,true);assert.equal(f.a.state.sheet.data.history,'Ainda digitando');
+ f.rows=[];await f.a.refreshBossBars({force:true});assert.equal(f.hud.hidden,true);assert.equal(f.a.state.sheet.data.history,'Ainda digitando');
 });
 test('late responses after table switch or sign-out cannot restore an old boss',async()=>{
  const f=fixture();let resolve;f.defer(r=>{resolve=r});const pending=f.a.refreshBossBars();f.a.state.table='other';resolve({data:[boss]});await pending;assert.equal(f.a.state.bossBars.length,0);
  const g=fixture();g.defer(r=>{resolve=r});const signedOut=g.a.refreshBossBars();g.a.state.user=null;resolve({data:[boss]});await signedOut;assert.equal(g.a.state.bossBars.length,0);
 });
 test('temporary failure marks the HUD stale and the next successful refresh recovers',async()=>{
- const f=fixture();f.rows=[boss];await f.a.refreshBossBars();f.error=Error('offline');await f.a.refreshBossBars();assert.match(f.hud.innerHTML,/sincroniza/);assert.equal(f.a.state.bossBars.length,1);
- f.error=null;f.rows=[{...boss,hp:10}];await f.a.refreshBossBars();assert.equal(f.a.state.bossError,'');assert.match(f.hud.innerHTML,/10%/);
+ const f=fixture();f.rows=[boss];await f.a.refreshBossBars();f.error=Error('offline');await f.a.refreshBossBars({force:true});assert.match(f.hud.innerHTML,/sincroniza/);assert.equal(f.a.state.bossBars.length,1);
+ f.error=null;f.rows=[{...boss,hp:10}];await f.a.refreshBossBars({force:true});assert.equal(f.a.state.bossError,'');assert.match(f.hud.innerHTML,/10%/);
 });
 test('only the master can reveal a boss using the persisted sheet version',async()=>{
  const f=fixture();f.a.state.sheets=[{id:'boss',table_id:'t',version:8,secret:true,kind:'monstro',archived:false,data:{is_boss:true,hp:75,hp_max:100}}];f.rows=[boss];
@@ -54,7 +54,11 @@ test('failed visibility command never announces success or mutates the current b
  f.rpcError=Error('invalid_boss_hp');await f.a.setBossVisibility('boss',true);assert.match(f.toast.textContent,/PV máximos/);assert.equal(f.a.state.bossBars.length,0);
 });
 test('overlapping refreshes keep only the latest response, including multiple bosses and zero life',async()=>{
- const f=fixture(),resolves=[];f.defer(r=>resolves.push(r));const older=f.a.refreshBossBars(),newer=f.a.refreshBossBars();
+ const f=fixture(),resolves=[];f.defer(r=>resolves.push(r));const older=f.a.refreshBossBars({force:true}),newer=f.a.refreshBossBars({force:true});
  resolves[1]({data:[{...boss,hp:0},{...boss,sheet_id:'second',name:'Segundo boss',hp:25}]});await newer;
  resolves[0]({data:[boss]});await older;assert.equal(f.a.state.bossBars.length,2);assert.equal(f.a.state.bossBars[0].hp,0);assert.match(f.hud.innerHTML,/Segundo boss/);
+});
+test('a settled projection is reused until an explicit realtime refresh',async()=>{
+ const f=fixture();f.rows=[boss];await f.a.refreshBossBars();const reads=f.calls.length;
+ await f.a.refreshBossBars();assert.equal(f.calls.length,reads);
 });
