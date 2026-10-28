@@ -32,3 +32,22 @@ input,select,textarea{border-color:#596353;border-radius:4px}input,select{min-he
 @media(max-width:800px){.spell-slot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.spell-slot-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.spell-mark span{transition:none}}
+/* As duas trilhas mantêm visível o risco de cada salvaguarda. */
+.death-saves{border-color:#59433d;background:#191c17}
+.death-saves-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.death-saves-heading h3{margin-bottom:6px}.death-saves-heading .note{margin:0}
+.death-sigil{font-family:Georgia,serif;font-size:42px;line-height:1;color:#89685d;opacity:.8}
+.death-tracks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
+.death-track{padding:15px 18px;border:1px solid #465043;border-radius:5px;background:#141c16}
+.death-track-failure{border-color:#59403b;background:#211916}
+.death-track-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.death-track-heading h4{margin:0;font-size:1rem;color:#cfdbb5}.death-track-failure h4{color:#e1aaa0}
+.death-track-heading span{font-size:.85rem;color:#acb7a8}.death-track-failure .death-track-heading span{color:#c3a29b}
+.death-marks{display:flex;gap:14px;margin:16px 4px 4px;flex-wrap:wrap}
+.death-mark{position:relative;display:inline-flex;cursor:pointer}.death-mark input{position:absolute;opacity:0;width:1px;height:1px}
+.death-mark span{width:38px;height:38px;display:grid;place-items:center;transform:rotate(45deg);border:1px solid #8d9e72;border-radius:3px;color:transparent;background:#263026;transition:background .15s,color .15s}
+.death-mark span::first-letter{font-size:20px}.death-track-failure .death-mark span{border-color:#ad7166;background:#30221f}
+.death-mark input:checked+span{background:#71835a;color:#f5f1d7}.death-track-failure .death-mark input:checked+span{background:#914c43;color:#fff0e7}
+.death-mark input:focus-visible+span{outline:2px solid #f5df9f;outline-offset:4px}
+@media(max-width:520px){.death-tracks{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.death-mark span{transition:none}}
